@@ -4,8 +4,8 @@
    table of contents
 
 
-GJI Elaborat uporabniška navodila
-==========
+GJI Elaborat navodila za uporabo
+================================
 
 .. toctree::
    :maxdepth: 2

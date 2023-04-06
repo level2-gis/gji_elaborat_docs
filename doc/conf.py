@@ -99,9 +99,9 @@ html_static_path = ['_static']
 # documentation.
 #
 html_theme_options = {
-	'collapse_navigation': False,
-	'sticky_navigation': False,
-	'navigation_depth': 2,
+	'collapse_navigation': True,
+	'sticky_navigation': True,
+	'navigation_depth': 4,
 	'includehidden': False,
 	'logo_only': False,
 	'display_version': False,
@@ -111,6 +111,10 @@ html_theme_options = {
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
 html_last_updated_fmt = '%b %d, %Y'
+
+# The name of an image file (relative to this directory) to place at the top
+# of the sidebar.
+#html_logo = '_static/ci-logo-text.svg'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs. This file should be a Windows icon file (.ico) being 16x16 or 32x32
