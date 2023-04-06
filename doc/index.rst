@@ -4,13 +4,13 @@
    table of contents
 
 
-Basics
+Vsebina
 ==========
 
 .. toctree::
    :maxdepth: 2
 
-   purpose.rst
+   uvod.rst
    dependencies.rst
    usage.rst
    credit.rst
