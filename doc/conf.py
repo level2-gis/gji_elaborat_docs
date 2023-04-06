@@ -117,7 +117,13 @@ html_last_updated_fmt = '%b %d, %Y'
 # pixels large.
 html_favicon = '_static/favicon.ico'
 
+# If true, the reST sources are included in the HTML build as _sources/name.
+html_copy_source = False
 
+# A list of JS files.
+html_js_files = [
+	'jquery.js'
+]
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
