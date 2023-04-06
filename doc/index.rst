@@ -4,7 +4,7 @@
    table of contents
 
 
-Vsebina
+GJI Elaborat uporabniška navodila
 ==========
 
 .. toctree::
