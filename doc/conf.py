@@ -119,7 +119,7 @@ html_last_updated_fmt = '%b %d, %Y'
 # The name of an image file (within the static path) to use as favicon of the
 # docs. This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = '_static/favicon.ico'
+html_favicon = '_static/level2-favicon.ico'
 
 # If true, the reST sources are included in the HTML build as _sources/name.
 html_copy_source = False
