@@ -4,20 +4,13 @@
    table of contents
 
 
-GJI Elaborat
-============
+GJI Elaborat dokumentacija
+==========================
 
 .. toctree::
    :maxdepth: 2
 
    uvod.rst
-   namestitev.rst
-   uporaba.rst
-   credit.rst
+   zacetek.rst
+   orodja.rst
    novosti.rst
-
-QGIS
-====
-
-
-   qgis.rst

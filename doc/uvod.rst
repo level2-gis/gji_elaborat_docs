@@ -3,8 +3,8 @@
 Uvod
 =======
 
-GJI Elaborat omogoča izdelavo elaboratov sprememb za vpis v Zbirni kataster GJI za vse vrste infrastrukture. Deluje kot vtičnik
-za programski paket QGIS, podatki pa so preko oblačnih storitev dostopni uporabnikom.
+GJI Elaborat omogoča izdelavo elaboratov sprememb za vpis v Zbirni kataster GJI za vse vrste infrastrukture. Deluje kot vtičnik ("plugin")
+za programski paket QGIS, podatki pa so shranjeni v preko oblačnih storitev dostopni uporabnikom.
 
 
 Značilnosti
@@ -32,3 +32,14 @@ za vnose kablov od začetne do končne točke.
 - Generiranje hišnih priključkov (HP) glede na trase
 - Enostavna določitev pripadajočih HP posameznim omaricam
 - Generiranje kablov za vse hišne priključke (kabel poteka po vseh trasah/ceveh od hišnega priključka do omarice)
+
+
+Brezplačno testiranje
+---------------------
+
+yyy
+
+Razvoi in podpora
+-----------------
+
+xx

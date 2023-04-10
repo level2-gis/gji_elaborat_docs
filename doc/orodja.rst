@@ -1,7 +1,7 @@
 
 
-Usage
-=====
+Orodja
+======
 
 
 How to clone the code
