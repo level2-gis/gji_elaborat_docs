@@ -11,11 +11,12 @@ Namestitev
 ~~~~~~~~~~
 
 Za delo potrebujemo nameščeno aplikacijo QGIS. Gre za zelo zmogljivo in široko uporabno odprto kodno GIS aplikacijo.
+
 `Prenos aplikacije https://qgis.org/en/site/forusers/download.html`
 
 .. note::
-Priporoča se uporabo LTR ("Long term release") različic aplikacije.
-Minimalna zahtevana verzija je 3.16.
+ Priporoča se uporabo LTR ("Long term release") različic aplikacije.
+ Minimalna zahtevana verzija je 3.16.
 
 Navodila za uporabo
 ~~~~~~~~~~~~~~~~~~~
