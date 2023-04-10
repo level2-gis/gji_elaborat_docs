@@ -4,7 +4,7 @@
 Orodja
 ======
 
-Orodja so dostopna preko :guilabel:`Orodjarna` (:menuselection:`Processing --> Toolbox`) in so razdeljena na posamezne skupine.
+Orodja so dostopna preko :menuselection:`Processing --> Toolbox` in so razdeljena na posamezne skupine.
 
 
 1 Uvoz

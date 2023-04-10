@@ -42,9 +42,9 @@ Za brezplačen 15 dnevni preizkus vtičnika izpolnite obrazec.
 V roku 1 dneva boste prejeli podrobnosti po e-pošti.
 
 
-Razvoi in podpora
+Razvoj in podpora
 -----------------
 
-GJI elaborat je produkt podjetja `Level2, Uroš Preložnik s.p. https://level2.si`_
+GJI elaborat je produkt podjetja `Level2, Uroš Preložnik s.p. <https://level2.si>`_
 
-Uporabnikom je na voljo podpora po telefounu in e-pošti.
+Uporabnikom je na voljo podpora po telefonu in e-pošti.

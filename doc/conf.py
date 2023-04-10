@@ -106,6 +106,7 @@ html_theme_options = {
 	'logo_only': False,
 	'display_version': False,
 	'style_nav_header_background': '#34495e',
+	'style_external_links': True
 }
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,

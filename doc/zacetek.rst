@@ -19,7 +19,7 @@ Naročniki prejmejo navodila po e-pošti za dodajanje repozitorija in namestitev
 Uporabniški vmesnik
 
 - glavni meni
-- orodja :ref:`orodja`
+- :ref:`orodja`
 
 
 Projekt
