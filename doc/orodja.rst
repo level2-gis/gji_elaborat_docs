@@ -4,7 +4,7 @@
 Orodja
 ======
 
-Orodja so dostopna preko :menuselection:`Processing --> Toolbox` in so razdeljena na posamezne skupine.
+Orodja so dostopna preko :menuselection:`Processing --> Toolbox` kot zapis :guilabel:`GJI ELaborat` in so razdeljena na posamezne podskupine.
 
 
 1 Uvoz
