@@ -10,7 +10,7 @@ QGIS
 Namestitev
 ~~~~~~~~~~
 
-Za delo potrebujemo nameščeno aplikacijo QGIS. Gre za zelo zmogljivo in široko uporabno odprto kodno GIS aplikacijo.
+Za delo potrebujemo nameščeno aplikacijo QGIS. Gre za zelo zmogljivo in široko uporabno odprtokodno GIS aplikacijo.
 
 `Prenos aplikacije <https://qgis.org/en/site/forusers/download.html>`_
 
@@ -39,7 +39,7 @@ Priprava
 .. warning::
  Aplikacija QGIS je samo delno prevedena v slovenščino. V teh navodilih se navaja angleški izraz za ukaze v QGIS uporabniškem vmesniku.
 
-.. tip::
+.. note::
  Uporabniški vmesnik vtičnika pa je namenjen izključno za slovenske uporabnike in je posledično v slovenskem jeziku.
 
 Ob začetku dela je potrebno aktivirati del za obdelavo prostorskih podatkov ("Processing framework"), ki je nameščen kot osnovni vtičnik ("Plugin") ampak na začetku ni aktiviran.
@@ -52,8 +52,8 @@ Postopek:
 #. Zaprite okno.
 
 
-Vtičnik GJI Elaborat
---------------------
+Vtičnik
+-------
 
 Naročniki prejmejo navodila po e-pošti za dodajanje repozitorija in namestitev vtičnika.
 

@@ -12,6 +12,8 @@ GJI Elaborat - dokumentacija
 
    uvod.rst
    zacetek.rst
+   meni.rst
+   urejanje.rst
    orodja.rst
 
 .. toctree::
