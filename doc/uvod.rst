@@ -4,13 +4,14 @@ Uvod
 =======
 
 GJI Elaborat omogoča izdelavo elaboratov sprememb za vpis v Zbirni kataster GJI za vse vrste infrastrukture. Deluje kot vtičnik ("plugin")
-za programski paket QGIS, podatki pa so shranjeni v preko oblačnih storitev dostopni uporabnikom.
+za programski paket QGIS, podatki pa so shranjeni v relacijski podatkovni bazi, kjer so preko standardnih oblačnih storitev dostopni uporabnikom.
 
 
 Značilnosti
 ----------
 
-- Pripravljen QGIS projekt prilagojen posamezni vrsti infrastrukture
+- Pripravljen QGIS projekt za posamezno vrsto infrastrukture
+- Večuporabniški dostop (beleženje datuma in avtorja ob kreiranju elementov in zadnji spremembi)
 - Različna orodja za vnos in paketno obdelavo podatkov preko vtičnika za QGIS
 - Uvoz začetnega stanja iz evidence GURS
 - Samodejna določitev ID upravljavca novim elementom
@@ -26,7 +27,7 @@ Značilnosti
 Elektronske komunikacije
 ------------------------
 
-Posebna obravnava vseh specifik Elektronskih komunikacij v strukturi GJI (cevi, kabli, vodi). Uporaba omrežja za določanje tras
+Dodatna obravnava vseh posebnosti Elektronskih komunikacij v strukturi GJI (cevi, kabli, vodi). Uporaba omrežja za določanje tras
 za vnose kablov od začetne do končne točke.
 
 - Generiranje hišnih priključkov (HP) glede na trase
@@ -34,12 +35,16 @@ za vnose kablov od začetne do končne točke.
 - Generiranje kablov za vse hišne priključke (kabel poteka po vseh trasah/ceveh od hišnega priključka do omarice)
 
 
-Brezplačno testiranje
+Brezplačen preizkus
 ---------------------
 
-yyy
+Za brezplačen 15 dnevni preizkus vtičnika izpolnite obrazec.
+V roku 1 dneva boste prejeli podrobnosti po e-pošti.
+
 
 Razvoi in podpora
 -----------------
 
-xx
+GJI elaborat je produkt podjetja Level2 https://level2.si, Uroš Preložnik s.p.
+
+Uporabnikom je na voljo podpora po telefounu in e-pošti.

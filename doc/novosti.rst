@@ -3,6 +3,7 @@
 Novosti
 =======
 
+Kratek pregled novosti v posamezni verziji vtičnika.
 
 2.2.0 (xx)
 ----------

@@ -1,21 +1,27 @@
 
 
-Zahteve
+Začetek dela
 ============
 
 
-QGIS 3.16 ali novejši
----------------------
+QGIS
+----
 
+QGIS 3.16 ali novejši
 Priporočamo uporabo LTR ("Long term release") verzij.
 
-Namestitev vtičnika
--------------------
+
+Vtičnik
+-------
 
 Naročniki prejmejo navodila po e-pošti za dodajanje repozitorija in namestitev vtičnika.
 
+Uporabniški vmesnik
 
-Optional
---------
+- glavni meni
+- orodja :ref:`orodja`
 
-- Docker
+
+Projekt
+-------
+
