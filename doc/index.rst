@@ -13,4 +13,8 @@ GJI Elaborat dokumentacija
    uvod.rst
    zacetek.rst
    orodja.rst
+
+.. toctree::
+   :titlesonly:
+
    novosti.rst

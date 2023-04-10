@@ -4,8 +4,14 @@ Novosti
 =======
 
 
+2.2.0 (xx)
+----------
+
+- TODO
+
+
 2.1.4 (09.03.23)
-****************
+----------------
 
 **POPRAVLJENO**
 
@@ -13,7 +19,7 @@ Novosti
 
 
 2.1.3 (26.01.23)
-****************
+----------------
 
 **NOVO**
 
@@ -26,7 +32,7 @@ Novosti
 
 
 2.1.1 (04.01.23)
-****************
+----------------
 
 **POPRAVLJENO**
 
@@ -34,7 +40,7 @@ Novosti
 
 
 2.1.0 (23.12.22)
-****************
+----------------
 
 **ELEKTRONSKE KOMUNIKACIJE**
 
@@ -44,7 +50,7 @@ Novosti
 
 
 2.0.0 (29.12.22)
-****************
+----------------
 
 Večja posodobitev z dodanim glavnim menijem in podporo za nov oddajni format.
 
@@ -65,7 +71,7 @@ Večja posodobitev z dodanim glavnim menijem in podporo za nov oddajni format.
 
 
 Starejše verzije
-****************
+----------------
 
 1.13.4
 
