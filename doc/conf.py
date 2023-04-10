@@ -106,7 +106,7 @@ html_theme_options = {
 	'logo_only': False,
 	'display_version': False,
 	'style_nav_header_background': '#34495e',
-	'style_external_links': True
+	'style_external_links': False
 }
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
@@ -128,6 +128,12 @@ html_copy_source = False
 # A list of JS files.
 html_js_files = [
 	'jquery.js'
+]
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'docs.css',
 ]
 
 # Custom sidebar templates, must be a dictionary that maps document names
