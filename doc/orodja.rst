@@ -4,8 +4,12 @@
 Orodja
 ======
 
-Orodja so dostopna preko :menuselection:`Processing --> Toolbox` kot zapis :guilabel:`GJI ELaborat` in so razdeljena na posamezne podskupine.
+Orodja predstavljajo glavnino dela z vtičnikom in so dostopna preko menija :menuselection:`Processing --> Toolbox` kot skupina :guilabel:`GJI ELaborat`, ki je razdeljena na posamezne podskupine.
 
+.. figure:: img/toolbox.png
+   :align: center
+
+   Processing Toolbox in GJI Elaborat
 
 1 Uvoz
 --------

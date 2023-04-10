@@ -46,7 +46,7 @@ Ob začetku dela je potrebno aktivirati del za obdelavo prostorskih podatkov ("P
 Postopek:
 
 #. Meni :menuselection:`Plugins --> Manage and install plugins...`
-#. Izbira :guilabel:`Installed` tab at the left
+#. Izbira :guilabel:`Installed` zavihka na levi strani
 #. Poiščite in vklopite izbiro pri zapisu |processingAlgorithm| :guilabel:`Processing`
 #. Zaprite okno.
 
@@ -66,3 +66,6 @@ Projekt
 -------
 
 V pripravi
+
+.. |processingAlgorithm| image:: /_static/common/processingAlgorithm.png
+   :width: 1.5em
