@@ -4,8 +4,8 @@
    table of contents
 
 
-GJI Elaborat dokumentacija
-==========================
+GJI Elaborat - dokumentacija
+============================
 
 .. toctree::
    :maxdepth: 2
