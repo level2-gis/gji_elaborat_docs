@@ -57,9 +57,10 @@ Vtičnik GJI Elaborat
 
 Naročniki prejmejo navodila po e-pošti za dodajanje repozitorija in namestitev vtičnika.
 
-Delo z vtičnikom se nanaša na dva sklopa:
+Delo z vtičnikom se deli na naslednje sklope:
 
 - :ref:`meni`
+- :ref:`urejanje`
 - :ref:`orodja`
 
 
