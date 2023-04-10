@@ -1,9 +1,10 @@
 
+.. _orodja:
 
 Orodja
 ======
 
-Orodja so dostopna preko Orodjarne ("Processing Toolbox") in so razdeljena na posamezne skupine.
+Orodja so dostopna preko :guilabel:`Orodjarna` (:menuselection:`Processing --> Toolbox`) in so razdeljena na posamezne skupine.
 
 
 1 Uvoz
@@ -41,10 +42,3 @@ Orodja
 
 V pripravi
 
-
-
-
-Where to find the results
--------------------------
-
-Write me ...

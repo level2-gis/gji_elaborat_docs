@@ -45,6 +45,6 @@ V roku 1 dneva boste prejeli podrobnosti po e-pošti.
 Razvoi in podpora
 -----------------
 
-GJI elaborat je produkt podjetja Level2 https://level2.si, Uroš Preložnik s.p.
+GJI elaborat je produkt podjetja `Level2, Uroš Preložnik s.p. https://level2.si`_
 
 Uporabnikom je na voljo podpora po telefounu in e-pošti.
