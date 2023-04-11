@@ -52,22 +52,70 @@ Postopek:
 #. Zaprite okno.
 
 
+Projekt
+-------
+
+Naročnik prejme za vsak predviden elaborat za vpis sprememb v zbirni kataster GJI svoj QGIS projekt. Sloji v projektu so nastavljeni
+za izbrano vrsto infrastrukture. Tipično pa so v projektu naslednji sloji in skupine:
+
+ELABORAT V PRIPRAVI
+~~~~~~~~~~~~~~~~~~~
+
+Ta skupina prikazuje podatke, ki so novo dodani ali uvoženi iz GJI baze za namene popravljanja oz. brisanja. Sloji **Točke**, **Linije** in **Poligoni**
+so na voljo za urejanje. Ob prevzemu projekta so vsi ti sloji prazni.
+
+Skupina **POROČILA IN KONTROLE** vsebuje skupne podatke o trenutnem stanju elaborata (dolžina glede na razne kriterije,...) in koristne kontrolne
+sloje za opozorilo in pregled pred oddajo (Manjkajoče višine, podvojeni elementi,...)
+
+.. note::
+ Določeni sloji imajo več nastavljenih stilov risanja. Pregled stilov in menjava:
+
+ #. Desni gumb miške na sloju v legendi
+ #. Meni :menuselection:`Styles --> NAZIV STILA`
+
+ .. image:: img/styles.png
+
+
+ELABORAT ODDAJA
+~~~~~~~~~~~~~~~
+
+Sloji v tej skupini prikazujejo v uradni strukturi GJI formata samo elemente, ki bodo del elaborata (dodani, spremenjeni, brisani). Slojev v tej skupini ni
+možno urejati neposredno. Prikaz je dinamičen in se takoj osveži ob urejanju slojev v skupini ELABORAT V PRIPRAVI.
+
+
+GJI BAZA
+~~~~~~~~
+
+Sloji v tej skupini prikazujejo trenutno stanje podatkov Geodetske uprave za izbrano vrsto infrastrukture in določene upravljavce. Tudi slojev v tej skupini ni
+možno urejati neposredno. Služijo samo za prikaz, podatki iz GJI baze se v elaborat uvozijo s postopki: :menuselection`GJI Elaborat --> 1 Uvoz --> Uvoz podatkov GURS ali Uvoz elaborata`.
+
+
+Ostali sloji
+~~~~~~~~~~~~
+
+Ostali sloji (hišne številke, stavbe, občine, ortofoto posnetki) so namenjeni za iskanje pravih lokacij in kot pomoč pri orientaciji v prostoru.
+
+
+Sloji uporabnika
+~~~~~~~~~~~~~~~~
+
+Uporabniki lahko v projekt poljubno dodajajo svoje sloje. Podatki iz uporabniških slojev se v elaborat uvozijo s postopki:
+:menuselection`GJI Elaborat --> 1 Uvoz --> Uvoz novih linij/3D točk ali Uvoz elaborata`.
+
+
 Vtičnik
 -------
 
-Naročniki prejmejo navodila po e-pošti za dodajanje repozitorija in namestitev vtičnika.
+Naročniki prejmejo navodila po e-pošti za dodajanje repozitorija in namestitev ter posodabljanje vtičnika.
+
+.. note::
+ Vtičnik se uporablja vedno skupaj z QGIS projektom!
 
 Delo z vtičnikom se deli na naslednje sklope:
 
 - :ref:`meni`
 - :ref:`urejanje`
 - :ref:`orodja`
-
-
-Projekt
--------
-
-V pripravi
 
 .. |processingAlgorithm| image:: /_static/common/processingAlgorithm.png
    :width: 1.5em
