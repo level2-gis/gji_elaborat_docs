@@ -11,6 +11,7 @@ Orodja predstavljajo glavnino dela z vtičnikom in so dostopna preko menija :men
 
    Processing Toolbox in GJI Elaborat
 
+
 .. _uvoz:
 
 1 Uvoz
