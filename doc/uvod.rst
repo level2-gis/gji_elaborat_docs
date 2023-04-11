@@ -38,9 +38,7 @@ za vnose kablov od začetne do končne točke.
 Brezplačen preizkus
 ---------------------
 
-Za brezplačen 15 dnevni preizkus vtičnika izpolnite obrazec.
-
-V roku 1 dneva boste prejeli podrobnosti po e-pošti.
+Za brezplačen 30 dnevni preizkus vtičnika nas `kontaktirajte <https://level2.si/contact/?podrocje=gji-plugin>`_.
 
 
 Razvoj in podpora
