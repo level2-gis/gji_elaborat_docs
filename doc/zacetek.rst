@@ -12,7 +12,7 @@ Namestitev
 
 Za delo potrebujemo nameščeno aplikacijo QGIS. Gre za zelo zmogljivo in široko uporabno odprtokodno GIS aplikacijo.
 
-`Prenos aplikacije <https://qgis.org/en/site/forusers/download.html>`_
+`QGIS uradna stran <https://qgis.org/en/site/>`_
 
 .. note::
  Priporoča se uporabo **LTR ("Long term release")** različic aplikacije.
@@ -26,7 +26,7 @@ Navodila za uporabo
 
  `Angleščina <https://docs.qgis.org/3.28/en/docs/user_manual/index.html>`_
 
-Nekaj pomembnejših poglavij pomembnih za delo z vtičnikom:
+Nekaj pomembnejših poglavij za delo z vtičnikom:
 
 - `GUI <https://docs.qgis.org/3.28/en/docs/user_manual/introduction/qgis_gui.html>`_
 - `Working with the Attribute Table <https://docs.qgis.org/3.28/en/docs/user_manual/working_with_vector/attribute_table.html>`_
