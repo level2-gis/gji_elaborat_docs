@@ -87,7 +87,7 @@ GJI BAZA
 ~~~~~~~~
 
 Sloji v tej skupini prikazujejo trenutno stanje podatkov Geodetske uprave za izbrano vrsto infrastrukture in določene upravljavce. Tudi slojev v tej skupini ni
-možno urejati neposredno. Služijo samo za prikaz, podatki iz GJI baze se v elaborat uvozijo s postopki: :menuselection`GJI Elaborat --> 1 Uvoz --> Uvoz podatkov GURS ali Uvoz elaborata`.
+možno urejati neposredno. Služijo samo za prikaz, podatki iz GJI baze se v elaborat uvozijo s postopki: :menuselection:`GJI Elaborat --> 1 Uvoz --> Uvoz podatkov GURS ali Uvoz elaborata`.
 
 
 Ostali sloji
@@ -100,7 +100,7 @@ Sloji uporabnika
 ~~~~~~~~~~~~~~~~
 
 Uporabniki lahko v projekt poljubno dodajajo svoje sloje. Podatki iz uporabniških slojev se v elaborat uvozijo s postopki:
-:menuselection`GJI Elaborat --> 1 Uvoz --> Uvoz novih linij/3D točk ali Uvoz elaborata`.
+:menuselection:`GJI Elaborat --> 1 Uvoz --> Uvoz novih linij/3D točk ali Uvoz elaborata`.
 
 
 Vtičnik

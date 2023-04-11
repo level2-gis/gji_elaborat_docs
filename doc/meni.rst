@@ -1,8 +1,8 @@
 
 .. _meni:
 
-Meni
-======
+Glavni meni
+===========
 
 V pripravi
 
