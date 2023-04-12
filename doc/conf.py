@@ -209,6 +209,8 @@ texinfo_documents = [
 #uros
 rst_prolog = """
 .. role:: newlabel
+.. role:: fixlabel
+.. role:: elkomlabel
 """
 
 

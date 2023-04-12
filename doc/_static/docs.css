@@ -20,8 +20,28 @@
     border:1px solid #27ae60;
     font-weight:700;
     border-radius:4px;
-    padding:2.4px 6px;
-    margin:auto 2px
+    padding:4px;
+    color:white;
+}
+
+.rst-content .fixlabel {
+    background:#0984e3;
+    font-size: 80%;
+    border:1px solid #0984e3;
+    font-weight:700;
+    border-radius:4px;
+    padding:4px;
+    color:white;
+}
+
+.rst-content .elkomlabel {
+    background:#be2edd;
+    font-size: 80%;
+    border:1px solid #be2edd;
+    font-weight:700;
+    border-radius:4px;
+    padding:4px;
+    color:white;
 }
 
 /* Widen space for the documentation content*/

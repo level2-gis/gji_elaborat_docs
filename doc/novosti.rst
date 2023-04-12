@@ -14,17 +14,16 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 - Dodano orodje za uvoz elaborata iz mape na disku
 
-**POPRAVLJENO**
+:fixlabel:`POPRAVLJENO`
 
 - Izpis izvoznih json datotek v lepše berljivi obliki ("prettify")
-- Dopolnjena navodila
 
 .. _v2.1.4:
 
 2.1.4 (09.03.23)
 ----------------
 
-**POPRAVLJENO**
+:fixlabel:`POPRAVLJENO`
 
 - Dodane kontrole podatkov o poslovnih subjektih pri izvozu elaborata
 
@@ -33,11 +32,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.1.3 (26.01.23)
 ----------------
 
-**NOVO**
+:newlabel:`NOVO`
 
 - Dodano leto gradnje v orodje za atributiranje
 
-**ELEKTRONSKE KOMUNIKACIJE**
+:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
 
 - Popravki pri dodajanju kabla od začetne do končne točke
 - Popravki pri izvozu elaborata
@@ -47,7 +46,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.1.1 (04.01.23)
 ----------------
 
-**POPRAVLJENO**
+:fixlabel:`POPRAVLJENO`
 
 - Popravek pri uvozu višin za pripis novo dodanim linijam
 
@@ -56,7 +55,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.1.0 (23.12.22)
 ----------------
 
-**ELEKTRONSKE KOMUNIKACIJE**
+:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
 
 - Možnost dodajanja cevi za označene linije za podan premer
 - Možnost upoštevanja tudi nespremenjenih cevi in tras pri dodajanju kablov
@@ -69,18 +68,18 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 Večja posodobitev z dodanim glavnim menijem in podporo za nov oddajni format.
 
-**NOVO**
+:newlabel:`NOVO`
 
 - Dodan glavni meni (Lastnosti, Novosti, Iskanje, Pomoč)
 - Podpora novemu oddajnemu formatu (GeoJSON, JSON)
 - Zapis datuma izvoza v podatke
 
-**POPRAVLJENO**
+:fixlabel:`POPRAVLJENO`
 
 - Prenos vseh atributov na nove linije pri razbijanju
 - Optimizacija postopkov pri uvozu GURS podatkov
 
-**ELEKTRONSKE KOMUNIKACIJE**
+:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
 
 - Nove možnosti (vrsta kabla, število vodov, premer cevi) pri dodajanju kabla od začetne do končne točke omrežja
 
