@@ -5,7 +5,6 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
-.. _2.2.0:
 
 2.2.0 (12.04.23)
 ----------
@@ -19,7 +18,6 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 - Izpis izvoznih json datotek v lepše berljivi obliki ("prettify")
 - Dopolnjena navodila
 
-.. _2.1.4:
 
 2.1.4 (09.03.23)
 ----------------
@@ -28,7 +26,6 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 - Dodane kontrole podatkov o poslovnih subjektih pri izvozu elaborata
 
-.. _2.1.3:
 
 2.1.3 (26.01.23)
 ----------------
@@ -42,7 +39,6 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 - Popravki pri dodajanju kabla od začetne do končne točke
 - Popravki pri izvozu elaborata
 
-.. _2.1.1:
 
 2.1.1 (04.01.23)
 ----------------
@@ -51,7 +47,6 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 - Popravek pri uvozu višin za pripis novo dodanim linijam
 
-.. _2.1.0:
 
 2.1.0 (23.12.22)
 ----------------
@@ -62,7 +57,6 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 - Možnost upoštevanja tudi nespremenjenih cevi in tras pri dodajanju kablov
 - Razbijanje cevi na izbranem območju upošteva vse cevi razen brisanih
 
-.. _2.0.0:
 
 2.0.0 (29.12.22)
 ----------------
