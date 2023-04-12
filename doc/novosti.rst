@@ -20,7 +20,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 - Dopolnjena navodila
 
 
-2.1.4 (09.03.23)
+v2.1.4 (09.03.23)
 ----------------
 
 **POPRAVLJENO**
@@ -28,8 +28,10 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 - Dodane kontrole podatkov o poslovnih subjektih pri izvozu elaborata
 
 
-2.1.3 (26.01.23)
-----------------
+v2.1.3
+------
+
+26.01.23
 
 **NOVO**
 
