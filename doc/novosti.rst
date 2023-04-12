@@ -5,9 +5,10 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _2.2.0:
 
 2.2.0
-----------
+-----
 
 12.04.23
 
