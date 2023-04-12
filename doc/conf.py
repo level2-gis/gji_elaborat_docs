@@ -206,5 +206,10 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
+#uros
+rst_prolog = """
+.. role:: newlabel
+"""
+
 
 

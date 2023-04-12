@@ -14,10 +14,10 @@
 }
 
 /*uros*/
-.rst-content .new {
+.rst-content .newlabel {
     background:#27ae60;
     font-size: 80%;
-    border:1px solid #7fbbe3;
+    border:1px solid #27ae60;
     font-weight:700;
     border-radius:4px;
     padding:2.4px 6px;
