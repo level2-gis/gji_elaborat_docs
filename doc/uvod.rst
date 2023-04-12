@@ -4,7 +4,7 @@ Uvod
 =======
 
 GJI Elaborat omogoča izdelavo elaboratov sprememb za vpis v Zbirni kataster GJI za vse vrste infrastrukture. Deluje kot vtičnik ("plugin")
-za programski paket QGIS, podatki pa so shranjeni v relacijski podatkovni bazi, kjer so preko standardnih oblačnih storitev dostopni uporabnikom.
+za programski paket :ref:`qgis`, podatki pa so shranjeni v relacijski podatkovni bazi, kjer so preko standardnih oblačnih storitev dostopni uporabnikom.
 
 
 Značilnosti
@@ -21,7 +21,7 @@ Značilnosti
 - Kontrole in poročila
 - Iskalnik
 - Izvoz elaborata sprememb na disk za oddajo na GURS
-- Možnost prikazovanja podatkov na GEO-PORTAL-u
+- Možnost prikazovanja podatkov na `GEO-PORTAL-u <https://site.geo-portal.si>`_
 
 
 Elektronske komunikacije

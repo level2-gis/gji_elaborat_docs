@@ -3,6 +3,7 @@
 Začetek dela
 ============
 
+.. _qgis:
 
 QGIS
 ----

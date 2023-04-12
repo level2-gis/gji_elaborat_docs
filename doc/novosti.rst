@@ -5,10 +5,17 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
-2.2.0 (xx)
+2.2.0 (12.04.23)
 ----------
 
-- TODO
+**NOVO**
+
+- Dodano orodje za uvoz elaborata iz mape na disku
+
+**POPRAVLJENO**
+
+- Izpis izvoznih json datotek v lepše berljivi obliki ("prettify")
+- Dopolnjena navodila
 
 
 2.1.4 (09.03.23)

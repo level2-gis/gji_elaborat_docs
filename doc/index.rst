@@ -4,8 +4,8 @@
    table of contents
 
 
-GJI Elaborat - dokumentacija
-============================
+GJI Elaborat - vtičnik za QGIS
+==============================
 
 .. toctree::
    :maxdepth: 2
