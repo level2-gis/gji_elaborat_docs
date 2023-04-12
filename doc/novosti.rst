@@ -10,7 +10,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.2.0 (12.04.23)
 ----------------
 
-**NOVO**
+:new:`NOVO`
 
 - Dodano orodje za uvoz elaborata iz mape na disku
 
@@ -20,7 +20,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 - Dopolnjena navodila
 
 
-v2.1.4 (09.03.23)
+2.1.4 (09.03.23)
 ----------------
 
 **POPRAVLJENO**
@@ -28,10 +28,8 @@ v2.1.4 (09.03.23)
 - Dodane kontrole podatkov o poslovnih subjektih pri izvozu elaborata
 
 
-v2.1.3
-------
-
-26.01.23
+2.1.3 (26.01.23)
+----------------
 
 **NOVO**
 

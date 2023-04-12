@@ -13,6 +13,17 @@
     margin:auto 2px
 }
 
+/*uros*/
+.rst-content .new {
+    background:#27ae60;
+    font-size: 80%;
+    border:1px solid #7fbbe3;
+    font-weight:700;
+    border-radius:4px;
+    padding:2.4px 6px;
+    margin:auto 2px
+}
+
 /* Widen space for the documentation content*/
 .wy-nav-content {
     max-width: 1260px;
