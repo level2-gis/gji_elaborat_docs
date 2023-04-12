@@ -22,10 +22,9 @@ Za delo potrebujemo nameščeno aplikacijo QGIS. Gre za zelo zmogljivo in širok
 Navodila za uporabo
 ~~~~~~~~~~~~~~~~~~~
 
-.. warning::
- Na voljo samo v tujih jezikih!
+Na voljo samo v tujih jezikih!
 
- `Angleščina <https://docs.qgis.org/3.28/en/docs/user_manual/index.html>`_
+`Angleščina <https://docs.qgis.org/3.28/en/docs/user_manual/index.html>`_
 
 Nekaj pomembnejših poglavij za delo z vtičnikom:
 
