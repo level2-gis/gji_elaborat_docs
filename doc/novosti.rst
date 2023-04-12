@@ -6,8 +6,10 @@ Novosti
 Kratek pregled novosti v posamezni verziji vtičnika.
 
 
-2.2.0 (12.04.23)
+2.2.0
 ----------
+
+12.04.23
 
 **NOVO**
 
