@@ -23,7 +23,10 @@ Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo dve vr
     - Uvoz novih 3D točk
     - Uvoz novih linij (2D ali 3D)
     - Uvoz višin za pripis 2D linijam
-#. Uvoz obstoječega stanja zbirnega katastra GJI v evidenci GURS glede na 3 načine (filter, območje, razdalja)
+#. Uvoz obstoječega stanja zbirnega katastra GJI v evidenci GURS glede na 3 načine:
+    - FILTER (vnesemo atributni filter na podlagi katerega se izberejo in uvozijo elementi)
+    - OBMOČJE (določimo pravokotnik kot območje uvoza)
+    - RAZDALJA (določimo razdaljo v metrih od novo dodanih linij v elaboratu)
 
 
 2 Delo
