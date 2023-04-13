@@ -16,7 +16,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 :fixlabel:`POPRAVLJENO`
 
-- Izpis izvoznih json datotek v lepše berljivi obliki ("prettify")
+- Izpis izvoznih JSON datotek v lepše berljivi obliki ("prettify")
 - Interni popravki
 
 .. _v2.1.4:
