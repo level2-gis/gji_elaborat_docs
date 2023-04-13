@@ -73,7 +73,7 @@ sloje za opozorilo in pregled pred oddajo (Manjkajoče višine, podvojeni elemen
  #. Desni gumb miške na sloju v legendi
  #. Meni :menuselection:`Styles --> NAZIV STILA`
 
- .. image:: img/styles.png
+ .. image:: img/styles2.png
 
 
 ELABORAT ODDAJA

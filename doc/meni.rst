@@ -6,7 +6,7 @@ Glavni meni
 
 V glavnem meniju je dodana možnost :guilabel:`GJI`, ki vsebuje naslednje vrednosti:
 
- .. image:: img/meni.png
+ .. image:: img/meni2.png
 
 Lastnosti
 ---------
@@ -32,7 +32,7 @@ Iskanje
 
 Iskanje je namenjenu hitremu iskanju in prikazu rezultatov glede na vsa polja v posameznem sloju ali po več slojih naenkrat.
 
- .. image:: img/iskanje1.png
+ .. image:: img/iskanje2.png
 
 
 Pomoč
