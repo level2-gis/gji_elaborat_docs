@@ -38,5 +38,5 @@ Iskanje je namenjenu hitremu iskanju in prikazu rezultatov glede na vsa polja v 
 Pomoč
 -----
 
-Verzija vtičnika, nekaj kratkih napotkov in koristnih povezav ter kontaktni podatki za podpora.
+Verzija vtičnika, nekaj kratkih napotkov in koristnih povezav ter kontaktni podatki za podporo.
 
