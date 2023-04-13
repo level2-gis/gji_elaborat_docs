@@ -6,6 +6,7 @@ Glavni meni
 
 V glavnem meniju je dodana možnost :guilabel:`GJI`, ki vsebuje naslednje vrednosti:
 
+ .. image:: img/meni.png
 
 Lastnosti
 ---------
@@ -23,7 +24,7 @@ Lastnosti projekta prikazujejo informativne podatke o:
 Novosti
 -------
 
-Hitra povezava do strani z opisi novosti posameznih verzij vtičnika.
+Hitra povezava do strani z opisom novosti posameznih verzij vtičnika.
 
 
 Iskanje
