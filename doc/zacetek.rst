@@ -86,7 +86,7 @@ možno urejati neposredno. Prikaz je dinamičen in se takoj osveži ob urejanju 
 GJI BAZA
 ~~~~~~~~
 
-Sloji v tej skupini prikazujejo trenutno stanje podatkov Geodetske uprave za izbrano vrsto infrastrukture in določene upravljavce. Tudi slojev v tej skupini ni
+Sloji v tej skupini prikazujejo trenutno stanje podatkov zbirnega katastra GJI za izbrano vrsto infrastrukture in za določene upravljavce. Tudi slojev v tej skupini ni
 možno urejati neposredno. Služijo samo za prikaz, podatki iz GJI baze se v elaborat uvozijo s postopki v skupini :ref:`uvoz`.
 
 

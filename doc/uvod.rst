@@ -12,15 +12,15 @@ Značilnosti
 
 - Pripravljen QGIS projekt za posamezno vrsto infrastrukture
 - Večuporabniški dostop (beleženje datuma in avtorja ob kreiranju elementov in zadnji spremembi)
-- Različna orodja za vnos in paketno obdelavo podatkov preko vtičnika za QGIS
+- Različna orodja za vnos in paketno obdelavo podatkov
 - Uvoz začetnega stanja iz evidence GURS
 - Samodejna določitev ID upravljavca novim elementom
 - Samodejna obravnava obstoječih podatkov GURS ob spremembi (brisanje, spreminjanje)
 - Samodejne vrednosti glede na nastavitve in šifrante GJI
-- Enostavna kontrola in urejanje višin
+- Enostavna kontrola in urejanje višin (možnost uporabe podatkov LiDAR)
 - Kontrole in poročila
 - Iskalnik
-- Izvoz elaborata sprememb na disk za oddajo na GURS
+- Izvoz elaborata sprememb na disk za oddajo na GURS (skladno z novim GeoJson/Json formatom)
 - Možnost prikazovanja podatkov na `GEO-PORTAL-u <https://site.geo-portal.si>`_
 
 
