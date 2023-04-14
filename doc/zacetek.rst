@@ -64,7 +64,7 @@ ELABORAT V PRIPRAVI
 Ta skupina prikazuje podatke, ki so novo dodani ali uvoženi iz GJI baze za namene popravljanja oz. brisanja. Sloji **Točke**, **Linije** in **Poligoni**
 so na voljo za urejanje. Ob prevzemu projekta so vsi ti sloji prazni.
 
-Skupina **POROČILA IN KONTROLE** vsebuje skupne podatke o trenutnem stanju elaborata (dolžina glede na razne kriterije,...) in koristne kontrolne
+Skupina **POROČILA IN KONTROLE** vsebuje skupne podatke o trenutnem stanju elaborata (skupna dolžina glede na razne kriterije,...) in koristne kontrolne
 sloje za opozorilo in pregled pred oddajo (Manjkajoče višine, podvojeni elementi,...)
 
 .. note::
