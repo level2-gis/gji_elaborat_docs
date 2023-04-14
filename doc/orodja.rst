@@ -101,7 +101,7 @@ najbolj natančne podatke o reliefu za celotno državo.
 
 V primeru, da je vhodni sloj v 3D obliki (PointZ) izračuna tudi razliko med originalno višino in višino iz DMR.
 
-Dodatna možnost je tudi možnost preračuna višin na podatke geoida (SVS2010, datum Koper), v primeru da vsebuje vhodni sloj
+Dodana je možnost preračuna višin na podatke geoida (SVS2010, datum Koper), v primeru da vsebuje vhodni sloj
 elipsoidne višine.
 
 .. image:: img/kontrola_tock.png

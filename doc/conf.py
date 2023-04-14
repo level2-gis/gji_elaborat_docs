@@ -99,7 +99,7 @@ html_static_path = ['_static']
 # documentation.
 #
 html_theme_options = {
-	'collapse_navigation': True,
+	'collapse_navigation': False,
 	'sticky_navigation': True,
 	'navigation_depth': 4,
 	'includehidden': False,
