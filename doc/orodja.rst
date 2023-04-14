@@ -84,11 +84,30 @@ Dodatno se vsem izvoženim elementom v bazi zapiše točen datum izvoza.
 GEO-PORTAL
 ----------
 
-V pripravi
+Orodja za prenos podatkov na GEO-PORTAL in druge povezane akcije za določene naročnike, ki uporabljajo to storitev.
 
 
 Orodja
 ------
 
-V pripravi
+Vsebuje orodja, ki niso neposredno povezana z elaboratom in se lahko uporabljajo tudi izven pripadajočega projekta za GJI.
 
+
+Kontrola in poprava točk (LiDAR, geoid)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Za točkovni sloj izvede pripis višin iz Digitalnega modela reliefa (DMR), ki je bil generiran iz podatkov LiDAR in predstavlja
+najbolj natančne podatke o reliefu za celotno državo.
+
+V primeru, da je vhodni sloj v 3D obliki (PointZ) izračuna tudi razliko med originalno višino in višino iz DMR.
+
+Dodatna možnost je tudi možnost preračuna višin na podatke geoida (SVS2010, datum Koper), v primeru da vsebuje vhodni sloj
+elipsoidne višine.
+
+.. image:: img/kontrola_tock.png
+
+
+Pridobi višino posamezne točke iz DMR (LiDAR)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Kadar želimo hitro pridobiti višino poljubne točke, lahko uporabimo to orodje.
