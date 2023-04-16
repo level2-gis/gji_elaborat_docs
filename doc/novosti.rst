@@ -13,7 +13,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 :newlabel:`NOVO`
 
 Izvoz sedaj omogoča kreiranje več elaboratov naenkrat, glede na vpisane matične številke upravljalcev za elemente (linije, točke, poligone)
-v polju MAT_ST. To pomeni da lahko večji uporabniki (npr. komunalna podjetja) ki so izvajalci GJS na območju več različnih upravljavcev (občin),
+v polju MAT_ST. To pomeni da lahko večji uporabniki (npr. komunalna podjetja), ki so izvajalci GJS na območju več različnih upravljavcev (občin),
 vodijo podatke v enem projektu in jih tudi v enem koraku izvozijo za oddajo na Gurs. Potrebno je samo zagotoviti pravilen vnos matičnih številk.
 
 .. _v2.2.0:
