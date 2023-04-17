@@ -93,6 +93,7 @@ Pripravijo se vse potrebne datoteke v ustreznem formatu (GeoJSON in JSON).
  poslovnih subjektov, se takšni elementi ne izvozijo.
 
  .. figure:: img/izvoz_report.png
+
     Izvoz več elaboratov z opozorilom o neobstoječih matičnih številkah
 
 Dodatno se vsem izvoženim elementom v bazi zapiše datum in čas izvoza.
