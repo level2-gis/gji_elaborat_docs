@@ -82,11 +82,20 @@ Pripravijo se vse potrebne datoteke v ustreznem formatu (GeoJSON in JSON).
 .. note::
  Izvoz omogoča kreiranje **več elaboratov naenkrat**, glede na vpisane matične številke upravljalcev za elemente (linije, točke, poligone)
  v polju MAT_ST.
+
  To pomeni da lahko večji uporabniki (npr. komunalna podjetja), ki so izvajalci GJS na območju več različnih upravljavcev (občin),
  vodijo podatke v enem projektu in jih tudi v enem koraku izvozijo za oddajo na Gurs.
+
  Potrebno je samo zagotoviti pravilen vnos matičnih številk.
 
-Dodatno se vsem izvoženim elementom v bazi zapiše točen datum izvoza.
+.. warning::
+ Izvozijo se samo elementi, ki imajo vpisan pravilen podatek o matični številki upravljavca. Če podatka ni, oz. če ne obstaja v evidenci
+ poslovnih subjektov, se takšni elementi ne izvozijo.
+
+ .. figure:: img/izvoz_report.png
+    Izvoz več elaboratov z opozorilom o neobstoječih matičnih številkah
+
+Dodatno se vsem izvoženim elementom v bazi zapiše datum in čas izvoza.
 
 
 GEO-PORTAL
