@@ -68,15 +68,21 @@ Dodatno pa postopek atributiranja izvede tudi naslednje obdelave podatkov:
 - za EL-KOM določitev DIM_YX in DIM_Z za linije na podlagi dimenzij cevi če obstajajo na trasi ali pa števila kablov ki potekajo po trasi
 - za EL-KOM določitev DIM_YX in DIM_Z za točke 6110 - omarica (0,5 in 1,20) in 6107 - jašek (0,5 in 0,6) (samo za tiste ki so brez DIM_YX ali DIM_Z)
 
+.. _izvoz:
 
 Izvoz elaborata na disk
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Izvoz podatkov za oddajo na GURS. Vpiše se številka zadeve in predmet vpisa, ki se shranijo v bazi za kasnejše izvoze.
+Izvoz podatkov za oddajo na GURS. Vpiše se številka zadeve in predmet vpisa, kar se shrani v bazi za kasnejše izvoze.
 
 .. image:: img/izvoz.png
 
 Pripravijo se vse potrebne datoteke v ustreznem formatu (GeoJSON in JSON).
+
+.. note::
+ Izvoz omogoča kreiranje več elaboratov naenkrat, glede na vpisane matične številke upravljalcev za elemente (linije, točke, poligone)
+ v polju MAT_ST. To pomeni da lahko večji uporabniki (npr. komunalna podjetja), ki so izvajalci GJS na območju več različnih upravljavcev (občin),
+ vodijo podatke v enem projektu in jih tudi v enem koraku izvozijo za oddajo na Gurs. Potrebno je samo zagotoviti pravilen vnos matičnih številk.
 
 Dodatno se vsem izvoženim elementom v bazi zapiše točen datum izvoza.
 
