@@ -44,33 +44,34 @@
     color:white;
 }
 
-/* Widen space for the documentation content*/
-.wy-nav-content {
-    max-width: 1260px;
-}
+/*vzel iz qgis docs vendar zakomentiral*/
+/*!* Widen space for the documentation content*!*/
+/*.wy-nav-content {*/
+/*    max-width: 1260px;*/
+/*}*/
 
-/* Avoid images being too big on bigger screen*/
-@media screen and (min-width: 767px) {
-    .rst-content img {
-        max-width: 760px
-    }
-}
+/*!* Avoid images being too big on bigger screen*!*/
+/*@media screen and (min-width: 767px) {*/
+/*    .rst-content img {*/
+/*        max-width: 760px*/
+/*    }*/
+/*}*/
 
-/* override table width restrictions
-from https://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html */
-@media screen and (min-width: 767px) {
+/*!* override table width restrictions*/
+/*from https://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html *!*/
+/*@media screen and (min-width: 767px) {*/
 
-    .wy-table-responsive table td {
-        /* !important prevents the common CSS stylesheets from overriding
-           this as on RTD they are loaded after this stylesheet */
-        white-space: normal !important;
-    }
+/*    .wy-table-responsive table td {*/
+/*        !* !important prevents the common CSS stylesheets from overriding*/
+/*           this as on RTD they are loaded after this stylesheet *!*/
+/*        white-space: normal !important;*/
+/*    }*/
 
-    .wy-table-responsive {
-        overflow: auto !important;
-    }
-}
+/*    .wy-table-responsive {*/
+/*        overflow: auto !important;*/
+/*    }*/
+/*}*/
 
-.toc-columns ul {
-    column-count: 3;
-}
+/*.toc-columns ul {*/
+/*    column-count: 3;*/
+/*}*/
