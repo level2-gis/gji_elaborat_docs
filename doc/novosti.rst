@@ -12,7 +12,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 :newlabel:`NOVO`
 
-- Izvoz projekta v več elaboratov hkrati. Podrobnosti: ref:`izvoz`
+- Izvoz projekta v več elaboratov hkrati. Podrobnosti: :ref:`izvoz`
 
 
 .. _v2.2.0:

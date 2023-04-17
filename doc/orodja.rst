@@ -80,9 +80,11 @@ Izvoz podatkov za oddajo na GURS. Vpiše se številka zadeve in predmet vpisa, k
 Pripravijo se vse potrebne datoteke v ustreznem formatu (GeoJSON in JSON).
 
 .. note::
- Izvoz omogoča kreiranje več elaboratov naenkrat, glede na vpisane matične številke upravljalcev za elemente (linije, točke, poligone)
- v polju MAT_ST. To pomeni da lahko večji uporabniki (npr. komunalna podjetja), ki so izvajalci GJS na območju več različnih upravljavcev (občin),
- vodijo podatke v enem projektu in jih tudi v enem koraku izvozijo za oddajo na Gurs. Potrebno je samo zagotoviti pravilen vnos matičnih številk.
+ Izvoz omogoča kreiranje **več elaboratov naenkrat**, glede na vpisane matične številke upravljalcev za elemente (linije, točke, poligone)
+ v polju MAT_ST.
+ To pomeni da lahko večji uporabniki (npr. komunalna podjetja), ki so izvajalci GJS na območju več različnih upravljavcev (občin),
+ vodijo podatke v enem projektu in jih tudi v enem koraku izvozijo za oddajo na Gurs.
+ Potrebno je samo zagotoviti pravilen vnos matičnih številk.
 
 Dodatno se vsem izvoženim elementom v bazi zapiše točen datum izvoza.
 
