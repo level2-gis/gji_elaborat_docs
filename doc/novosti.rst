@@ -74,7 +74,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.0.0:
 
-2.0.0 (29.12.22)
+2.0.0 (29.11.22)
 ----------------
 
 Večja posodobitev z dodanim glavnim menijem in podporo za nov oddajni format.
