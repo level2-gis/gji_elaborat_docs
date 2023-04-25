@@ -16,13 +16,23 @@ Orodja predstavljajo glavnino dela z vtičnikom in so dostopna preko menija :men
 1 Uvoz
 --------
 
-Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo dve vrsti uvoza podatkov:
+Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vrste uvoza podatkov:
+
+#. Uvoz elaborata iz lokalne mape
+
+    Uvozijo se vsi tipi sprememb (novi, spremenjeni, brisani) in vsi atributi iz lokalnih slojev.
+
+    .. note::
+     Mapa lahko vsebuje podatke v starem SHP formatu ali novem GeoJSON, vendar pa mora ena mapa vsebovati samo en format.
 
 #. Uvoz lokalnih slojev:
-    - Uvoz elaborata iz diska (novi elementi + obstoječi brisani in spremenjeni)
+
+    Najlažje je uvoziti lokalne sloje, ki so že v projektu. Možno pa je tudi izbrati pot do sloja na disku.
+
     - Uvoz novih 3D točk
     - Uvoz novih linij (2D ali 3D)
     - Uvoz višin za pripis 2D linijam
+
 #. Uvoz obstoječega stanja zbirnega katastra GJI v evidenci GURS glede na 3 načine:
     - FILTER (vnesemo atributni filter na podlagi katerega se izberejo in uvozijo elementi)
     - OBMOČJE (določimo pravokotnik kot območje uvoza)
