@@ -18,15 +18,13 @@ Orodja predstavljajo glavnino dela z vtičnikom in so dostopna preko menija :men
 
 Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vrste uvoza podatkov:
 
-#. Uvoz elaborata iz lokalne mape
-
+#. Uvoz elaborata iz lokalne mape:
     Uvozijo se vsi tipi sprememb (novi, spremenjeni, brisani) in vsi atributi iz lokalnih slojev.
 
     .. note::
      Mapa lahko vsebuje podatke v starem SHP formatu ali novem GeoJSON, vendar pa mora ena mapa vsebovati samo en format.
 
 #. Uvoz lokalnih slojev:
-
     Najlažje je uvoziti lokalne sloje, ki so že v projektu. Možno pa je tudi izbrati pot do sloja na disku.
 
     - Uvoz novih 3D točk
