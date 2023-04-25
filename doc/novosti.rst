@@ -5,6 +5,24 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.4.2:
+
+2.4.2 (25.04.23)
+----------------
+
+:fixlabel:`NOVO`
+
+- Uvoz elaborata sedaj podpira tudi nov GeoJSON format
+
+:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+
+- Novo orodje za dodajanje kabla po izbranih ceveh. Cevi morajo tvoriti eno linijo in ne smejo biti podvojene.
+- Spremembe začetnih nastavitev pri nekaterih orodjih
+
+:fixlabel:`POPRAVLJENO`
+
+- Kontrola koordinatnega sistema pri uvozu slojev
+
 .. _v2.3.1:
 
 2.3.1 (17.04.23)
