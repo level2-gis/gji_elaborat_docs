@@ -5,6 +5,29 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.4.4:
+
+2.4.4 (09.05.23)
+----------------
+
+:fixlabel:`POPRAVLJENO`
+
+- Pravilen zapis šumnikov pri izvozu v datoteko udelezenci.json
+
+:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+
+- Zapis dodatnih matičnih številk pri izvozu v datoteko udelezenci.json če so določene na ceveh, kablih ali vodih
+
+.. _v2.4.3:
+
+2.4.3 (03.05.23)
+----------------
+
+:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+
+- Postopek atributiranja sedaj pri določitvi polj DIM_YX in DIM_Z upošteva vse linije razen brisanih (prej samo D in S).
+Spremembo pa izvede samo v primeru, da je nova dimenzija na podlagi števila cevi in kablov večja od podatkov obstoječe linije.
+
 .. _v2.4.2:
 
 2.4.2 (25.04.23)
@@ -31,7 +54,6 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 :newlabel:`NOVO`
 
 - Izvoz projekta v več elaboratov hkrati. Podrobnosti: :ref:`izvoz`
-
 
 .. _v2.2.0:
 
