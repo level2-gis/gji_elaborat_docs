@@ -25,8 +25,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 :elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
 
-- Postopek atributiranja sedaj pri določitvi polj DIM_YX in DIM_Z upošteva vse linije razen brisanih (prej samo D in S).
-Spremembo pa izvede samo v primeru, da je nova dimenzija na podlagi števila cevi in kablov večja od podatkov obstoječe linije.
+- Postopek atributiranja sedaj pri določitvi polj DIM_YX in DIM_Z upošteva vse linije razen brisanih (prej samo D in S). Spremembo pa izvede samo v primeru, da je nova dimenzija na podlagi števila in dimenzije cevi in kablov večja od podatkov obstoječe linije.
 
 .. _v2.4.2:
 
