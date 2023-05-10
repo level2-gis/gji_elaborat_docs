@@ -16,7 +16,7 @@ Opisana so nekatera standardna orodja, ki so vključena v QGIS in jih potrebujem
 Set Z value
 -----------
 
-Orodje izbranemu točkovnemu sloju določi Z vrednost, tako da je rezultat 3D sloj. Tipično se določi Z vrednost na podlagi vrednosti v določenem polju.
+Orodje izbranemu točkovnemu sloju določi Z vrednost, tako da je rezultat 3D sloj (koordinate so zapisane v obliki X,Y,Z). Tipično se določi Z vrednost na podlagi vrednosti v določenem polju.
 
 .. figure:: img/setz1.png
 
@@ -24,6 +24,6 @@ Orodje izbranemu točkovnemu sloju določi Z vrednost, tako da je rezultat 3D sl
 
 .. figure:: img/setz2.png
 
-   Nato izberemo :menuselection:`Field type...' --> [IME POLJA]`
+   Nato izberemo :menuselection:`Field type... --> [IME POLJA]`
 
 3D točkovni sloj potrebujemo pri uvozu točk in višin ter kadar rišemo novo 3D linijo na podlagi 3D točk.
