@@ -19,4 +19,5 @@ GJI Elaborat - vtičnik za QGIS
 .. toctree::
    :titlesonly:
 
+   qgis-orodja.rst
    novosti.rst
