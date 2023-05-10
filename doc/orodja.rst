@@ -36,8 +36,8 @@ Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vr
     - OBMOČJE (določimo pravokotnik kot območje uvoza)
     - RAZDALJA (določimo razdaljo v metrih od novo dodanih linij v elaboratu)
 
-.. warning::
- Postopki uvoza lahko trajajo več minut. Pri določitvi območja uvoza s pravokotnikom označite samo območje potrebno za izdelavo elaborata!
+    .. warning::
+     Postopki uvoza podatkov GURS lahko trajajo več minut. Pri določitvi območja uvoza s pravokotnikom označite samo območje potrebno za izdelavo elaborata!
 
 2 Delo
 ------
