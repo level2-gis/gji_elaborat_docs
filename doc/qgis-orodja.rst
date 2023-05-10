@@ -20,7 +20,7 @@ Orodje izbranemu točkovnemu sloju določi Z vrednost, tako da je rezultat 3D sl
 
 .. figure:: img/setz1.png
 
-   Za določitev Z na podlagi vrenosti polja, uporabimo dodatne možnosti
+   Za določitev Z na podlagi vrednosti polja, uporabimo dodatne možnosti
 
 .. figure:: img/setz2.png
 

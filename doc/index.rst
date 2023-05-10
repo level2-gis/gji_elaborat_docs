@@ -15,9 +15,9 @@ GJI Elaborat - vtičnik za QGIS
    meni.rst
    urejanje.rst
    orodja.rst
+   qgis-orodja.rst
 
 .. toctree::
    :titlesonly:
 
-   qgis-orodja.rst
    novosti.rst
