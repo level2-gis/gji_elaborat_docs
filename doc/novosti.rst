@@ -27,11 +27,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 :fixlabel:`POPRAVLJENO`
 
-- Pravilen zapis šumnikov pri izvozu v datoteko udelezenci.json
+- Pravilen zapis šumnikov pri izvozu v datoteko ``udelezenci.json``
 
 :elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
 
-- Zapis dodatnih matičnih številk pri izvozu v datoteko udelezenci.json če so določene na ceveh, kablih ali vodih
+- Zapis dodatnih matičnih številk pri izvozu v datoteko ``udelezenci.json`` če so določene na ceveh, kablih ali vodih
 
 .. _v2.4.3:
 
