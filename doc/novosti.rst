@@ -5,6 +5,21 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.4.5:
+
+2.4.5 (07.08.23)
+----------------
+
+:fixlabel:`POPRAVLJENO`
+
+- Podpora novemu oddajnemu formatu 1.5
+- Interne spremembe zaradi nove uvozne strukture podatkov GJI
+
+:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+
+- Popravek pri izračunu polj DIM_YX in DIM_Z glede na število kablov in dimenzije cevi v postopku atributiranja
+- Interne optimizacije baze
+
 .. _v2.4.4:
 
 2.4.4 (09.05.23)

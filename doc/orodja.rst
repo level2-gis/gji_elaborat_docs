@@ -66,7 +66,7 @@ Atributiranje elementov
 
 Orodje za paketno atributiranje elementov, ki so brez podatkov v določenih poljih in jim želimo vpisati enake podatke v enem koraku.
 
-.. figure:: img/atributiranje_6100.png
+.. figure:: img/atributiranje_6100_2.png
 
    Atributiranje elementov za projekt elektronskih komunikacij
 
@@ -74,7 +74,6 @@ Dodatno pa postopek atributiranja izvede tudi naslednje obdelave podatkov:
 
 - pripis Z koordinate za točke, ki so brez višine na podlagi višine iz pripadajočega loma linije
 - pripis DAT_VIR na točke, ki imajo to prazno na podlagi podatka iz pripadajoče linije
-- določitev polja Z za točke na podlagi Z koordinate ter polja SIF_VRSTE in DIM_Z
 - za EL-KOM določitev DIM_YX in DIM_Z za linije na podlagi dimenzij cevi če obstajajo na trasi ali pa števila kablov ki potekajo po trasi
 - za EL-KOM določitev DIM_YX in DIM_Z za točke 6110 - omarica (0,5 in 1,20) in 6107 - jašek (0,5 in 0,6) (samo za tiste ki so brez DIM_YX ali DIM_Z)
 
