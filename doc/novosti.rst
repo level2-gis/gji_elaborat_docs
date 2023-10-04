@@ -31,7 +31,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 :elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
 
-- Popravek pri izračunu polj `DIM_YX` in `DIM_Z` glede na število kablov in dimenzije cevi v postopku atributiranja
+- Popravek pri izračunu polj DIM_YX in DIM_Z glede na število kablov in dimenzije cevi v postopku atributiranja
 - Interne optimizacije baze
 
 .. _v2.4.4:
