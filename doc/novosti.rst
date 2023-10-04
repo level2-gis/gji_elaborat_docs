@@ -5,6 +5,20 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.5.0:
+
+2.5.0 (04.10.23)
+----------------
+
+:newlabel:`NOVO`
+
+- Dodano novo orodje za napenjanje poljubnega linijskega sloja na 3D na osnovi podatkov DMR
+
+:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+
+- Dodano opozorilo pri uvozu podatkov v primeru nepopolno uvoženih elementov vezanih na trase
+- Poprava pri izvozu elaborata na disk
+
 .. _v2.4.5:
 
 2.4.5 (07.08.23)
@@ -17,7 +31,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 :elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
 
-- Popravek pri izračunu polj DIM_YX in DIM_Z glede na število kablov in dimenzije cevi v postopku atributiranja
+- Popravek pri izračunu polj `DIM_YX` in `DIM_Z` glede na število kablov in dimenzije cevi v postopku atributiranja
 - Interne optimizacije baze
 
 .. _v2.4.4:
@@ -47,7 +61,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.4.2 (25.04.23)
 ----------------
 
-:fixlabel:`NOVO`
+:newlabel:`NOVO`
 
 - Uvoz elaborata sedaj podpira tudi nov GeoJSON format
 

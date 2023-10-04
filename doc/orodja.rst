@@ -93,7 +93,7 @@ Pripravijo se vse potrebne datoteke v ustreznem formatu (GeoJSON in JSON).
  v polju MAT_ST.
 
  To pomeni da lahko večji uporabniki (npr. komunalna podjetja), ki so izvajalci GJS na območju več različnih upravljavcev (občin),
- vodijo podatke v enem projektu in jih tudi v enem koraku izvozijo za oddajo na Gurs.
+ vodijo podatke v enem projektu in jih tudi v enem koraku izvozijo za oddajo na GURS.
 
  Potrebno je samo zagotoviti pravilen vnos matičnih številk.
 
@@ -117,7 +117,7 @@ Orodja za prenos podatkov na GEO-PORTAL in druge povezane akcije za določene na
 Orodja
 ------
 
-Vsebuje orodja, ki niso neposredno povezana z elaboratom in se lahko uporabljajo tudi izven pripadajočega projekta za GJI.
+Vsebuje orodja, ki ne spreminjajo podatkov v elaboratu in se lahko uporabljajo tudi izven pripadajočega projekta za GJI.
 
 
 Kontrola in poprava točk (LiDAR, geoid)
