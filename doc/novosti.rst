@@ -7,7 +7,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.5.0:
 
-2.5.0 (04.10.23)
+2.5.1 (06.10.23)
 ----------------
 
 :newlabel:`NOVO`
