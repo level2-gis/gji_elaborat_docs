@@ -12,8 +12,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 :newlabel:`NOVO`
 
-- Uvoz linij in točk sedaj upošteva tudi polja ``ID_UPR``, ``NAT_Z``, ``MAT_ST``, ``MAT_GJS`` in ``LETO_GRAD`` v kolikor obstajajo v vhodnih podatkih.
-V primeru obstoja ``ID_UPR`` se izvede kontrola in primerjava z bazo. Če ne obstaja v bazi, se element uvozi kot nov (D), če obstaja in v primeru razlike v podatkih ali geometriji pa se spremeni (S). Dodatno se v tem postopku uvozi tudi brisanje elementov, če obstaja ``ID_UPR`` in polje ``TIP_SPR``, ki vsebuje vrednost B.
+- Uvoz linij in točk sedaj upošteva tudi polja ``ID_UPR``, ``NAT_Z``, ``MAT_ST``, ``MAT_GJS`` in ``LETO_GRAD`` v kolikor obstajajo v vhodnih podatkih. V primeru obstoja ``ID_UPR`` se izvede kontrola in primerjava z bazo. Če ne obstaja v bazi, se element uvozi kot nov (D), če obstaja in v primeru razlike v podatkih ali geometriji pa se spremeni (S). Dodatno se v tem postopku uvozi tudi brisanje elementov, če obstaja ``ID_UPR`` in polje ``TIP_SPR``, ki vsebuje vrednost B.
 
 :elkomlabel:`POPRAVLJENO`
 
