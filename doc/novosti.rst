@@ -5,7 +5,23 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
-.. _v2.5.0:
+.. _v2.5.4:
+
+2.5.4 (20.10.23)
+----------------
+
+:newlabel:`NOVO`
+
+- Uvoz linij in točk sedaj upošteva tudi polja ``ID_UPR``, ``NAT_Z``, ``MAT_ST``, ``MAT_GJS`` in ``LETO_GRAD`` v kolikor obstajajo v vhodnih podatkih.
+ V primeru obstoja ``ID_UPR`` se izvede kontrola in primerjava z bazo. Če ne obstaja v bazi se element uvozi kot nov (D), če obstaja in v primeru razlike v podatkih ali geometriji pa se spremeni (S).
+ Dodatno se v tem postopku uvozi tudi brisanje elementov če obstaja ``ID_UPR`` in polje ``TIP_SPR`` ki vsebuje vrednost B.
+
+:elkomlabel:`POPRAVLJENO`
+
+- Dodan zapis Z koordinate točkam, če jo imajo v polju Z v postopku atributiranja
+- Dodano opozorilo o uvozu 'Multipart' sloja v postopku kontrole točk (LiDAR)
+
+.. _v2.5.1:
 
 2.5.1 (06.10.23)
 ----------------
@@ -31,7 +47,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 :elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
 
-- Popravek pri izračunu polj DIM_YX in DIM_Z glede na število kablov in dimenzije cevi v postopku atributiranja
+- Popravek pri izračunu polj ``DIM_YX`` in ``DIM_Z`` glede na število kablov in dimenzije cevi v postopku atributiranja
 - Interne optimizacije baze
 
 .. _v2.4.4:
@@ -54,7 +70,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 :elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
 
-- Postopek atributiranja sedaj pri določitvi polj DIM_YX in DIM_Z upošteva vse linije razen brisanih (prej samo D in S). Spremembo pa izvede samo v primeru, da je nova dimenzija na podlagi števila in dimenzije cevi in kablov večja od podatkov obstoječe linije.
+- Postopek atributiranja sedaj pri določitvi polj ``DIM_YX`` in ``DIM_Z`` upošteva vse linije razen brisanih (prej samo D in S). Spremembo pa izvede samo v primeru, da je nova dimenzija na podlagi števila in dimenzije cevi in kablov večja od podatkov obstoječe linije.
 
 .. _v2.4.2:
 
