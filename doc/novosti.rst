@@ -5,6 +5,20 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.5.5:
+
+2.5.5 (26.10.23)
+----------------
+
+:newlabel:`NOVO`
+
+- Uvoz linij in točk sedaj upošteva tudi polji ``GJI`` in ``OPU`` v kolikor obstajata v vhodnih podatkih.
+
+:elkomlabel:`POPRAVLJENO`
+
+- Umik parametra za natančnost pri uvozu višin (ni več potreben, saj višinske točke v novem formatu nimajo več lastnega podatka o natančnosti)
+- Iz naziva za Uvoz linij in točk umaknjena beseda "novih", saj je možno uvažati tudi spremembe elementov
+
 .. _v2.5.4:
 
 2.5.4 (20.10.23)
