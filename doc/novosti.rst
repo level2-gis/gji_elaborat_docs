@@ -5,6 +5,16 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.5.6:
+
+2.5.6 (7.11.23)
+----------------
+
+:fixlabel:`POPRAVLJENO`
+
+- Popravljena primerjava z bazo pri uvozu linij
+- Odprava napak pri uvozu linij in točk v primeru nepopolne strukture GJI (uporaba privzetih vrednosti)
+
 .. _v2.5.5:
 
 2.5.5 (26.10.23)
@@ -14,7 +24,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 - Uvoz linij in točk sedaj upošteva tudi polji ``GJI`` in ``OPU`` v kolikor obstajata v vhodnih podatkih.
 
-:elkomlabel:`POPRAVLJENO`
+:fixlabel:`POPRAVLJENO`
 
 - Umik parametra za natančnost pri uvozu višin (ni več potreben, saj višinske točke v novem formatu nimajo več lastnega podatka o natančnosti)
 - Iz naziva za Uvoz linij in točk umaknjena beseda "novih", saj je možno uvažati tudi spremembe elementov
@@ -28,7 +38,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 - Uvoz linij in točk sedaj upošteva tudi polja ``ID_UPR``, ``NAT_Z``, ``MAT_ST``, ``MAT_GJS`` in ``LETO_GRAD`` v kolikor obstajajo v vhodnih podatkih. V primeru obstoja ``ID_UPR`` se izvede kontrola in primerjava z bazo. Če ne obstaja v bazi, se element uvozi kot nov (D), če obstaja in v primeru razlike v podatkih ali geometriji pa se spremeni (S). Dodatno se v tem postopku uvozi tudi brisanje elementov, če obstaja ``ID_UPR`` in polje ``TIP_SPR``, ki vsebuje vrednost B.
 
-:elkomlabel:`POPRAVLJENO`
+:fixlabel:`POPRAVLJENO`
 
 - Dodan zapis Z koordinate točkam, če jo imajo v polju Z v postopku atributiranja
 - Dodano opozorilo o uvozu "Multipart" sloja v postopku kontrole točk (LiDAR)
