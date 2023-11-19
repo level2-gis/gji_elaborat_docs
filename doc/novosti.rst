@@ -5,6 +5,16 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.5.7:
+
+2.5.7 (20.11.23)
+----------------
+
+:fixlabel:`POPRAVLJENO`
+
+- Poprava izvoza v primeru sprememb matičnih številk
+- Poprava izvoza pri zapisu izvajalcev (MAT_GJS) v datoteko udeležencev
+
 .. _v2.5.6:
 
 2.5.6 (7.11.23)
