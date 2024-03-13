@@ -95,11 +95,14 @@ Pripravijo se vse potrebne datoteke v ustreznem formatu (GeoJSON in JSON).
  To pomeni da lahko večji uporabniki (npr. komunalna podjetja), ki so izvajalci GJS na območju več različnih upravljavcev (občin),
  vodijo podatke v enem projektu in jih tudi v enem koraku izvozijo za oddajo na GURS.
 
- Potrebno je samo zagotoviti pravilen vnos matičnih številk.
+ Potrebno je samo zagotoviti pravilen vpis matičnih številk.
 
 .. warning::
  Izvozijo se samo elementi, ki imajo vpisan pravilen podatek o matični številki upravljavca. Če podatka ni, oz. če ne obstaja v evidenci
  poslovnih subjektov, se takšni elementi ne izvozijo.
+
+ Posebnost pri tem pravilu je matična številka 9999999, ki pomeni neznane lastnike hišnih priključkov za vodovod. Podatki s to
+ matično št. se izvozijo v ločen elaborat!
 
  .. figure:: img/izvoz_report.png
 
