@@ -18,8 +18,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 - Izvoz elaborata sedaj pravilno zapiše število decimalnih mest v geojson datoteki v primeru QGIS 3.32 ali novejše verzije
 - Orodje atributiranja sedaj določi tudi ``LETO_GRAD`` kjer je prazno, na podlagi polja ``DAT_VIR``
-- Orodje za razbijanje linij na območju upošteva specifiko **vodovoda** in ne razbija **sekundarnih** vodov na stikih s **terciarnimi**
-(zahtevana skripta za posodobitev baze)
+- Orodje za razbijanje linij na območju upošteva specifiko **vodovoda** in ne razbija **sekundarnih** vodov na stikih s **terciarnimi** (zahtevana skripta za posodobitev baze)
 - Uvoz višin upošteva polje ``ID_UPR`` če obstaja. Na ta način se na linijo povežejo samo višine z istim ``ID_UPR``.
 - Pri uvozu linij ali točk je sedaj lahko ``DAT_VIR`` tudi datumsko polje (poleg teksta)
 
