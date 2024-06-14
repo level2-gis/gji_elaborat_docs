@@ -5,6 +5,27 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.6.0:
+
+2.6.0 (14.6.24)
+----------------
+
+:newlabel:`NOVO`
+- Izvoz elaborata poleg vseh potrebnih datotek, pripravi še arhivirano (ZIP) datoteko za oddajo na GURS
+
+:fixlabel:`POPRAVLJENO`
+- Izvoz elaborata sedaj pravilno zapiše število decimalnih mest v geojson datoteki v primeru QGIS 3.32 ali novejše verzije
+- Orodje atributiranja sedaj določi tudi ``LETO_GRAD`` kjer je prazno, na podlagi polja ``DAT_VIR``
+- Orodje za razbijanje linij na območju upošteva specifiko **vodovoda** in ne razbija **sekundarnih** vodov na stikih s **terciarnimi**
+(zahtevana skripta za posodobitev baze)
+- Uvoz višin upošteva polje ``ID_UPR`` če obstaja. Na ta način se na linijo povežejo samo višine z istim ``ID_UPR``.
+- Pri uvozu linij ali točk je sedaj lahko ``DAT_VIR`` tudi datumsko polje (poleg teksta)
+
+:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+- Novo orodje za dodajanje kabla na izbrane trase
+- Uvoz linij upošteva tudi specifična polja: ``PRAZNA_CEV``, ``VRSTA_KABLA``, ``ST_VODOV``
+- Dodan opcijski parameter ``ID_UPR_K`` pri dodajanju kabla. V primeru da ne obstaja se kot vsi ostali ``ID_UPR`` določi samodejno.
+
 .. _v2.5.7:
 
 2.5.7 (20.11.23)
