@@ -5,6 +5,33 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.8.0:
+
+2.8.0 (13.10.24)
+----------------
+
+:newlabel:`NOVO`
+
+- Novo orodje za brisanje vseh podatkov v elaboratu naenkrat in ponastavitev začetnega stanja vseh pripadajočih tabel
+
+:fixlabel:`POPRAVLJENO`
+
+- Odprava napake zaradi katere vtičnik ni delal s QGIS 3.38
+- Manjši popravki pri uvozu podatkov GURS, pri primerjavi z bazo pri uvozu lastnih podatkov ter pri izvozu elaborata na disk
+
+.. _v2.7.0:
+
+2.7.0 (24.8.24)
+----------------
+
+:newlabel:`NOVO`
+
+- Uvoz poligonskega sloja v elaborat
+
+:fixlabel:`POPRAVLJENO`
+
+- Nastavitev večje kompresije izvozne ZIP datoteke
+
 .. _v2.6.0:
 
 2.6.0 (14.6.24)
