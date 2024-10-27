@@ -1,12 +1,6 @@
 name: Extract Translations SL
 on:
   workflow_dispatch:  # Allows manual triggering from the GitHub Actions interface
-  push:
-    branches:
-      - main  # Trigger on pushes to the main branch
-  pull_request:
-    branches:
-      - main  # Trigger on pull requests to the main branch
 
 permissions:
   contents: write
@@ -27,7 +21,7 @@ jobs:
           LANGUAGE_CODE: 'sl'  # Set target language code here (e.g., 'es' for Spanish)
         run: |
           # Create gettext files
-          sphinx-build -b gettext doc _build/gettext
+          sphinx-build -b gettext . _build/gettext
           # Update the .po files with extracted strings for the specified language
           sphinx-intl update -p _build/gettext -l $LANGUAGE_CODE
 
