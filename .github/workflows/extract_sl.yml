@@ -37,7 +37,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           # Stage and commit the updated translation files
-          git add locale/
+          git add locales/
           git commit -m "Update translation files for language $LANGUAGE_CODE" || echo "No changes to commit"
 
       - name: Push changes
