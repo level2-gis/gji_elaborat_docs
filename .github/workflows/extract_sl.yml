@@ -1,0 +1,46 @@
+name: Extract Translations SL
+on:
+  workflow_dispatch:  # Allows manual triggering from the GitHub Actions interface
+  push:
+    branches:
+      - main  # Trigger on pushes to the main branch
+  pull_request:
+    branches:
+      - main  # Trigger on pull requests to the main branch
+
+permissions:
+  contents: write
+
+jobs:
+  extract-translations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+
+      - name: Install dependencies
+        run: |
+          pip install sphinx sphinx-intl sphinx_rtd_theme
+
+      - name: Generate translation files
+        env:
+          LANGUAGE_CODE: 'sl'  # Set target language code here (e.g., 'es' for Spanish)
+        run: |
+          # Create gettext files
+          sphinx-build -b gettext doc _build/gettext
+          # Update the .po files with extracted strings for the specified language
+          sphinx-intl update -p _build/gettext -l $LANGUAGE_CODE
+
+      - name: Commit updated translation files
+        run: |
+          # Configure Git
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          # Stage and commit the updated translation files
+          git add locale/
+          git commit -m "Update translation files for language $LANGUAGE_CODE" || echo "No changes to commit"
+
+      - name: Push changes
+        if: github.ref == 'refs/heads/main'  # Only push to main branch
+        run: |
+          git push origin main
