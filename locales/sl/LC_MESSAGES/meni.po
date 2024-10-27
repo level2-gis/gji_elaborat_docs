@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024 level2
+# This file is distributed under the same license as the GJI Elaborat
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GJI Elaborat 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-27 17:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sl\n"
+"Language-Team: sl <LL@li.org>\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 "
+"|| n%100==4 ? 2 : 3);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../doc/meni.rst:5
+msgid "Glavni meni"
+msgstr ""
+
+#: ../../doc/meni.rst:7
+msgid ""
+"V glavnem meniju je dodana možnost :guilabel:`GJI`, ki vsebuje naslednje "
+"vrednosti:"
+msgstr ""
+
+#: ../../doc/meni.rst:12
+msgid "Lastnosti"
+msgstr ""
+
+#: ../../doc/meni.rst:14
+msgid "Lastnosti projekta prikazujejo informativne podatke o:"
+msgstr ""
+
+#: ../../doc/meni.rst:15
+msgid "projektu (ime, opomba, verzija baze),"
+msgstr ""
+
+#: ../../doc/meni.rst:16
+msgid "vrsti infrastrukture,"
+msgstr ""
+
+#: ../../doc/meni.rst:17
+msgid "vlagatelju,"
+msgstr ""
+
+#: ../../doc/meni.rst:18
+msgid "privzetih matičnih številkah o upravljavcih in izvajalcu"
+msgstr ""
+
+#: ../../doc/meni.rst:19
+msgid "pooblaščenem inženirju geodezije (če je vpisan)"
+msgstr ""
+
+#: ../../doc/meni.rst:20
+msgid "številka zadeve, predmet vpisa"
+msgstr ""
+
+#: ../../doc/meni.rst:21
+msgid "datumu stanja podatkov GURS"
+msgstr ""
+
+#: ../../doc/meni.rst:25
+msgid "Novosti"
+msgstr ""
+
+#: ../../doc/meni.rst:27
+msgid "Hitra povezava do strani z opisom novosti posameznih verzij vtičnika."
+msgstr ""
+
+#: ../../doc/meni.rst:31
+msgid "Iskanje"
+msgstr ""
+
+#: ../../doc/meni.rst:33
+msgid ""
+"Iskanje je namenjenu hitremu iskanju in prikazu rezultatov glede na vsa "
+"polja v posameznem sloju ali po več slojih naenkrat."
+msgstr ""
+
+#: ../../doc/meni.rst:39
+msgid "Pomoč"
+msgstr ""
+
+#: ../../doc/meni.rst:41
+msgid ""
+"Verzija vtičnika, nekaj kratkih napotkov in koristnih povezav ter "
+"kontaktni podatki za podporo."
+msgstr ""
+

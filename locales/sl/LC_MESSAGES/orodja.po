@@ -1,0 +1,305 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024 level2
+# This file is distributed under the same license as the GJI Elaborat
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GJI Elaborat 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-27 17:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sl\n"
+"Language-Team: sl <LL@li.org>\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 "
+"|| n%100==4 ? 2 : 3);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../doc/orodja.rst:5
+msgid "Orodja vtičnika"
+msgstr ""
+
+#: ../../doc/orodja.rst:7
+msgid ""
+"Orodja predstavljajo glavnino dela z vtičnikom in so dostopna preko "
+"menija :menuselection:`Processing --> Toolbox` kot skupina :guilabel:`GJI"
+" ELaborat`, ki je razdeljena na posamezne podskupine."
+msgstr ""
+
+#: ../../doc/orodja.rst:11
+msgid "Processing Toolbox in GJI Elaborat"
+msgstr ""
+
+#: ../../doc/orodja.rst:17
+msgid "1 Uvoz"
+msgstr ""
+
+#: ../../doc/orodja.rst:19
+msgid ""
+"Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo "
+"tri vrste uvoza podatkov:"
+msgstr ""
+
+#: ../../doc/orodja.rst:21
+msgid "Uvoz elaborata iz lokalne mape:"
+msgstr ""
+
+#: ../../doc/orodja.rst:22
+msgid ""
+"Uvozijo se vsi tipi sprememb (novi, spremenjeni, brisani) in vsi atributi"
+" iz lokalnih slojev."
+msgstr ""
+
+#: ../../doc/orodja.rst:25
+msgid ""
+"Mapa lahko vsebuje podatke v starem SHP formatu ali novem GeoJSON, vendar"
+" pa mora ena mapa vsebovati samo en format."
+msgstr ""
+
+#: ../../doc/orodja.rst:27
+msgid "Uvoz lokalnih slojev:"
+msgstr ""
+
+#: ../../doc/orodja.rst:28
+msgid ""
+"Najlažje je uvoziti lokalne sloje, ki so že v projektu. Možno pa je tudi "
+"izbrati pot do sloja na disku."
+msgstr ""
+
+#: ../../doc/orodja.rst:30
+msgid "Uvoz novih 3D točk"
+msgstr ""
+
+#: ../../doc/orodja.rst:31
+msgid "Uvoz novih linij (2D ali 3D)"
+msgstr ""
+
+#: ../../doc/orodja.rst:32
+msgid "Uvoz višin za pripis 2D linijam"
+msgstr ""
+
+#: ../../doc/orodja.rst:34
+msgid ""
+"Uvoz obstoječega stanja zbirnega katastra GJI v evidenci GURS glede na 3 "
+"načine:"
+msgstr ""
+
+#: ../../doc/orodja.rst:35
+msgid ""
+"FILTER (vnesemo atributni filter na podlagi katerega se izberejo in "
+"uvozijo elementi)"
+msgstr ""
+
+#: ../../doc/orodja.rst:36
+msgid "OBMOČJE (določimo pravokotnik kot območje uvoza)"
+msgstr ""
+
+#: ../../doc/orodja.rst:37
+msgid "RAZDALJA (določimo razdaljo v metrih od novo dodanih linij v elaboratu)"
+msgstr ""
+
+#: ../../doc/orodja.rst:40
+msgid ""
+"Postopki uvoza podatkov GURS lahko trajajo več minut. Pri določitvi "
+"območja uvoza s pravokotnikom označite samo območje potrebno za izdelavo "
+"elaborata!"
+msgstr ""
+
+#: ../../doc/orodja.rst:43
+msgid "2 Delo"
+msgstr ""
+
+#: ../../doc/orodja.rst:45
+msgid "Orodja za paketno obdelavo podatkov, ki se že nahajajo v elaboratu:"
+msgstr ""
+
+#: ../../doc/orodja.rst:47
+msgid ""
+"Razbijanje linij na različne načine, kjer se atributi osnovne linije "
+"prenesejo na novo nastale z razbijanjem."
+msgstr ""
+
+#: ../../doc/orodja.rst:48
+msgid "Snap obstoječih linij na nove"
+msgstr ""
+
+#: ../../doc/orodja.rst:52
+msgid "3 Delo EL-KOM"
+msgstr ""
+
+#: ../../doc/orodja.rst:54
+msgid "Orodja za paketno obdelavo podatkov elaborata elektronskih komunikacij:"
+msgstr ""
+
+#: ../../doc/orodja.rst:56
+msgid "Dodajanje cevi in kablov na različne načine"
+msgstr ""
+
+#: ../../doc/orodja.rst:57
+msgid "Generiranje hišnih priključkov"
+msgstr ""
+
+#: ../../doc/orodja.rst:58
+msgid "Preračun omrežja (network)"
+msgstr ""
+
+#: ../../doc/orodja.rst:62
+msgid "9 Zaključek"
+msgstr ""
+
+#: ../../doc/orodja.rst:65
+msgid "Atributiranje elementov"
+msgstr ""
+
+#: ../../doc/orodja.rst:67
+msgid ""
+"Orodje za paketno atributiranje elementov, ki so brez podatkov v "
+"določenih poljih in jim želimo vpisati enake podatke v enem koraku."
+msgstr ""
+
+#: ../../doc/orodja.rst:71
+msgid "Atributiranje elementov za projekt elektronskih komunikacij"
+msgstr ""
+
+#: ../../doc/orodja.rst:73
+msgid "Dodatno pa postopek atributiranja izvede tudi naslednje obdelave podatkov:"
+msgstr ""
+
+#: ../../doc/orodja.rst:75
+msgid ""
+"pripis Z koordinate za točke, ki so brez višine na podlagi višine iz "
+"pripadajočega loma linije"
+msgstr ""
+
+#: ../../doc/orodja.rst:76
+msgid ""
+"pripis DAT_VIR na točke, ki imajo to prazno na podlagi podatka iz "
+"pripadajoče linije"
+msgstr ""
+
+#: ../../doc/orodja.rst:77
+msgid ""
+"za EL-KOM določitev DIM_YX in DIM_Z za linije na podlagi dimenzij cevi če"
+" obstajajo na trasi ali pa števila kablov ki potekajo po trasi"
+msgstr ""
+
+#: ../../doc/orodja.rst:78
+msgid ""
+"za EL-KOM določitev DIM_YX in DIM_Z za točke 6110 - omarica (0,5 in 1,20)"
+" in 6107 - jašek (0,5 in 0,6) (samo za tiste ki so brez DIM_YX ali DIM_Z)"
+msgstr ""
+
+#: ../../doc/orodja.rst:83
+msgid "Izvoz elaborata na disk"
+msgstr ""
+
+#: ../../doc/orodja.rst:85
+msgid ""
+"Izvoz podatkov za oddajo na GURS. Vpiše se številka zadeve in predmet "
+"vpisa, kar se shrani v bazi za kasnejše izvoze."
+msgstr ""
+
+#: ../../doc/orodja.rst:89
+msgid "Pripravijo se vse potrebne datoteke v ustreznem formatu (GeoJSON in JSON)."
+msgstr ""
+
+#: ../../doc/orodja.rst:92
+msgid ""
+"Izvoz omogoča kreiranje **več elaboratov naenkrat**, glede na vpisane "
+"matične številke upravljalcev za elemente (linije, točke, poligone) v "
+"polju MAT_ST."
+msgstr ""
+
+#: ../../doc/orodja.rst:95
+msgid ""
+"To pomeni da lahko večji uporabniki (npr. komunalna podjetja), ki so "
+"izvajalci GJS na območju več različnih upravljavcev (občin), vodijo "
+"podatke v enem projektu in jih tudi v enem koraku izvozijo za oddajo na "
+"GURS."
+msgstr ""
+
+#: ../../doc/orodja.rst:98
+msgid "Potrebno je samo zagotoviti pravilen vpis matičnih številk."
+msgstr ""
+
+#: ../../doc/orodja.rst:101
+msgid ""
+"Izvozijo se samo elementi, ki imajo vpisan pravilen podatek o matični "
+"številki upravljavca. Če podatka ni, oz. če ne obstaja v evidenci "
+"poslovnih subjektov, se takšni elementi ne izvozijo."
+msgstr ""
+
+#: ../../doc/orodja.rst:104
+msgid ""
+"Posebnost pri tem pravilu je matična številka 9999999, ki pomeni neznane "
+"lastnike hišnih priključkov za vodovod. Podatki s to matično št. se "
+"izvozijo v ločen elaborat!"
+msgstr ""
+
+#: ../../doc/orodja.rst:109
+msgid "Izvoz več elaboratov z opozorilom o neobstoječih matičnih številkah"
+msgstr ""
+
+#: ../../doc/orodja.rst:111
+msgid "Dodatno se vsem izvoženim elementom v bazi zapiše datum in čas izvoza."
+msgstr ""
+
+#: ../../doc/orodja.rst:115
+msgid "GEO-PORTAL"
+msgstr ""
+
+#: ../../doc/orodja.rst:117
+msgid ""
+"Orodja za prenos podatkov na GEO-PORTAL in druge povezane akcije za "
+"določene naročnike, ki uporabljajo to storitev."
+msgstr ""
+
+#: ../../doc/orodja.rst:121
+msgid "Orodja"
+msgstr ""
+
+#: ../../doc/orodja.rst:123
+msgid ""
+"Vsebuje orodja, ki ne spreminjajo podatkov v elaboratu in se lahko "
+"uporabljajo tudi izven pripadajočega projekta za GJI."
+msgstr ""
+
+#: ../../doc/orodja.rst:127
+msgid "Kontrola in poprava točk (LiDAR, geoid)"
+msgstr ""
+
+#: ../../doc/orodja.rst:129
+msgid ""
+"Za točkovni sloj izvede pripis višin iz Digitalnega modela reliefa (DMR),"
+" ki je bil generiran iz podatkov LiDAR in predstavlja najbolj natančne "
+"podatke o reliefu za celotno državo."
+msgstr ""
+
+#: ../../doc/orodja.rst:132
+msgid ""
+"V primeru, da je vhodni sloj v 3D obliki (PointZ) izračuna tudi razliko "
+"med originalno višino in višino iz DMR."
+msgstr ""
+
+#: ../../doc/orodja.rst:134
+msgid ""
+"Dodana je možnost preračuna višin na podatke geoida (SVS2010, datum "
+"Koper), v primeru da vsebuje vhodni sloj elipsoidne višine."
+msgstr ""
+
+#: ../../doc/orodja.rst:141
+msgid "Pridobi višino posamezne točke iz DMR (LiDAR)"
+msgstr ""
+
+#: ../../doc/orodja.rst:143
+msgid ""
+"Kadar želimo hitro pridobiti višino poljubne točke, lahko uporabimo to "
+"orodje."
+msgstr ""
+

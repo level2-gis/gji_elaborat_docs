@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024 level2
+# This file is distributed under the same license as the GJI Elaborat
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GJI Elaborat 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-27 17:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sl\n"
+"Language-Team: sl <LL@li.org>\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 "
+"|| n%100==4 ? 2 : 3);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../doc/zacetek.rst:4
+msgid "Začetek dela"
+msgstr ""
+
+#: ../../doc/zacetek.rst:9
+msgid "QGIS"
+msgstr ""
+
+#: ../../doc/zacetek.rst:12
+msgid "Namestitev"
+msgstr ""
+
+#: ../../doc/zacetek.rst:14
+msgid ""
+"Za delo potrebujemo nameščeno aplikacijo QGIS. Gre za zelo zmogljivo in "
+"široko uporabno odprtokodno GIS aplikacijo."
+msgstr ""
+
+#: ../../doc/zacetek.rst:16
+msgid "`QGIS uradna stran <https://qgis.org/en/site/>`_"
+msgstr ""
+
+#: ../../doc/zacetek.rst:19
+msgid ""
+"Priporoča se uporabo **LTR (\"Long term release\")** različic aplikacije."
+" Minimalna zahtevana verzija je **3.16**."
+msgstr ""
+
+#: ../../doc/zacetek.rst:23
+msgid "Navodila za uporabo"
+msgstr ""
+
+#: ../../doc/zacetek.rst:25
+msgid "Na voljo samo v tujih jezikih!"
+msgstr ""
+
+#: ../../doc/zacetek.rst:27
+msgid "`Angleščina <https://docs.qgis.org/3.28/en/docs/user_manual/index.html>`_"
+msgstr ""
+
+#: ../../doc/zacetek.rst:29
+msgid "Nekaj pomembnejših poglavij za delo z vtičnikom:"
+msgstr ""
+
+#: ../../doc/zacetek.rst:31
+msgid ""
+"`GUI "
+"<https://docs.qgis.org/3.28/en/docs/user_manual/introduction/qgis_gui.html>`_"
+msgstr ""
+
+#: ../../doc/zacetek.rst:32
+msgid ""
+"`Working with the Attribute Table "
+"<https://docs.qgis.org/3.28/en/docs/user_manual/working_with_vector/attribute_table.html>`_"
+msgstr ""
+
+#: ../../doc/zacetek.rst:33
+msgid ""
+"`Editing "
+"<https://docs.qgis.org/3.28/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html>`_"
+msgstr ""
+
+#: ../../doc/zacetek.rst:37
+msgid "Priprava"
+msgstr ""
+
+#: ../../doc/zacetek.rst:40
+msgid ""
+"Aplikacija QGIS je samo delno prevedena v slovenščino. V teh navodilih se"
+" navaja angleški izraz za ukaze v QGIS uporabniškem vmesniku."
+msgstr ""
+
+#: ../../doc/zacetek.rst:43
+msgid ""
+"Uporabniški vmesnik vtičnika pa je namenjen izključno za slovenske "
+"uporabnike in je posledično v slovenskem jeziku."
+msgstr ""
+
+#: ../../doc/zacetek.rst:45
+msgid ""
+"Ob začetku dela je potrebno aktivirati del za obdelavo prostorskih "
+"podatkov (\"Processing framework\"), ki je nameščen kot osnovni vtičnik "
+"(\"Plugin\") ampak na začetku ni aktiviran."
+msgstr ""
+
+#: ../../doc/zacetek.rst:47
+msgid "Postopek:"
+msgstr ""
+
+#: ../../doc/zacetek.rst:49
+msgid "Meni :menuselection:`Plugins --> Manage and install plugins...`"
+msgstr ""
+
+#: ../../doc/zacetek.rst:50
+msgid "Izbira :guilabel:`Installed` zavihka na levi strani"
+msgstr ""
+
+#: ../../doc/zacetek.rst:51
+msgid ""
+"Poiščite in vklopite izbiro pri zapisu |processingAlgorithm| "
+":guilabel:`Processing`"
+msgstr ""
+
+#: ../../doc/zacetek.rst:119
+msgid "processingAlgorithm"
+msgstr ""
+
+#: ../../doc/zacetek.rst:52
+msgid "Zaprite okno."
+msgstr ""
+
+#: ../../doc/zacetek.rst:56
+msgid "Projekt"
+msgstr ""
+
+#: ../../doc/zacetek.rst:58
+msgid ""
+"Naročnik prejme za vsak predviden elaborat za vpis sprememb v zbirni "
+"kataster GJI svoj QGIS projekt. Sloji v projektu so nastavljeni za "
+"izbrano vrsto infrastrukture. Tipično pa so v projektu naslednji sloji in"
+" skupine:"
+msgstr ""
+
+#: ../../doc/zacetek.rst:62
+msgid "ELABORAT V PRIPRAVI"
+msgstr ""
+
+#: ../../doc/zacetek.rst:64
+msgid ""
+"Ta skupina prikazuje podatke, ki so novo dodani ali uvoženi iz GJI baze "
+"za namene popravljanja oz. brisanja. Sloji **Točke**, **Linije** in "
+"**Poligoni** so na voljo za urejanje. Ob prevzemu projekta so vsi ti "
+"sloji prazni."
+msgstr ""
+
+#: ../../doc/zacetek.rst:67
+msgid ""
+"Skupina **POROČILA IN KONTROLE** vsebuje skupne podatke o trenutnem "
+"stanju elaborata (skupna dolžina glede na razne kriterije,...) in "
+"koristne kontrolne sloje za opozorilo in pregled pred oddajo (Manjkajoče "
+"višine, podvojeni elementi,...)"
+msgstr ""
+
+#: ../../doc/zacetek.rst:71
+msgid ""
+"Določeni sloji imajo več nastavljenih stilov risanja. Pregled stilov in "
+"menjava:"
+msgstr ""
+
+#: ../../doc/zacetek.rst:73
+msgid "Desni gumb miške na sloju v legendi"
+msgstr ""
+
+#: ../../doc/zacetek.rst:74
+msgid "Meni :menuselection:`Styles --> NAZIV STILA`"
+msgstr ""
+
+#: ../../doc/zacetek.rst:80
+msgid "ELABORAT ODDAJA"
+msgstr ""
+
+#: ../../doc/zacetek.rst:82
+msgid ""
+"Sloji v tej skupini prikazujejo v uradni strukturi GJI formata samo "
+"elemente, ki bodo del elaborata (dodani, spremenjeni, brisani). Slojev v "
+"tej skupini ni možno urejati neposredno. Prikaz je dinamičen in se takoj "
+"osveži ob urejanju slojev v skupini **ELABORAT V PRIPRAVI**."
+msgstr ""
+
+#: ../../doc/zacetek.rst:87
+msgid "GJI BAZA"
+msgstr ""
+
+#: ../../doc/zacetek.rst:89
+msgid ""
+"Sloji v tej skupini prikazujejo trenutno stanje podatkov zbirnega "
+"katastra GJI za izbrano vrsto infrastrukture in za določene upravljavce. "
+"Tudi slojev v tej skupini ni možno urejati neposredno. Služijo samo za "
+"prikaz, podatki iz GJI baze se v elaborat uvozijo s postopki v skupini "
+":ref:`uvoz`."
+msgstr ""
+
+#: ../../doc/zacetek.rst:94
+msgid "Ostali sloji"
+msgstr ""
+
+#: ../../doc/zacetek.rst:96
+msgid ""
+"Ostali sloji (hišne številke, stavbe, občine, ortofoto posnetki) so "
+"namenjeni za iskanje pravih lokacij in kot pomoč pri orientaciji v "
+"prostoru."
+msgstr ""
+
+#: ../../doc/zacetek.rst:100
+msgid "Sloji uporabnika"
+msgstr ""
+
+#: ../../doc/zacetek.rst:102
+msgid ""
+"Uporabniki lahko v projekt poljubno dodajajo svoje sloje. Podatki iz "
+"uporabniških slojev se v elaborat uvozijo s postopki v skupini "
+":ref:`uvoz`."
+msgstr ""
+
+#: ../../doc/zacetek.rst:106
+msgid "Vtičnik"
+msgstr ""
+
+#: ../../doc/zacetek.rst:108
+msgid ""
+"Naročniki prejmejo navodila po e-pošti za dodajanje repozitorija in "
+"namestitev ter posodabljanje vtičnika."
+msgstr ""
+
+#: ../../doc/zacetek.rst:111
+msgid "Vtičnik se uporablja vedno skupaj z QGIS projektom!"
+msgstr ""
+
+#: ../../doc/zacetek.rst:113
+msgid "Delo z vtičnikom se deli na naslednje sklope:"
+msgstr ""
+
+#: ../../doc/zacetek.rst:115
+msgid ":ref:`meni`"
+msgstr ""
+
+#: ../../doc/zacetek.rst:116
+msgid ":ref:`urejanje`"
+msgstr ""
+
+#: ../../doc/zacetek.rst:117
+msgid ":ref:`orodja`"
+msgstr ""
+
