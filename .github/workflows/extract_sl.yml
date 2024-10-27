@@ -21,7 +21,11 @@ jobs:
           # Create a minimal Sphinx configuration file for theme extraction only
           echo "html_theme = 'sphinx_rtd_theme'" > conf.py
           echo "language = 'en'" >> conf.py
-          echo "exclude_patterns = ['**/*']" >> conf.py
+
+      - name: Create empty index file
+        run: |
+          # Create an empty index.rst to satisfy Sphinx's requirement
+          echo ".. toctree::" > index.rst
 
       - name: Extract theme texts
         run: |
