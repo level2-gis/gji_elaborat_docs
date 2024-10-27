@@ -6,7 +6,7 @@ permissions:
   contents: write
 
 jobs:
-  extract-translations:
+  extract-theme-texts:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -14,27 +14,26 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx-intl sphinx_rtd_theme
+          pip install sphinx sphinx_rtd_theme sphinx-intl
 
-      - name: Generate translation files
-        env:
-          LANGUAGE_CODE: 'sl'  # Set target language code here (e.g., 'es' for Spanish)
+      - name: Configure Sphinx for theme-only extraction
         run: |
-          # Create gettext files
-          sphinx-build -b gettext . _build/gettext
-          # Update the .po files with extracted strings for the specified language
-          sphinx-intl update -p _build/gettext -l $LANGUAGE_CODE
+          # Create a minimal Sphinx configuration file for theme extraction only
+          echo "html_theme = 'sphinx_rtd_theme'" > conf.py
+          echo "language = 'en'" >> conf.py
+          echo "exclude_patterns = ['**/*']" >> conf.py
 
-      - name: Commit updated translation files
+      - name: Extract theme texts
         run: |
-          # Configure Git
+          # Generate .pot files focusing on theme elements only
+          sphinx-build -b gettext . _build/gettext -c .
+          # Update .po files with theme-related strings only
+          sphinx-intl update -p _build/gettext
+
+      - name: Commit and push translation files
+        run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          # Stage and commit the updated translation files
-          git add locales/
-          git commit -m "Update translation files for language $LANGUAGE_CODE" || echo "No changes to commit"
-
-      - name: Push changes
-        if: github.ref == 'refs/heads/main'  # Only push to main branch
-        run: |
+          git add locale/
+          git commit -m "Extract theme texts for translation" || echo "No changes to commit"
           git push origin main
