@@ -14,6 +14,7 @@ jobs:
           pip install sphinx sphinx_rtd_theme sphinx-intl
 
 # running locally on uros!
+#  sphinx-intl update -p c:\Python310\Lib\site-packages\sphinx_rtd_theme\locale -l sl
 #      - name: Update .po files from .pot file
 #        run: |
 #          # Assuming the .pot file is named with the language code
