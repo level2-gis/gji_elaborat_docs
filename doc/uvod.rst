@@ -8,7 +8,7 @@ za programski paket :ref:`qgis`, podatki pa so shranjeni v relacijski podatkovni
 
 
 Značilnosti
-----------
+-----------
 
 - Pripravljen QGIS projekt za posamezno vrsto infrastrukture
 - Večuporabniški dostop

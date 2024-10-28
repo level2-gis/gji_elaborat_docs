@@ -24,7 +24,7 @@ jobs:
 
       - name: Compile .po to .mo files
         run: |
-          sphinx-intl build --force
+          sphinx-intl build
 
       - name: Sphinx build with translations
         run: |

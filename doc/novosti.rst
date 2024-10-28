@@ -348,9 +348,8 @@ upoštevanja tudi nespremenjenih linij
 
 1.7.0
 
-- dodan postopek za generiranje cevi glede na dogovorjen zapis v polju opis na linijah
-pri razbijanju linij na območju dodana možnost razbijanja še cevi po posameznih trasah
-manjši interni popravki
+- dodan postopek za generiranje cevi glede na dogovorjen zapis v polju opis na linijah pri razbijanju linij na
+območju dodana možnost razbijanja še cevi po posameznih trasah manjši interni popravki
 
 
 1.6.2
