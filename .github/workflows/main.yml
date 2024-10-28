@@ -8,12 +8,20 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
+
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx_rtd_theme
-      - name: Sphinx build
+          pip install sphinx sphinx_rtd_theme sphinx-intl
+
+      - name: Update .po files from .pot file
         run: |
-          sphinx-build doc _build
+          # Assuming the .pot file is named with the language code, like 'es.pot' for Spanish
+          sphinx-intl update -p locale
+
+      - name: Sphinx build with translations
+        run: |
+          sphinx-build -D language=<your_language_code> doc _build
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}

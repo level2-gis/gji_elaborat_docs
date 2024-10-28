@@ -235,7 +235,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 :elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
 
-- Možnost dodajanja cevi za označene linije za podan premer
+- Možnost dodajanja cevi za izbrane trase za podan premer
 - Možnost upoštevanja tudi nespremenjenih cevi in tras pri dodajanju kablov
 - Razbijanje cevi na izbranem območju upošteva vse cevi razen brisanih
 
@@ -401,7 +401,7 @@ manjši interni popravki
 
 1.2.1
 
-- dodan postopek za prenos označenih linij v GEO-PORTAL trase
+- dodan postopek za prenos izbranih linij v GEO-PORTAL trase
 
 
 1.2.0
