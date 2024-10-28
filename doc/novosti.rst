@@ -272,8 +272,7 @@ Starejše verzije
 
 1.13.0
 
-- EL-KOM svoj postopek za generiranje Hišnih priključkov ki ima sedaj parameter območje obdelave in možnost
-upoštevanja tudi nespremenjenih linij
+- EL-KOM svoj postopek za generiranje Hišnih priključkov ki ima sedaj parameter območje obdelave in možnost upoštevanja tudi nespremenjenih linij
 
 
 1.12.2
@@ -348,8 +347,7 @@ upoštevanja tudi nespremenjenih linij
 
 1.7.0
 
-- dodan postopek za generiranje cevi glede na dogovorjen zapis v polju opis na linijah pri razbijanju linij na
-območju dodana možnost razbijanja še cevi po posameznih trasah manjši interni popravki
+- dodan postopek za generiranje cevi glede na dogovorjen zapis v polju opis na linijah pri razbijanju linij na območju dodana možnost razbijanja še cevi po posameznih trasah manjši interni popravki
 
 
 1.6.2
