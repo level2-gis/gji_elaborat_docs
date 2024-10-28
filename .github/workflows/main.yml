@@ -16,7 +16,7 @@ jobs:
       - name: Update .po files from .pot file
         run: |
           # Assuming the .pot file is named with the language code
-          sphinx-intl update -p locale -l sl
+          sphinx-intl update -p doc/locale -l sl
 
       - name: Sphinx build with translations
         run: |
