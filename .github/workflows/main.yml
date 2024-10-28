@@ -19,10 +19,12 @@ jobs:
           sphinx-intl update -p doc/locale -l sl
           #display pot file
           cat locales/sl/LC_MESSAGES/sl.po
+          #update timestamp
+          touch locales/sl/LC_MESSAGES/sl.po
 
       - name: Compile .po to .mo files
         run: |
-          sphinx-intl build
+          sphinx-intl build --force
 
       - name: Sphinx build with translations
         run: |
