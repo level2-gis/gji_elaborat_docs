@@ -18,6 +18,10 @@ jobs:
           # Assuming the .pot file is named with the language code
           sphinx-intl update -p doc/locale -l sl
 
+      - name: Compile .po to .mo files
+        run: |
+          sphinx-intl build
+
       - name: Sphinx build with translations
         run: |
           sphinx-build -D language=sl doc _build
