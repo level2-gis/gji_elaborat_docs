@@ -17,6 +17,8 @@ jobs:
         run: |
           # Assuming the .pot file is named with the language code
           sphinx-intl update -p doc/locale -l sl
+          #display pot file
+          cat locales/sl/LC_MESSAGES/sl.po
 
       - name: Compile .po to .mo files
         run: |
