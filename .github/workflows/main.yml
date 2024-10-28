@@ -15,12 +15,12 @@ jobs:
 
       - name: Update .po files from .pot file
         run: |
-          # Assuming the .pot file is named with the language code, like 'es.pot' for Spanish
+          # Assuming the .pot file is named with the language code
           sphinx-intl update -p locale -l sl
 
       - name: Sphinx build with translations
         run: |
-          sphinx-build -D language=<your_language_code> doc _build
+          sphinx-build -D language=sl doc _build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
