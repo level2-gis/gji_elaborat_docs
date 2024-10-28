@@ -72,7 +72,7 @@ release = '2.8'
 # Usually you set "language" from the command line for these cases.
 language = 'sl'
 
-#locale_dirs = ['locale/']   # path is relative to the conf.py directory
+locale_dirs = ['../locales']   # path is relative to the conf.py directory
 gettext_compact = False
 
 # List of patterns, relative to source directory, that match files and
