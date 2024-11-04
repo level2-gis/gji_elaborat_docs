@@ -5,6 +5,20 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.8.3:
+
+2.8.3 (4.11.24)
+----------------
+
+:newlabel:`NOVO`
+
+- Pri uvozu višin sedaj lahko višine pripišemo tudi na poligonski sloj
+
+:fixlabel:`POPRAVLJENO`
+
+- Manjši popravek pri uvozu lastnih podatkov in primerjavi z bazo
+- Nekaj internih popravkov
+
 .. _v2.8.0:
 
 2.8.0 (13.10.24)
