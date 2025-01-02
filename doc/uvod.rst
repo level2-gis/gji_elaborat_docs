@@ -23,7 +23,7 @@ Značilnosti
 - Enostavna kontrola in urejanje višin (možnost uporabe podatkov LiDAR)
 - Kontrole in poročila
 - Iskalnik
-- Izvoz elaborata sprememb na disk za oddajo na GURS (skladno z novim GeoJson/Json formatom)
+- Izvoz elaborata sprememb za oddajo na GURS (skladno z novim GeoJson/Json formatom)
 - Redno posodabljanje aktualnega stanja ZK GJI
 - Beleženje časa kreiranja, zadnje spremembe in izvoza za vsak element
 - Redno arhiviranje podatkov

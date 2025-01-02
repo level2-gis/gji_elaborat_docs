@@ -52,7 +52,7 @@ master_doc = 'index'
 # General information about the project.
 project = 'GJI Elaborat'
 year_now = datetime.date.today().year
-copyright = str(year_now)+' level2'
+copyright = '2021 -' +str(year_now)+' level2'
 author = 'Uroš Preložnik'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -218,6 +218,9 @@ rst_prolog = """
 .. role:: newlabel
 .. role:: fixlabel
 .. role:: elkomlabel
+.. |newlabel| replace:: :newlabel:`NOVO`
+.. |fixlabel| replace:: :fixlabel:`POPRAVLJENO`
+.. |elkomlabel| replace:: :elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
 """
 
 

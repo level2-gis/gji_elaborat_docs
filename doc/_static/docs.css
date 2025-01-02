@@ -3,10 +3,6 @@ p {
     white-space: pre;
 }
 
-.simple {
-    margin-top: -24px;
-}
-
 .rst-content .guilabel {
     background:#7fbbe3
 }
@@ -32,9 +28,9 @@ p {
     color:white;
 }
 
-/*.newlabel:before {
-    content: "NOVO";
-}*/
+p:has(> .newlabel) {
+    margin-bottom: 0;
+}
 
 .rst-content .fixlabel {
     background:#0984e3;
@@ -46,6 +42,10 @@ p {
     color:white;
 }
 
+p:has(> .fixlabel) {
+    margin-bottom: 0;
+}
+
 .rst-content .elkomlabel {
     background:#be2edd;
     font-size: 80%;
@@ -54,6 +54,10 @@ p {
     border-radius:4px;
     padding:4px;
     color:white;
+}
+
+p:has(> .elkomlabel) {
+    margin-bottom: 0;
 }
 
 /* Widen space for the documentation content*/

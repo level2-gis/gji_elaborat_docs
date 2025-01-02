@@ -70,7 +70,7 @@ msgstr ""
 #: sphinx_rtd_theme/footer.html:23
 #, python-format
 msgid "&#169; Copyright %(copyright)s."
-msgstr ""
+msgstr "&#169; %(copyright)s, Vse pravice pridržane."
 
 #. Build is a noun, not a verb
 #: sphinx_rtd_theme/footer.html:30
@@ -183,3 +183,5 @@ msgstr ""
 msgid "Builds"
 msgstr ""
 
+msgid "Link to this heading"
+msgstr "povezava na to poglavje"

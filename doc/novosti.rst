@@ -10,7 +10,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.8.5 (30.12.24)
 ----------------
 
-:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+|elkomlabel|
 
 - Dodana možnost podaljšanja kabla za izbrane cevi ali izbrane trase v okviru obstoječih orodij.
 - Dodajanje kablov za izbrane hišne priključke sedaj poleg vrste voda upošteva tudi podatek števila vodov iz pripadajoče linije hišnega priključka.
@@ -20,11 +20,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.8.3 (4.11.24)
 ----------------
 
-:newlabel:`NOVO`
+|newlabel|
 
 - Pri uvozu višin sedaj lahko višine pripišemo tudi na poligonski sloj
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Manjši popravek pri uvozu lastnih podatkov in primerjavi z bazo
 - Nekaj internih popravkov
@@ -34,11 +34,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.8.0 (13.10.24)
 ----------------
 
-:newlabel:`NOVO`
+|newlabel|
 
 - Novo orodje za brisanje vseh podatkov v elaboratu naenkrat in ponastavitev začetnega stanja vseh pripadajočih tabel
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Odprava napake zaradi katere vtičnik ni delal s QGIS 3.38
 - Manjši popravki pri uvozu podatkov GURS, pri primerjavi z bazo pri uvozu lastnih podatkov ter pri izvozu elaborata na disk
@@ -48,11 +48,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.7.0 (24.8.24)
 ----------------
 
-:newlabel:`NOVO`
+|newlabel|
 
 - Uvoz poligonskega sloja v elaborat
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Nastavitev večje kompresije izvozne ZIP datoteke
 
@@ -61,11 +61,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.6.0 (14.6.24)
 ----------------
 
-:newlabel:`NOVO`
+|newlabel|
 
 - Izvoz elaborata poleg vseh potrebnih datotek, pripravi še arhivirano (ZIP) datoteko za oddajo na GURS
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Izvoz elaborata sedaj pravilno zapiše število decimalnih mest v geojson datoteki v primeru QGIS 3.32 ali novejše verzije
 - Orodje atributiranja sedaj določi tudi ``LETO_GRAD`` kjer je prazno, na podlagi polja ``DAT_VIR``
@@ -74,7 +74,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 - Uvoz višin upošteva polje ``ID_UPR`` če obstaja. Na ta način se na linijo povežejo samo višine z istim ``ID_UPR``.
 - Pri uvozu linij ali točk je sedaj lahko ``DAT_VIR`` tudi datumsko polje (poleg teksta)
 
-:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+|elkomlabel|
 
 - Novo orodje za dodajanje kabla na izbrane trase
 - Uvoz linij upošteva tudi specifična polja: ``PRAZNA_CEV``, ``VRSTA_KABLA``, ``ST_VODOV``
@@ -85,7 +85,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.5.7 (20.11.23)
 ----------------
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Poprava izvoza v primeru sprememb matičnih številk
 - Poprava izvoza pri zapisu izvajalcev (MAT_GJS) v datoteko udeležencev
@@ -95,7 +95,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.5.6 (7.11.23)
 ----------------
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Popravljena primerjava z bazo pri uvozu linij
 - Odprava napak pri uvozu linij in točk v primeru nepopolne strukture GJI (uporaba privzetih vrednosti)
@@ -105,11 +105,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.5.5 (26.10.23)
 ----------------
 
-:newlabel:`NOVO`
+|newlabel|
 
 - Uvoz linij in točk sedaj upošteva tudi polji ``GJI`` in ``OPU`` v kolikor obstajata v vhodnih podatkih.
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Umik parametra za natančnost pri uvozu višin (ni več potreben, saj višinske točke v novem formatu nimajo več lastnega podatka o natančnosti)
 - Iz naziva za Uvoz linij in točk umaknjena beseda "novih", saj je možno uvažati tudi spremembe elementov
@@ -119,11 +119,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.5.4 (20.10.23)
 ----------------
 
-:newlabel:`NOVO`
+|newlabel|
 
 - Uvoz linij in točk sedaj upošteva tudi polja ``ID_UPR``, ``NAT_Z``, ``MAT_ST``, ``MAT_GJS`` in ``LETO_GRAD`` v kolikor obstajajo v vhodnih podatkih. V primeru obstoja ``ID_UPR`` se izvede kontrola in primerjava z bazo. Če ne obstaja v bazi, se element uvozi kot nov (D), če obstaja in v primeru razlike v podatkih ali geometriji pa se spremeni (S). Dodatno se v tem postopku uvozi tudi brisanje elementov, če obstaja ``ID_UPR`` in polje ``TIP_SPR``, ki vsebuje vrednost B.
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Dodan zapis Z koordinate točkam, če jo imajo v polju Z v postopku atributiranja
 - Dodano opozorilo o uvozu "Multipart" sloja v postopku kontrole točk (LiDAR)
@@ -133,11 +133,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.5.1 (06.10.23)
 ----------------
 
-:newlabel:`NOVO`
+|newlabel|
 
 - Dodano novo orodje za napenjanje poljubnega linijskega sloja na 3D na osnovi podatkov DMR
 
-:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+|elkomlabel|
 
 - Dodano opozorilo pri uvozu podatkov v primeru nepopolno uvoženih elementov vezanih na trase
 - Poprava pri izvozu elaborata na disk
@@ -147,12 +147,12 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.4.5 (07.08.23)
 ----------------
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Podpora novemu oddajnemu formatu 1.5
 - Interne spremembe zaradi nove uvozne strukture podatkov GJI
 
-:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+|elkomlabel|
 
 - Popravek pri izračunu polj ``DIM_YX`` in ``DIM_Z`` glede na število kablov in dimenzije cevi v postopku atributiranja
 - Interne optimizacije baze
@@ -162,11 +162,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.4.4 (09.05.23)
 ----------------
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Pravilen zapis šumnikov pri izvozu v datoteko ``udelezenci.json``
 
-:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+|elkomlabel|
 
 - Zapis dodatnih matičnih številk pri izvozu v datoteko ``udelezenci.json`` če so določene na ceveh, kablih ali vodih
 
@@ -175,7 +175,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.4.3 (03.05.23)
 ----------------
 
-:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+|elkomlabel|
 
 - Postopek atributiranja sedaj pri določitvi polj ``DIM_YX`` in ``DIM_Z`` upošteva vse linije razen brisanih (prej samo D in S). Spremembo pa izvede samo v primeru, da je nova dimenzija na podlagi števila in dimenzije cevi in kablov večja od podatkov obstoječe linije.
 
@@ -184,16 +184,16 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.4.2 (25.04.23)
 ----------------
 
-:newlabel:`NOVO`
+|newlabel|
 
 - Uvoz elaborata sedaj podpira tudi nov GeoJSON format
 
-:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+|elkomlabel|
 
 - Novo orodje za dodajanje kabla po izbranih ceveh. Cevi morajo tvoriti eno linijo in ne smejo biti podvojene.
 - Spremembe začetnih nastavitev pri nekaterih orodjih
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Kontrola koordinatnega sistema pri uvozu slojev
 
@@ -202,7 +202,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.3.1 (17.04.23)
 ----------------
 
-:newlabel:`NOVO`
+|newlabel|
 
 - Izvoz projekta v več elaboratov hkrati. Podrobnosti: :ref:`izvoz`
 
@@ -211,11 +211,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.2.0 (12.04.23)
 ----------------
 
-:newlabel:`NOVO`
+|newlabel|
 
 - Dodano orodje za uvoz elaborata iz mape na disku
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Izpis izvoznih JSON datotek v lepše berljivi obliki ("prettify")
 - Interni popravki
@@ -225,7 +225,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.1.4 (09.03.23)
 ----------------
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Dodane kontrole podatkov o poslovnih subjektih pri izvozu elaborata
 
@@ -234,11 +234,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.1.3 (26.01.23)
 ----------------
 
-:newlabel:`NOVO`
+|newlabel|
 
 - Dodano leto gradnje v orodje za atributiranje
 
-:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+|elkomlabel|
 
 - Popravki pri dodajanju kabla od začetne do končne točke
 - Popravki pri izvozu elaborata
@@ -248,7 +248,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.1.1 (04.01.23)
 ----------------
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Popravek pri uvozu višin za pripis novo dodanim linijam
 
@@ -257,7 +257,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 2.1.0 (23.12.22)
 ----------------
 
-:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+|elkomlabel|
 
 - Možnost dodajanja cevi za izbrane trase za podan premer
 - Možnost upoštevanja tudi nespremenjenih cevi in tras pri dodajanju kablov
@@ -270,18 +270,18 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 Večja posodobitev z dodanim glavnim menijem in podporo za nov oddajni format.
 
-:newlabel:`NOVO`
+|newlabel|
 
 - Dodan glavni meni (Lastnosti, Novosti, Iskanje, Pomoč)
 - Podpora novemu oddajnemu formatu (GeoJSON, JSON)
 - Zapis datuma izvoza v podatke
 
-:fixlabel:`POPRAVLJENO`
+|fixlabel|
 
 - Prenos vseh atributov na nove linije pri razbijanju
 - Optimizacija postopkov pri uvozu GURS podatkov
 
-:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+|elkomlabel|
 
 - Nove možnosti (vrsta kabla, število vodov, premer cevi) pri dodajanju kabla od začetne do končne točke omrežja
 
