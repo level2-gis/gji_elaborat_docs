@@ -1,4 +1,12 @@
 /* Customize for QGIS Documentation*/
+p {
+    white-space: pre;
+}
+
+.simple {
+    margin-top: -24px;
+}
+
 .rst-content .guilabel {
     background:#7fbbe3
 }
@@ -23,6 +31,10 @@
     padding:4px;
     color:white;
 }
+
+/*.newlabel:before {
+    content: "NOVO";
+}*/
 
 .rst-content .fixlabel {
     background:#0984e3;

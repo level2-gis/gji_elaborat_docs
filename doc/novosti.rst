@@ -5,6 +5,16 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.8.5:
+
+2.8.5 (30.12.24)
+----------------
+
+:elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+
+- Dodana možnost podaljšanja kabla za izbrane cevi ali izbrane trase v okviru obstoječih orodij.
+- Dodajanje kablov za izbrane hišne priključke sedaj poleg vrste voda upošteva tudi podatek števila vodov iz pripadajoče linije hišnega priključka.
+
 .. _v2.8.3:
 
 2.8.3 (4.11.24)
