@@ -19,7 +19,6 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 - Bolj pregleden izpis za uporabnika pri uvzu lastnih podatkov
 - Razbijanje linij z območjem sedaj izpiše elemente, kjer razbijanje ni bilo možno ter nadaljuje postopek
 - Manjši popravki pri atributiranju za nastavitve polj ``NAT_Z`` in ``Z``
-- Nekaj internih popravkov
 
 .. _v2.8.5:
 
