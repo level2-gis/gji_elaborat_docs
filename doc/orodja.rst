@@ -27,9 +27,9 @@ Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vr
 #. Uvoz lokalnih slojev:
     Najlažje je uvoziti lokalne sloje, ki so že v projektu. Možno pa je tudi izbrati pot do sloja na disku.
 
-    - Uvoz novih 3D točk
-    - Uvoz novih linij (2D ali 3D)
-    - Uvoz višin za pripis 2D linijam
+    - Uvoz točk (3D)
+    - Uvoz linij/poligonov (2D ali 3D)
+    - Uvoz višin za pripis 2D linijam/poligonom
 
 #. Uvoz obstoječega stanja zbirnega katastra GJI v evidenci GURS glede na 3 načine:
     - FILTER (vnesemo atributni filter na podlagi katerega se izberejo in uvozijo elementi)
@@ -44,6 +44,7 @@ Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vr
 
 Orodja za paketno obdelavo podatkov, ki se že nahajajo v elaboratu:
 
+- Brisanje vseh podatkov v elaboratu (ponastavitev na začetno stanje)
 - Razbijanje linij na različne načine, kjer se atributi osnovne linije prenesejo na novo nastale z razbijanjem.
 - Snap obstoječih linij na nove
 
