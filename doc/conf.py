@@ -111,7 +111,6 @@ html_theme_options = {
 	'navigation_depth': 4,
 	'includehidden': False,
 	'logo_only': False,
-	'display_version': True,
 	'prev_next_buttons_location': 'both',
 	'style_nav_header_background': '#34495e',
 	'style_external_links': True
