@@ -3,6 +3,8 @@
    in this index.rst for them to be rendered and added to the
    table of contents
 
+.. meta::
+   :description: Orodje za izdelavo elaborata za vpis v zbirni kataster GJI.
 
 GJI Elaborat - vtičnik za QGIS
 ==============================

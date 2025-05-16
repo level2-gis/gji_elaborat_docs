@@ -96,7 +96,8 @@ html_show_sourcelink = False
 #
 html_theme = 'sphinx_rtd_theme'
 
-html_title = 'GJI Elaborat'
+#we override it with layout.html in templates
+#html_title = 'GJI Elaborat'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

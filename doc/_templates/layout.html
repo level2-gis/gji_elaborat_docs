@@ -1,0 +1,9 @@
+{% extends "sphinx_rtd_theme/layout.html" %}
+
+{% block htmltitle %}
+<title>{% if pagename == "index" -%}
+    GJI Elaborat - vtičnik za QGIS
+    {%- else -%}
+    {{ title }} — {{ project }}
+    {%- endif %}</title>
+{%- endblock %}
