@@ -18,13 +18,17 @@ Orodja predstavljajo glavnino dela z vtičnikom in so dostopna preko menija :men
 
 Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vrste uvoza podatkov:
 
-#. Uvoz elaborata iz lokalne mape:
-    Uvozijo se vsi tipi sprememb (novi, spremenjeni, brisani) in vsi atributi iz lokalnih slojev.
+1.1 Uvoz elaborata
+~~~~~~~~~~~~~~~
+
+    Uvozijo se datoteke že izdelanega elaborata iz lokalne mape z vsemi tipi sprememb (novi, spremenjeni, brisani) in atributi iz lokalnih slojev.
 
     .. warning::
      Mapa lahko vsebuje podatke v starem SHP formatu ali novem GeoJSON, vendar pa mora ena mapa vsebovati samo en format.
 
-#. Uvoz lokalnih slojev:
+1.2 Uvoz lokalnih slojev
+~~~~~~~~~~~~~~~~~~~~~
+
     Najlažje je uvoziti lokalne sloje, ki so že v projektu. Možno pa je tudi izbrati pot do sloja na disku. Za uvoz atributnih
     podatkov sloja je pomembno da se polja ujemajo s polji v bazi - :ref:`struktura`.
 
@@ -62,10 +66,19 @@ Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vr
         .. warning::
          V primeru da ima linija ali poligon na točki iz izbranega sloja že obstoječo višino se bo ta zamenjala z novim podatkom!!
 
-#. Uvoz obstoječega stanja zbirnega katastra GJI v evidenci GURS glede na 3 načine:
-    - FILTER (vnesemo atributni filter na podlagi katerega se izberejo in uvozijo elementi)
-    - OBMOČJE (določimo pravokotnik kot območje uvoza)
-    - RAZDALJA (določimo razdaljo v metrih od novo dodanih linij v elaboratu)
+1.3 Uvoz podatkov GURS
+~~~~~~~~~~~~~~~~~~
+
+    S temi postopki uvozimo obstoječe stanje zbirnega katastra GJI v elaborat za nadaljnjo obravnavo. Vsi podatki se uvozijo kot
+    nespremenjeni (N).
+
+    .. note::
+     Vedno se pri uvozu upoštevajo podatki vrste infrastrukture ter privzetega upravljavca iz nastavitev projekta.
+
+    Izbiramo lahko med 3 različnimi načini uvoza podatkov GURS:
+        - FILTER (vnesemo atributni filter na podlagi katerega se izberejo in uvozijo elementi)
+        - OBMOČJE (določimo pravokotnik kot območje uvoza)
+        - RAZDALJA (določimo razdaljo v metrih od novo dodanih linij v elaboratu)
 
     .. warning::
      Postopki uvoza podatkov GURS lahko trajajo več minut. Pri določitvi območja uvoza s pravokotnikom označimo samo območje potrebno za izdelavo elaborata!
@@ -94,7 +107,7 @@ Orodja za obdelavo podatkov elaborata elektronskih komunikacij:
 9 Zaključek
 -----------
 
-Atributiranje elementov
+9.1 Atributiranje elementov
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Orodje za paketno atributiranje elementov, ki so brez podatkov v določenih poljih in jim želimo vpisati enake podatke v enem koraku.
@@ -115,7 +128,7 @@ Dodatno pa postopek atributiranja izvede tudi naslednje obdelave podatkov:
 
 .. _izvoz:
 
-Izvoz elaborata na disk
+9.2 Izvoz elaborata na disk
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Izvoz podatkov za oddajo na GURS. Vpiše se številka zadeve in predmet vpisa, kar se shrani v bazi za kasnejše izvoze.
