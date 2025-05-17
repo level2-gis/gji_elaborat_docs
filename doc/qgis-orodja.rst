@@ -27,3 +27,10 @@ Orodje izbranemu točkovnemu sloju določi Z vrednost, tako da je rezultat 3D sl
    Nato izberemo :menuselection:`Field type... --> [IME POLJA]`
 
 3D točkovni sloj potrebujemo pri uvozu točk in višin ter kadar rišemo novo 3D linijo na podlagi 3D točk.
+
+
+Extract vertices
+----------------
+
+Orodje na podlagi vhodnega linijskega ali poligonskega sloja izdela točkovni sloj vseh lomnih točk sloja. Primerno za
+določitev ali kontrolo višin z uporabo orodja :ref:`kontrola_lidar`

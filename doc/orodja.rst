@@ -21,7 +21,7 @@ Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vr
 1.1 Uvoz elaborata
 ~~~~~~~~~~~~~~~
 
-    Uvozijo se datoteke že izdelanega elaborata iz lokalne mape z vsemi tipi sprememb (novi, spremenjeni, brisani) in atributi iz lokalnih slojev.
+    Uvozijo se datoteke že izdelanega elaborata iz lokalne mape z vsemi tipi sprememb (novi, spremenjeni, brisani) in atributi iz posameznih slojev.
 
     .. warning::
      Mapa lahko vsebuje podatke v starem SHP formatu ali novem GeoJSON, vendar pa mora ena mapa vsebovati samo en format.
@@ -37,6 +37,7 @@ Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vr
      na podlagi primerjave vrednosti polja ``ID_UPR`` objekta ki se uvaža in bazo. Če vrednost ne obstaja v bazi se element
      uvozi kot D, če obstaja in v primeru razlike v podatkih ali geometriji pa se uvozi iz baze ter ustrezno spremeni (S).
 
+    .. tip::
      Kadar želimo uvoziti tudi objekte, ki so namenjeni brisanju, mora sloj vsebovati polje ``TIP_SPR`` in objekti za brisanje
      vrednost **B**.
 
@@ -118,13 +119,13 @@ Orodje za paketno atributiranje elementov, ki so brez podatkov v določenih polj
 
 Dodatno pa postopek atributiranja izvede tudi naslednje obdelave podatkov:
 
-- pripis Z koordinate za točke, ki so brez višine na podlagi vrednosti polja Z, če je večje od 0
+- pripis Z koordinate za točke, ki so brez višine na podlagi vrednosti polja ``Z``, če je večje od 0
 - pripis Z koordinate za točke, ki so brez višine na podlagi višine iz pripadajočega loma linije
-- pripis DAT_VIR in LETO_GRAD na točke, ki imajo to prazno na podlagi podatka iz pripadajoče linije
-- izračun polja LETO_GRAD, kjer je prazno, za točke in linije na podlagi polja DAT_VIR,
-- določitev polja Z za točke na podlagi Z koordinate ter polja SIF_VRSTE in DIM_Z,
-- za EL-KOM določitev DIM_YX in DIM_Z za linije na podlagi dimenzij cevi če obstajajo na trasi ali pa števila kablov ki potekajo po trasi
-- za EL-KOM določitev DIM_YX in DIM_Z za točke 6110 - omarica (0,5 in 1,20) in 6107 - jašek (0,5 in 0,6) (samo za tiste ki so brez DIM_YX ali DIM_Z)
+- pripis ``DAT_VIR`` in ``LETO_GRAD`` na točke, ki imajo to prazno na podlagi podatka iz pripadajoče linije
+- izračun polja ``LETO_GRAD``, kjer je prazno, za točke in linije na podlagi polja ``DAT_VIR``,
+- določitev polja ``Z`` za točke na podlagi Z koordinate ter polja ``SIF_VRSTE`` in ``DIM_Z``,
+- za EL-KOM določitev ``DIM_YX`` in ``DIM_Z`` za linije na podlagi dimenzij cevi če obstajajo na trasi ali pa števila kablov ki potekajo po trasi
+- za EL-KOM določitev ``DIM_YX`` in ``DIM_Z`` za točke 6110 - omarica (0,5 in 1,20) in 6107 - jašek (0,5 in 0,6) (samo za tiste ki so brez ``DIM_YX`` ali ``DIM_Z``)
 
 .. _izvoz:
 
@@ -140,7 +141,7 @@ skladno z navodili GURS.
 
 .. note::
  Izvoz omogoča kreiranje **več elaboratov naenkrat**, glede na vpisane matične številke upravljalcev za elemente (linije, točke, poligone)
- v polju MAT_ST.
+ v polju ``MAT_ST``.
 
  To pomeni da lahko večji uporabniki (npr. komunalna podjetja), ki so izvajalci GJS na območju več različnih upravljavcev (občin),
  vodijo podatke v enem projektu in jih tudi v enem koraku izvozijo za oddajo na GURS.
@@ -172,6 +173,7 @@ Orodja
 
 Vsebuje orodja, ki ne spreminjajo podatkov v elaboratu in se lahko uporabljajo tudi izven pripadajočega projekta za GJI.
 
+.. _kontrola_lidar:
 
 Kontrola in poprava točk (LiDAR, geoid)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -187,7 +189,30 @@ elipsoidne višine.
 .. image:: img/kontrola_tock.png
 
 
+Napni linije na DMR (LiDAR)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Postopek elementom linijskega sloja določi Z koordinato za vsako lomno točko na podlagi Digitalnega modela reliefa (DMR).
+
+Opcijsko lahko podamo parameter odmik ki se bo upošteval pri vseh višinah.
+
+.. tip::
+ Za upoštevanje globine je potrebno vpisati negativno številko!.
+
+Rezultat je nov sloj tipa LineStringZ z višinami iz DMR.
+
+
 Pridobi višino posamezne točke iz DMR (LiDAR)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Kadar želimo hitro pridobiti višino poljubne točke, lahko uporabimo to orodje.
+Postopek za podano točko vrne informacijo o višini na podlagi podatkov DMR (LiDAR).
+
+
+Uvoz in prikaz SHP podatkov iz množice ZIP datotek
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Postopek iz podane mape na disku iz vsake ZIP datoteke uvozi in združi SHP datoteke z istim imenom ter jih prikaže v legendi.
+Postopek doda polje ``DAT_VIR`` (datum datoteke) in ``DELO`` (ime zip datoteke).
+
+.. tip::
+ Primerno za uvoz in prikaz terenskih podatkov pred nadaljno obdelavo!
