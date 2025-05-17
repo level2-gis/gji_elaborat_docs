@@ -1,0 +1,37 @@
+﻿"ime";"vrsta";"opis";"urejanje"
+"``GP_ID``";"število";"Primarni ključ";
+"``GURS_ID``";"besedilo";"GURS-ov identifikator";
+"``TIP_SPR``";"besedilo";"Tip spremembe";
+"``ID_UPR``";"besedilo";"ID upravljavca";
+"``SIF_VRSTE``";"število";"GJI šifra vrste objekta";"x"
+"``CC_KLAS``";"število";"CC Klasifikacija";"x"
+"``NAT_YX``";"število";"Položajna točnost";"x"
+"``Z``";"število";"Pri točkah nadmorska višina objekta z upoštevanjem zunanje vertikalne dimenzije.
+
+Pri linijah vertikalni odmik (globina, višina) glede na višine lomnih točk.";"x"
+"``NAT_Z``";"število";"Višinska točnost";"x"
+"``GJI``";"število";"Ali ima objekt status GJI?";"x"
+"``VIR``";"število";"Vir";"x"
+"``DAT_VIR``";"besedilo";"Datum vira";"x"
+"``MAT_ST``";"število";"Matična številka upravljavca (lastnika)";"x"
+"``MAT_GJS``";"število";"Matična številka izvajalca GJS";"x"
+"``ID_EL``";"število";"Ni več v uporabi, v primeru obstoja ``gurs_id`` ima fiksno vrednost 99";
+"``DAT_EL``";"besedilo";"GURS-ov podatek ``datum_sys`` (samo v primeru obstoja ``gurs_id``)";
+"``DIM_YX``";"število";"Zunanja tlorisna dimenzija objekta";"x"
+"``DIM_Z``";"število";"Zunanja vertikalna dimenzija objekta";"x"
+"``OPU``";"število";"Opuščenost objekta";"x"
+"``LETO_GRAD``";"število";"Leto gradnje ali zadnje obnove objekta";"x"
+"``atr1``";"število";"Posebni atribut 1";"x"
+"``atr2``";"število";"Posebni atribut 2";"x"
+"``ATR3``";"število";"Posebni atribut 3";"x"
+"``ATR4``";"besedilo";"Posebni atribut 4";"x"
+"``ATR5``";"besedilo";"Posebni atribut 5";"x"
+"``OPIS``";"besedilo";"Opis";"x"
+"``DAT_GURS``";"datum";"Datum podatka iz GURS-ove baze (v primeru obstoja ``gurs_id``)";
+"``CREATEDBY``";"besedilo";"Uporabnik ali skripta ki je kreiral objekt";
+"``CREATED``";"čas";"Čas kreiranja objekta";
+"``MODIFIEDBY``";"besedilo";"Uporabnik ali skripta ki je zadnji spremenil objekt";
+"``MODIFIED``";"čas";"Čas zadnje spremembe objekta";
+"``EXPORTED``";"čas";"Čas izvoza objekta v elaborat za oddajo";
+"``CHANGE_MAT_ST``";"da/ne";"Sprememba matične upravljavca";
+"``CHANGE_MAT_GJS``";"da/ne";"Sprememba matične izvajalca GJS";

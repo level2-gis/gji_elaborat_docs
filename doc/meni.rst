@@ -17,14 +17,14 @@ Lastnosti projekta prikazujejo informativne podatke o:
  - vlagatelju,
  - privzetih matičnih številkah o upravljavcih in izvajalcu
  - pooblaščenem inženirju geodezije (če je vpisan)
- - številka zadeve, predmet vpisa
+ - številka zadeve, predmet vpisa (vnesemo pri izvozu elaborata)
  - datumu stanja podatkov GURS
 
 
 Novosti
 -------
 
-Hitra povezava do strani z opisom novosti posameznih verzij vtičnika.
+Hitra povezava do strani :ref:`novosti` z opisom posameznih verzij vtičnika.
 
 
 Iskanje

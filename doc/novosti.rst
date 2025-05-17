@@ -1,4 +1,4 @@
-
+.. _novosti:
 
 Novosti
 =======
@@ -12,11 +12,11 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 |newlabel|
 
-- Dodano novo orodje za paketni uvoz in prikaz SHP podatkov iz množice ZIP datotek znotraj določene mape
+- Dodano novo orodje za združitev in prikaz SHP slojev iz množice ZIP datotek znotraj določene mape
 
 |fixlabel|
 
-- Bolj pregleden izpis za uporabnika pri uvzu lastnih podatkov
+- Bolj pregleden izpis za uporabnika pri uvozu lastnih podatkov
 - Razbijanje linij z območjem sedaj izpiše elemente, kjer razbijanje ni bilo možno ter nadaljuje postopek
 - Manjši popravki pri atributiranju za nastavitve polj ``NAT_Z`` in ``Z``
 

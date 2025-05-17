@@ -23,7 +23,7 @@ Značilnosti
 - Enostavna kontrola in urejanje višin (možnost uporabe podatkov LiDAR)
 - Kontrole in poročila
 - Iskalnik
-- Izvoz elaborata sprememb za oddajo na GURS (skladno z novim GeoJson/Json formatom)
+- Izvoz elaborata sprememb za oddajo na GURS (skladno z novim GeoJSON/JSON formatom)
 - Redno posodabljanje aktualnega stanja ZK GJI
 - Beleženje časa kreiranja, zadnje spremembe in izvoza za vsak element
 - Redno arhiviranje podatkov
@@ -39,6 +39,7 @@ za vnose kablov od začetne do končne točke.
 - Generiranje hišnih priključkov (HP) glede na trase
 - Enostavna določitev pripadajočih HP posameznim omaricam
 - Generiranje kablov za vse hišne priključke (kabel poteka po vseh trasah/ceveh od hišnega priključka do omarice)
+- Različni drugi načini generiranja cevi/kablov in pripadajočih vodov
 
 
 Brezplačen preizkus

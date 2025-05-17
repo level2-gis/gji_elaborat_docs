@@ -15,6 +15,7 @@ GJI Elaborat - vtičnik za QGIS
    uvod.rst
    zacetek.rst
    meni.rst
+   struktura.rst
    urejanje.rst
    orodja.rst
    qgis-orodja.rst
