@@ -11,7 +11,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx_rtd_theme sphinx-intl
+          pip install sphinx sphinx_rtd_theme sphinx-intl sphinx-sitemap
 
 # running locally on uros!
 #  sphinx-intl update -p c:\Python310\Lib\site-packages\sphinx_rtd_theme\locale -l sl

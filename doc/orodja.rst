@@ -19,7 +19,7 @@ Orodja predstavljajo glavnino dela z vtičnikom in so dostopna preko menija :men
 Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vrste uvoza podatkov:
 
 1.1 Uvoz elaborata
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
     Uvozijo se datoteke že izdelanega elaborata iz lokalne mape z vsemi tipi sprememb (novi, spremenjeni, brisani) in atributi iz posameznih slojev.
 
@@ -27,7 +27,7 @@ Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vr
      Mapa lahko vsebuje podatke v starem SHP formatu ali novem GeoJSON, vendar pa mora ena mapa vsebovati samo en format.
 
 1.2 Uvoz lokalnih slojev
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
     Najlažje je uvoziti lokalne sloje, ki so že v projektu. Možno pa je tudi izbrati pot do sloja na disku. Za uvoz atributnih
     podatkov sloja je pomembno da se polja ujemajo s polji v bazi - :ref:`struktura`.
@@ -68,7 +68,7 @@ Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vr
          V primeru da ima linija ali poligon na točki iz izbranega sloja že obstoječo višino se bo ta zamenjala z novim podatkom!!
 
 1.3 Uvoz podatkov GURS
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
     S temi postopki uvozimo obstoječe stanje zbirnega katastra GJI v elaborat za nadaljnjo obravnavo. Vsi podatki se uvozijo kot
     nespremenjeni (N).
@@ -109,7 +109,7 @@ Orodja za obdelavo podatkov elaborata elektronskih komunikacij:
 -----------
 
 9.1 Atributiranje elementov
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Orodje za paketno atributiranje elementov, ki so brez podatkov v določenih poljih in jim želimo vpisati enake podatke v enem koraku.
 
@@ -130,7 +130,7 @@ Dodatno pa postopek atributiranja izvede tudi naslednje obdelave podatkov:
 .. _izvoz:
 
 9.2 Izvoz elaborata na disk
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Izvoz podatkov za oddajo na GURS. Vpiše se številka zadeve in predmet vpisa, kar se shrani v bazi za kasnejše izvoze.
 
@@ -209,7 +209,7 @@ Postopek za podano točko vrne informacijo o višini na podlagi podatkov DMR (Li
 
 
 Uvoz in prikaz SHP podatkov iz množice ZIP datotek
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Postopek iz podane mape na disku iz vsake ZIP datoteke uvozi in združi SHP datoteke z istim imenom ter jih prikaže v legendi.
 Postopek doda polje ``DAT_VIR`` (datum datoteke) in ``DELO`` (ime zip datoteke).
