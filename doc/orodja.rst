@@ -84,6 +84,8 @@ Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vr
     .. warning::
      Postopki uvoza podatkov GURS lahko trajajo več minut. Pri določitvi območja uvoza s pravokotnikom označimo samo območje potrebno za izdelavo elaborata!
 
+.. _delo:
+
 2 Delo
 ------
 

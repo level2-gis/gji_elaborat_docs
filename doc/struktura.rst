@@ -13,6 +13,6 @@ sistemska polja.
     :header-rows: 1
     :delim: ;
 
-Pri linijah pa lahko vodimo še dodatne atribute kot so: ``MERIL``, ``TRASIRAL`` in ``SIFRA_PROJEKTA``.
+Pri linijah pa imamo na voljo še dodatne atribute kot so: ``MERIL``, ``TRASIRAL`` in ``SIFRA_PROJEKTA``.
 
 Geometrija v vseh tabelah je 3D (PointZ, LineStringZ, MultiPolygonZ).

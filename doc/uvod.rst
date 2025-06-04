@@ -30,16 +30,64 @@ Značilnosti
 - Možnost prikazovanja podatkov na `GEO-PORTAL-u <https://site.geo-portal.si>`_
 
 
+Komu je namenjen
+----------------
+
+GJI Elaborat je namenjen vsem, ki se ukvarjajo z vodenjem gospodarske javne infrastrukture ter pripravo elaboratov za vpis sprememb
+v zbirni kataster GJI.
+
+Geodetska podjetja
+~~~~~~~~~~~~~~~~~~
+
+Geodetska podjetja s pooblaščenim inženirjem s področja geodezije, ki so pooblaščena s strani upravljavcev infrastrukture za izdelavo in oddajo elaboratov na
+Geodetsko upravo. Za posamezno naročilo se pripravi ločen projekt, kamor je možno uvoziti posamezne meritve ter obstoječe podatke zbirnega katastra in v nekaj korakih
+pripraviti elaborat za oddajo.
+
+Upravljavci GJI in Izvajalci GJS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    - Komunalna podjetja
+    - Občine (režijski obrati)
+    - Državne institucije ki upravljajo z GJI
+    - Podjetja za distribucijo električne energije, zemeljskega plina, toplotne energije
+    - Telekomunikacijska podjetja
+
+GJI Elaborat omogoča povezavo z operativnim katastrom posameznega upravljavca in enostaven prenos podatkov za izdelavo elaborata sprememb za oddajo.
+
+.. important::
+ Povezava poteka izključno preko identifikatorjev upravljavca, kar pomeni da upravljavcu ni potrebno v lastne evidence uvažati GURS-ovih identifikatorjev in pa
+ posebej voditi spremenjenih objektov. Za vse objekte se ob prenosu izvaja primerjava z aktualnim stanjem GJI.
+ Podrobnosti se nahajajo v poglavju: :ref:`uvoz`.
+
+
+Posebna obravnava
+-----------------
+
+Posebnosti posameznih vrst gospodarske infrastrukture, ki jih podpira GJI Elaborat so podane v nadaljevanju.
+
+Vodovod
+~~~~~~~
+    - Posebnost stikanja sekundarnih in terciarnih vodov. Splošno pravilo GJI je, da morajo biti vse linije na stikih razdeljene, razen v
+      primeru Vodovoda, ko se terciarni vod stika s sekundarnim. V tem primeru senkundarnega voda ni potrebno razdeliti (razbijati) na posamezne linije.
+      Ta posebnost je upoštevana v postopku Razbijanja linij na določenem območju (poglavje :ref:`delo`).
+    - Hišni priključki, ki so v lasti fizičnih oseb se vpišejo z matično številko 9999999 in z atributom GJI = druga infrastruktura.
+      Kontrola matičnih številk upošteva to posebnost (poglavje :ref:`izvoz`).
+
+Kanalizacija
+~~~~~~~~~~~~
+    - Hišni priključki, ki so v lasti fizičnih oseb se vpišejo z matično številko 9999999 in z atributom GJI = druga infrastruktura.
+      Kontrola matičnih številk upošteva to posebnost (poglavje :ref:`izvoz`).
+
 Elektronske komunikacije
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-Dodatna obravnava vseh posebnosti Elektronskih komunikacij v strukturi GJI (cevi, kabli, vodi). Uporaba omrežja za določanje tras
-za vnose kablov od začetne do končne točke.
+    Dodatna obravnava vseh posebnosti Elektronskih komunikacij v strukturi GJI (cevi, kabli, vodi). Uporaba omrežja za določanje tras
+    za vnose kablov od začetne do končne točke.
 
-- Generiranje hišnih priključkov (HP) glede na trase
-- Enostavna določitev pripadajočih HP posameznim omaricam
-- Generiranje kablov za vse hišne priključke (kabel poteka po vseh trasah/ceveh od hišnega priključka do omarice)
-- Različni drugi načini generiranja cevi/kablov in pripadajočih vodov
+    - Generiranje hišnih priključkov (HP) glede na trase
+    - Enostavna določitev pripadajočih HP posameznim omaricam
+    - Generiranje kablov za vse hišne priključke (kabel poteka po vseh trasah/ceveh od hišnega priključka do omarice)
+    - Različni drugi načini generiranja cevi/kablov in pripadajočih vodov
 
 
 Brezplačen preizkus

@@ -24,13 +24,13 @@ Navodila za uporabo
 
 Na voljo samo v tujih jezikih!
 
-`Angleščina <https://docs.qgis.org/3.28/en/docs/user_manual/index.html>`_
+`Angleščina <https://docs.qgis.org/latest/en/docs/user_manual/index.html>`_
 
 Nekaj pomembnejših poglavij za delo z vtičnikom:
 
-- `GUI <https://docs.qgis.org/3.28/en/docs/user_manual/introduction/qgis_gui.html>`_
-- `Working with the Attribute Table <https://docs.qgis.org/3.28/en/docs/user_manual/working_with_vector/attribute_table.html>`_
-- `Editing <https://docs.qgis.org/3.28/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html>`_
+- `GUI <https://docs.qgis.org/latest/en/docs/user_manual/introduction/qgis_gui.html>`_
+- `Working with the Attribute Table <https://docs.qgis.org/latest/en/docs/user_manual/working_with_vector/attribute_table.html>`_
+- `Editing <https://docs.qgis.org/latest/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html>`_
 
 
 Priprava
