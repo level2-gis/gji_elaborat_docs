@@ -55,6 +55,10 @@ Upravljavci GJI in Izvajalci GJS
 GJI Elaborat omogoča povezavo z operativnim katastrom posameznega upravljavca in enostaven prenos podatkov za izdelavo elaborata sprememb za oddajo.
 
 .. important::
+ Za vsako matično številko upravljavca se v postopku izvoza ustvari ločen elaborat. Tako lahko večji uporabniki, ki zagotavljajo gospodarsko javno službo (GJS)
+ na območju različnih upravljavcev (občin) v enem koraku izdelajo vse potrebne elaborate! Podrobnosti se nahajajo v poglavju: :ref:`izvoz`.
+
+.. important::
  Povezava poteka izključno preko identifikatorjev upravljavca, kar pomeni da upravljavcu ni potrebno v lastne evidence uvažati GURS-ovih identifikatorjev in pa
  posebej voditi spremenjenih objektov. Za vse objekte se ob prenosu izvaja primerjava z aktualnim stanjem GJI.
  Podrobnosti se nahajajo v poglavju: :ref:`uvoz`.
