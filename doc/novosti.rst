@@ -12,7 +12,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 |newlabel|
 
-- Dodano orodje za brisanje podvojenih linij
+- Dodano orodje za brisanje podvojenih linij (zahtevana posodobitev baze)
 
 |elkomlabel|
 
