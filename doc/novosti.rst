@@ -5,6 +5,24 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.10.1:
+
+2.10.1 (10.6.25)
+----------------
+
+|newlabel|
+
+- Dodano orodje za brisanje podvojenih linij
+
+|elkomlabel|
+
+- Več možnosti izbora linij pri generiranju hišnih priključkov
+
+|fixlabel|
+
+- Brisanje podatkov o izvozu elaborata (zadeva, predmet vpisa) ob brisanju celotnega elaborata
+
+
 .. _v2.9.0:
 
 2.9.0 (29.4.25)

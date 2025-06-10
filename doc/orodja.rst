@@ -92,6 +92,7 @@ Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vr
 Orodja za obdelavo podatkov, ki se že nahajajo v elaboratu:
 
 - Brisanje vseh podatkov v elaboratu (ponastavitev na začetno stanje)
+- Brisanje podvojenih linij (možnost ignoriranja usmeritve linij, prenos cevi in kablov za projekte Elektronskih komunikacij)
 - Razbijanje linij na različne načine, kjer se atributi osnovne linije prenesejo na novo nastale z razbijanjem.
 - Snap obstoječih linij na nove
 
