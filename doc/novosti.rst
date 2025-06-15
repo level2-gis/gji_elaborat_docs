@@ -5,6 +5,17 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.10.3:
+
+2.10.3 (15.6.25)
+----------------
+
+|fixlabel|
+
+- Orodje za atributiranje sedaj uskladi polja ``NAT_YX`` in ``VIR`` glede na pravila GURS-a
+- Pravilno osveževanje števila elementov sloja v legendi po uporabi orodja, ki spremeni število elementov
+- Interna optimizacija postopka za pripis višinskih točk iz sosednjih linij, ki se uporablja v več orodjih
+
 .. _v2.10.1:
 
 2.10.1 (10.6.25)
