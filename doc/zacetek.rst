@@ -16,7 +16,7 @@ Za delo potrebujemo nameščeno aplikacijo QGIS. Gre za zelo zmogljivo in širok
 `QGIS uradna stran <https://qgis.org/en/site/>`_
 
 .. note::
- Priporoča se uporabo **LTR ("Long term release")** različic aplikacije.
+ Priporoča se uporabo zadnje **LTR ("Long term release")** različice aplikacije. Nova LTR različica izide vsako leto, okvirno konec februarja.
  Minimalna zahtevana verzija je **3.16**.
 
 Navodila za uporabo
@@ -118,3 +118,4 @@ Delo z vtičnikom se deli na naslednje sklope:
 
 .. |processingAlgorithm| image:: /_static/common/processingAlgorithm.png
    :width: 1.5em
+   :class: no-scaled-link

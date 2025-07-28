@@ -15,4 +15,4 @@ sistemska polja.
 
 Pri linijah pa imamo na voljo še dodatne atribute kot so: ``MERIL``, ``TRASIRAL`` in ``SIFRA_PROJEKTA``.
 
-Geometrija v vseh tabelah je 3D (PointZ, LineStringZ, MultiPolygonZ).
+Geometrija v vseh tabelah je 3D (*PointZ*, *LineStringZ*, *MultiPolygonZ*).

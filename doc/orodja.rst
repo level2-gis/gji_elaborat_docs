@@ -127,6 +127,7 @@ Dodatno pa postopek atributiranja izvede tudi naslednje obdelave podatkov:
 - pripis ``DAT_VIR`` in ``LETO_GRAD`` na točke, ki imajo to prazno na podlagi podatka iz pripadajoče linije
 - izračun polja ``LETO_GRAD``, kjer je prazno, za točke in linije na podlagi polja ``DAT_VIR``,
 - določitev polja ``Z`` za točke na podlagi Z koordinate ter polja ``SIF_VRSTE`` in ``DIM_Z``,
+- usklajevanje polj ``NAT_YX`` in ``VIR`` glede na pravila GURS-a,
 - za EL-KOM določitev ``DIM_YX`` in ``DIM_Z`` za linije na podlagi dimenzij cevi če obstajajo na trasi ali pa števila kablov ki potekajo po trasi
 - za EL-KOM določitev ``DIM_YX`` in ``DIM_Z`` za točke 6110 - omarica (0,5 in 1,20) in 6107 - jašek (0,5 in 0,6) (samo za tiste ki so brez ``DIM_YX`` ali ``DIM_Z``)
 
@@ -146,8 +147,8 @@ skladno z navodili GURS.
  Izvoz omogoča kreiranje **več elaboratov naenkrat**, glede na vpisane matične številke upravljalcev za elemente (linije, točke, poligone)
  v polju ``MAT_ST``.
 
- To pomeni da lahko večji uporabniki (npr. komunalna podjetja), ki so izvajalci GJS na območju več različnih upravljavcev (občin),
- vodijo podatke v enem projektu in jih tudi v enem koraku izvozijo za oddajo na GURS.
+ To pomeni da lahko večji uporabniki (npr. komunalna podjetja), ki vodijo svoj operativni kataster in so izvajalci GJS na območju več različnih upravljavcev (občin),
+ uvozijo vse svoje podatke paketno v isti projekt in jih nato v enem koraku tudi izvozijo za oddajo na GURS.
 
  Potrebno je samo zagotoviti pravilen vpis matičnih številk.
 

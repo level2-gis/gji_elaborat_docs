@@ -5,6 +5,27 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.10.4:
+
+2.10.4 (28.7.25)
+----------------
+
+|fixlabel|
+
+- Izvoz elaborata sedaj izpusti pripravo datotek :file:`upravljavci.json` in :file:`izvajalci.json` v primeru prazne vsebine
+  (ni novo dodanih objektov). Datoteki tudi ne vsebujeta več praznih vrednosti v sklopu ``podatki``.
+- Popravek pri uvozu podatkov glede nastavitev praznih vrednosti polj ``NAT_Z``, ``ATR1``, ``ATR2`` in ``ATR3``, ki vsebujejo šifrante (``0`` namesto ``null``)
+- Upoštevanje spremenjene šifre objektov pri uvozu točk in poligonov
+- Orodje razbijanja linij na območju vsebuje tudi postopek brisanja podvojenih linij in osveževanje sloja prekritih linij
+
+|elkomlabel|
+
+- Orodje za generiranje omrežja sedaj ne vsebuje več razbijanja linij na celotnem območju. To se rešuje parcialno z
+  ločenim orodjem.
+- Razbijanje cevi kot opcijski parameter pri orodju razbijanja linij na območju je umaknjen. Postopek sedaj vedno razbija
+  cevi, ki obstajajo na trasi, ki se z orodjem razbijanja deli.
+
+
 .. _v2.10.3:
 
 2.10.3 (15.6.25)
