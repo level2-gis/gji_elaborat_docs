@@ -33,7 +33,7 @@ Značilnosti
 Komu je namenjen
 ----------------
 
-GJI Elaborat je namenjen vsem, ki se ukvarjajo z vodenjem gospodarske javne infrastrukture ter pripravo elaboratov za vpis sprememb
+GJI Elaborat je namenjen vsem, ki se ukvarjajo z vodenjem in evidentiranjem gospodarske javne infrastrukture (GJI) ter pripravo elaboratov za vpis sprememb
 v zbirni kataster GJI.
 
 Geodetska podjetja
