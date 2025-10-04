@@ -5,6 +5,22 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.11.2:
+
+2.11.2 (4.10.25)
+----------------
+
+|newlabel|
+
+- Dodano orodje za analizo in popravo spremenjenih elementov
+- V glavnem meniju so dodane nastavitve vtičnika za določitev povezave z PostgrSQL bazo za pridobitev naslovov in poslovnih subjektov ter višinskih podatkov
+
+|elkomlabel|
+
+- Hišni priključki sedaj vsebujejo tudi polja ``VRSTA_KABLA`` in ``ST_VODOV``, ki se določita iz pripadajoče linije ter uporabita pri dodajanju
+  kablov za izbrane hišne priključke ter ``NASLOV``, ki se določi v primeru da je linija hišnega priključka znotraj poligona stavbe, ki ima naslov.
+  V primeru, da ima stavba več naslovov, se uporabi najbližji.
+
 .. _v2.10.4:
 
 2.10.4 (28.7.25)
