@@ -111,7 +111,16 @@ Orodja za obdelavo podatkov elaborata elektronskih komunikacij:
 9 Zaključek
 -----------
 
-9.1 Atributiranje elementov
+9.1 Analiza spremenjenih elementov
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Postopek v tabelo zapiše v enotno polje spremembe za vsak spremenjen element sloja.
+
+V primeru da element nima sprememb se mu tip spremembe nastavi na **N** (nespremenjen).
+
+.. image:: img/spremembe.png
+
+9.2 Atributiranje elementov
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Orodje za paketno atributiranje elementov, ki so brez podatkov v določenih poljih in jim želimo vpisati enake podatke v enem koraku.
@@ -133,7 +142,7 @@ Dodatno pa postopek atributiranja izvede tudi naslednje obdelave podatkov:
 
 .. _izvoz:
 
-9.2 Izvoz elaborata na disk
+9.3 Izvoz elaborata na disk
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Izvoz podatkov za oddajo na GURS. Vpiše se številka zadeve in predmet vpisa, kar se shrani v bazi za kasnejše izvoze.

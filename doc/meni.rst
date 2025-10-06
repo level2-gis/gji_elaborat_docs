@@ -6,7 +6,7 @@ Glavni meni
 
 V glavnem meniju je dodana možnost :guilabel:`GJI`, ki vsebuje naslednje vrednosti:
 
- .. image:: img/meni2.png
+ .. image:: img/meni3.png
 
 Lastnosti
 ---------
@@ -17,15 +17,8 @@ Lastnosti projekta prikazujejo informativne podatke o:
  - vlagatelju,
  - privzetih matičnih številkah o upravljavcih in izvajalcu
  - pooblaščenem inženirju geodezije (če je vpisan)
- - številka zadeve, predmet vpisa (vnesemo pri izvozu elaborata)
+ - številki zadeve, predmetu vpisa (vnesemo pri izvozu elaborata)
  - datumu stanja podatkov GURS
-
-
-Novosti
--------
-
-Hitra povezava do strani :ref:`novosti` z opisom posameznih verzij vtičnika.
-
 
 Iskanje
 -------
@@ -34,6 +27,20 @@ Iskanje je namenjenu hitremu iskanju in prikazu rezultatov glede na vsa polja v 
 
  .. image:: img/iskanje2.png
 
+Novosti
+-------
+
+Hitra povezava do strani :ref:`novosti` z opisom posameznih verzij vtičnika.
+
+
+Nastavitve vtičnika
+----------------------
+
+Nastavitve povezav do zunanjih baz podatkov za pridobivanje podatkov o poslovnih subjektih, naslovih stavb ter višinskih podatkov (DMR), ki jih uporabljajo orodja vtičnika.
+
+Navodila za pripravo povezav uporabniki prejmejo po e-pošti.
+
+ .. image:: img/nastavitve.png
 
 Pomoč
 -----

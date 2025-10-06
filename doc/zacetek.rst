@@ -108,7 +108,7 @@ Vtičnik
 Naročniki prejmejo navodila po e-pošti za dodajanje repozitorija in namestitev ter posodabljanje vtičnika.
 
 .. note::
- Vtičnik se uporablja vedno skupaj z QGIS projektom!
+ Vtičnik se uporablja vedno skupaj s posebej pripravljenim QGIS projektom!
 
 Delo z vtičnikom se deli na naslednje sklope:
 

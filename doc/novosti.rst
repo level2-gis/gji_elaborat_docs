@@ -13,7 +13,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 |newlabel|
 
 - Dodano orodje za analizo in popravo spremenjenih elementov
-- V glavnem meniju so dodane nastavitve vtičnika za določitev povezave z PostgrSQL bazo za pridobitev naslovov in poslovnih subjektov ter višinskih podatkov
+- V glavnem meniju so dodane nastavitve vtičnika za določitev povezave z PostgreSQL bazo za pridobitev naslovov in poslovnih subjektov ter višinskih podatkov
 
 |elkomlabel|
 
