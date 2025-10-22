@@ -5,6 +5,20 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.12.0:
+
+2.12.0 (22.10.25)
+----------------
+
+|newlabel|
+
+- Dodano orodje za povrnitev ("Undo") izbranih spremenjenih ali brisanih elementov
+
+|fixlabel|
+
+- Interne spremembe glede na novo strukturo in verzijo baze 20251020. Vtičnik ne deluje s starejšimi verzijami baze. Prav tako zahteva
+  novo verzijo prilagojenega QGIS projekta.
+
 .. _v2.11.2:
 
 2.11.2 (4.10.25)

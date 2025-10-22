@@ -36,7 +36,7 @@ Hitra povezava do strani :ref:`novosti` z opisom posameznih verzij vtičnika.
 Nastavitve vtičnika
 ----------------------
 
-Nastavitve povezav do zunanjih baz podatkov za pridobivanje podatkov o poslovnih subjektih, naslovih stavb ter višinskih podatkov (DMR), ki jih uporabljajo orodja vtičnika.
+Nastavitve povezav do zunanjih baz podatkov za pridobivanje podatkov o poslovnih subjektih, naslovih stavb ter višinskih podatkov (DMR izdelan iz LiDAR podatkov), ki jih uporabljajo orodja vtičnika.
 
 Navodila za pripravo povezav uporabniki prejmejo po e-pošti.
 
