@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://gji-docs.level2.si/sitemap.xml
