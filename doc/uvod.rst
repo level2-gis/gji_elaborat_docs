@@ -14,6 +14,7 @@ Značilnosti
 - Večuporabniški dostop
 - Različna orodja za vnos in paketno obdelavo podatkov
 - Uvoz začetnega stanja iz evidence ZK GJI na GURS-u
+- Uvoz lokalnih (terenskih) podatkov
 - Samodejna določitev ID upravljavca novim elementom
 - Samodejna pretvorba in obravnava GURS-ovih identifikatorjev (EID <-> ID)
 - Samodejna obravnava obstoječih podatkov GURS ob spremembi (brisanje, spreminjanje)
