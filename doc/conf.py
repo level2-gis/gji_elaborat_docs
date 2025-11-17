@@ -230,6 +230,9 @@ rst_prolog = """
 .. |newlabel| replace:: :newlabel:`NOVO`
 .. |fixlabel| replace:: :fixlabel:`POPRAVLJENO`
 .. |elkomlabel| replace:: :elkomlabel:`ELEKTRONSKE KOMUNIKACIJE`
+.. role:: smalldate(raw)
+   :format: html
+      <span class="smalldate">%s</span>
 """
 
 

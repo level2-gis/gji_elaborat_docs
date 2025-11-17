@@ -7,8 +7,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.12.0:
 
-2.12.0 (22.10.25)
-----------------
+2.12.0 :smalldate:`22.10.25`
+--------------------------------
 
 |newlabel|
 
@@ -21,8 +21,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.11.2:
 
-2.11.2 (4.10.25)
-----------------
+2.11.2 :smalldate:`4.10.25`
+-------------------------------
 
 |newlabel|
 
@@ -37,8 +37,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.10.4:
 
-2.10.4 (28.7.25)
-----------------
+2.10.4 :smalldate:`28.7.25`
+-------------------------------
 
 |fixlabel|
 
@@ -58,8 +58,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.10.3:
 
-2.10.3 (15.6.25)
-----------------
+2.10.3 :smalldate:`15.6.25`
+-------------------------------
 
 |fixlabel|
 
@@ -69,8 +69,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.10.1:
 
-2.10.1 (10.6.25)
-----------------
+2.10.1 :smalldate:`10.6.25`
+-------------------------------
 
 |newlabel|
 
@@ -87,8 +87,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.9.0:
 
-2.9.0 (29.4.25)
-----------------
+2.9.0 :smalldate:`29.4.25`
+------------------------------
 
 |newlabel|
 
@@ -102,8 +102,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.8.5:
 
-2.8.5 (30.12.24)
-----------------
+2.8.5 :smalldate:`30.12.24`
+-------------------------------
 
 |elkomlabel|
 
@@ -112,8 +112,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.8.3:
 
-2.8.3 (4.11.24)
-----------------
+2.8.3 :smalldate:`4.11.24`
+------------------------------
 
 |newlabel|
 
@@ -126,8 +126,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.8.0:
 
-2.8.0 (13.10.24)
-----------------
+2.8.0 :smalldate:`13.10.24`
+-------------------------------
 
 |newlabel|
 
@@ -140,8 +140,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.7.0:
 
-2.7.0 (24.8.24)
-----------------
+2.7.0 :smalldate:`24.8.24`
+------------------------------
 
 |newlabel|
 
@@ -153,8 +153,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.6.0:
 
-2.6.0 (14.6.24)
-----------------
+2.6.0 :smalldate:`14.6.24`
+------------------------------
 
 |newlabel|
 
@@ -177,8 +177,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.5.7:
 
-2.5.7 (20.11.23)
-----------------
+2.5.7 :smalldate:`20.11.23`
+-------------------------------
 
 |fixlabel|
 
@@ -187,8 +187,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.5.6:
 
-2.5.6 (7.11.23)
-----------------
+2.5.6 :smalldate:`7.11.23`
+------------------------------
 
 |fixlabel|
 
@@ -197,8 +197,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.5.5:
 
-2.5.5 (26.10.23)
-----------------
+2.5.5 :smalldate:`26.10.23`
+-------------------------------
 
 |newlabel|
 
@@ -211,8 +211,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.5.4:
 
-2.5.4 (20.10.23)
-----------------
+2.5.4 :smalldate:`20.10.23`
+-------------------------------
 
 |newlabel|
 
@@ -225,8 +225,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.5.1:
 
-2.5.1 (06.10.23)
-----------------
+2.5.1 :smalldate:`06.10.23`
+-------------------------------
 
 |newlabel|
 
@@ -239,8 +239,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.4.5:
 
-2.4.5 (07.08.23)
-----------------
+2.4.5 :smalldate:`07.08.23`
+-------------------------------
 
 |fixlabel|
 
@@ -254,8 +254,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.4.4:
 
-2.4.4 (09.05.23)
-----------------
+2.4.4 :smalldate:`09.05.23`
+-------------------------------
 
 |fixlabel|
 
@@ -267,8 +267,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.4.3:
 
-2.4.3 (03.05.23)
-----------------
+2.4.3 :smalldate:`03.05.23`
+-------------------------------
 
 |elkomlabel|
 
@@ -276,8 +276,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.4.2:
 
-2.4.2 (25.04.23)
-----------------
+2.4.2 :smalldate:`25.04.23`
+-------------------------------
 
 |newlabel|
 
@@ -294,8 +294,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.3.1:
 
-2.3.1 (17.04.23)
-----------------
+2.3.1 :smalldate:`17.04.23`
+-------------------------------
 
 |newlabel|
 
@@ -303,8 +303,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.2.0:
 
-2.2.0 (12.04.23)
-----------------
+2.2.0 :smalldate:`12.04.23`
+-------------------------------
 
 |newlabel|
 
@@ -317,8 +317,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.1.4:
 
-2.1.4 (09.03.23)
-----------------
+2.1.4 :smalldate:`09.03.23`
+-------------------------------
 
 |fixlabel|
 
@@ -326,8 +326,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.1.3:
 
-2.1.3 (26.01.23)
-----------------
+2.1.3 :smalldate:`26.01.23`
+-------------------------------
 
 |newlabel|
 
@@ -340,8 +340,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.1.1:
 
-2.1.1 (04.01.23)
-----------------
+2.1.1 :smalldate:`04.01.23`
+-------------------------------
 
 |fixlabel|
 
@@ -349,8 +349,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.1.0:
 
-2.1.0 (23.12.22)
-----------------
+2.1.0 :smalldate:`23.12.22`
+-------------------------------
 
 |elkomlabel|
 
@@ -360,8 +360,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 .. _v2.0.0:
 
-2.0.0 (29.11.22)
-----------------
+2.0.0 :smalldate:`29.11.22`
+-------------------------------
 
 Večja posodobitev z dodanim glavnim menijem in podporo za nov oddajni format.
 
