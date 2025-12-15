@@ -5,6 +5,21 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.12.2:
+
+2.12.2 :smalldate:`15.12.25`
+--------------------------------
+
+|elkomlabel|
+
+- Poprava pri generiranju hišnih priključkov (generira se vedno, tudi če ni naslova)
+- Poprava pri generiranju preostalih kablov (upošteva se podatek iz trase, če obstaja)
+
+|fixlabel|
+
+- Popravek pri uvozu elaborata
+- Interni popravki
+
 .. _v2.12.0:
 
 2.12.0 :smalldate:`22.10.25`
@@ -12,7 +27,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 |newlabel|
 
-- Dodano orodje za povrnitev ("Undo") izbranih spremenjenih ali brisanih elementov
+- Dodano orodje v skupini :ref:`zakljucek` za povrnitev ("Undo") izbranih spremenjenih ali brisanih elementov
 
 |fixlabel|
 
@@ -26,7 +41,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 |newlabel|
 
-- Dodano orodje za analizo in popravo spremenjenih elementov
+- Dodano orodje v skupini :ref:`zakljucek` za analizo in popravo spremenjenih elementov
 - V glavnem meniju so dodane nastavitve vtičnika za določitev povezave z PostgreSQL bazo za pridobitev naslovov in poslovnih subjektov ter višinskih podatkov
 
 |elkomlabel|
@@ -74,7 +89,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 |newlabel|
 
-- Dodano orodje za brisanje podvojenih linij (zahtevana posodobitev baze)
+- Dodano orodje v skupini :ref:`delo` za brisanje podvojenih linij (zahtevana posodobitev baze)
 
 |elkomlabel|
 
@@ -92,7 +107,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 |newlabel|
 
-- Dodano novo orodje za združitev in prikaz SHP slojev iz množice ZIP datotek znotraj določene mape
+- Dodano orodje za združitev in prikaz SHP slojev iz množice ZIP datotek znotraj določene mape: :ref:`uvoz_shp_zip`
 
 |fixlabel|
 
@@ -131,7 +146,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 |newlabel|
 
-- Novo orodje za brisanje vseh podatkov v elaboratu naenkrat in ponastavitev začetnega stanja vseh pripadajočih tabel
+- Dodano orodje v skupini :ref:`delo` za brisanje vseh podatkov v elaboratu naenkrat in ponastavitev začetnega stanja vseh pripadajočih tabel
 
 |fixlabel|
 
@@ -171,7 +186,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 |elkomlabel|
 
-- Novo orodje za dodajanje kabla na izbrane trase
+- Dodano orodje za dodajanje kabla na izbrane trase
 - Uvoz linij upošteva tudi specifična polja: ``PRAZNA_CEV``, ``VRSTA_KABLA``, ``ST_VODOV``
 - Dodan opcijski parameter ``ID_UPR_K`` pri dodajanju kabla. V primeru da ne obstaja se kot vsi ostali ``ID_UPR`` določi samodejno.
 
@@ -230,7 +245,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 |newlabel|
 
-- Dodano novo orodje za napenjanje poljubnega linijskega sloja na 3D na osnovi podatkov DMR
+- Dodano orodje za napenjanje poljubnega linijskega sloja na 3D na osnovi podatkov DMR: :ref:`napni_linije_lidar`
 
 |elkomlabel|
 

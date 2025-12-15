@@ -107,6 +107,7 @@ Orodja za obdelavo podatkov elaborata elektronskih komunikacij:
 - Generiranje hišnih priključkov
 - Preračun omrežja (network)
 
+.. _zakljucek:
 
 9 Zaključek
 -----------
@@ -174,6 +175,10 @@ skladno z navodili GURS.
 
 Dodatno se vsem izvoženim elementom v bazi zapiše datum in čas izvoza.
 
+9.4 Povrnitev spremenjenih in brisanih elementov (Undo)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Postopek povrne izbrane spremenjene in brisane elemente na prvotno stanje in jim nastavi tip spremembe N.
 
 GEO-PORTAL
 ----------
@@ -201,6 +206,7 @@ elipsoidne višine.
 
 .. image:: img/kontrola_tock.png
 
+.. _napni_linije_lidar:
 
 Napni linije na DMR (LiDAR)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -220,6 +226,7 @@ Pridobi višino posamezne točke iz DMR (LiDAR)
 
 Postopek za podano točko vrne informacijo o višini na podlagi podatkov DMR (LiDAR).
 
+.. _uvoz_shp_zip:
 
 Uvoz in prikaz SHP podatkov iz množice ZIP datotek
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
