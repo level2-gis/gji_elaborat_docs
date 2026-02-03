@@ -29,6 +29,10 @@ Na ta način zagotovimo uvoz vseh pomembnih opisnih podatkov našega izvornega s
    Polja izvornega sloja imamo na levi strani, polja željene strukture lahko naložimo iz poljubnega sloja, nato jih uskladimo
    in prilagodimo po želji.
 
+.. note::
+ Kadar imamo celoten elaborat, ki bi ga radi uvozili in so podatki skladni s starim SHP ali novim GeoJSON formatom, lahko
+ uporabimo orodje :ref:`uvoz_elaborata`.
+
 .. _setz:
 
 Set Z value

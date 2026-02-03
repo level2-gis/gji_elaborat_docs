@@ -18,6 +18,8 @@ Orodja predstavljajo glavnino dela z vtičnikom in so dostopna preko menija :men
 
 Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vrste uvoza podatkov:
 
+.. _uvoz_elaborata:
+
 1.1 Uvoz elaborata
 ~~~~~~~~~~~~~~~~~~~
 
