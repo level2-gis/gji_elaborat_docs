@@ -5,6 +5,26 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.13.3:
+
+2.13.3 :smalldate:`3.2.26`
+--------------------------------
+
+|newlabel|
+
+- Uvedba akcij na posameznih elementih elaborata za hiter dostop do dodatnih možnosti. Vsi elementi vsebujejo akciji za **izpis sprememb**
+  ali **povrnitev** ("Undo") glede na vpisano stanje v ZK GJI. Linije vsebujejo še prikaz **vzdolžnega profila** višinskih točk s prikazom reliefa in povezanih elementov.
+
+|elkomlabel|
+
+- Dodana akcija za shematski **prerez trase** s prikazom vseh cevi in kablov na trasi in možnostjo enostavnega prenosa kabla med elementi.
+
+|fixlabel|
+
+- Uvoz višin ignorira točke brez višine
+- Poprava pri uvozu elementov in primerjavi z bazo
+- Orodje za izpis sprememb sedaj vsebuje tudi polja opis in datum zadnje spremembe
+
 .. _v2.12.2:
 
 2.12.2 :smalldate:`15.12.25`

@@ -18,10 +18,12 @@ Značilnosti
 - Samodejna določitev ID upravljavca novim elementom
 - Samodejna pretvorba in obravnava GURS-ovih identifikatorjev (EID <-> ID)
 - Samodejna obravnava obstoječih podatkov GURS ob spremembi (brisanje, spreminjanje)
+- Prikaz sprememb elementov ali povrnitev glede na stanje v ZK GJI
 - Samodejne vrednosti glede na nastavitve
 - Uporaba šifrantov GJI
 - Vsi elementi so 3D
 - Enostavna kontrola in urejanje višin (možnost uporabe podatkov LiDAR)
+- Interaktvni vzdolžni profil linije s prikazom višinskih točk, reliefa ter povezanih elementov
 - Kontrole in poročila
 - Iskalnik
 - Izvoz elaborata sprememb za oddajo na GURS (skladno z novim GeoJSON/JSON formatom)
@@ -89,6 +91,7 @@ Elektronske komunikacije
     Dodatna obravnava vseh posebnosti Elektronskih komunikacij v strukturi GJI (cevi, kabli, vodi). Uporaba omrežja za določanje tras
     za vnose kablov od začetne do končne točke.
 
+    - Interaktivni prerez trase s prikazom vseh cevi in kablov na trasi in možnostjo prenosa kabla med elementi
     - Generiranje hišnih priključkov (HP) glede na trase
     - Enostavna določitev pripadajočih HP posameznim omaricam
     - Generiranje kablov za vse hišne priključke (kabel poteka po vseh trasah/ceveh od hišnega priključka do omarice)
