@@ -105,7 +105,7 @@ Uporabniki lahko v projekt poljubno dodajajo svoje sloje. Podatki iz uporabnišk
 Vtičnik
 -------
 
-Naročniki prejmejo navodila po e-pošti za dodajanje repozitorija in namestitev ter posodabljanje vtičnika.
+Naročniki prejmejo navodila po e-pošti za namestitev, nastavitev ter posodabljanje vtičnika.
 
 .. note::
  Vtičnik se uporablja vedno skupaj s posebej pripravljenim QGIS projektom!
