@@ -127,6 +127,18 @@ V primeru da element nima sprememb se mu tip spremembe nastavi na **N** (nesprem
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Orodje za paketno atributiranje elementov, ki so brez podatkov v določenih poljih in jim želimo vpisati enake podatke v enem koraku.
+Ta polja so:
+
+- ``NAT_Z`` - Točnost določitve višine
+- ``NAT_YX`` - Točnost določitve položaja
+- ``VIR``
+- ``DAT_VIR`` - Datum vira
+- ``LETO_GRAD`` - Leto gradnje oz. zadnje obnove
+
+V primeru elektronskih komunikacij še:
+
+- ``ATR1`` - Lega trase
+- ``ATR2`` - Vrsta omrežja
 
 .. figure:: img/atributiranje_6100_2.png
 
