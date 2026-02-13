@@ -1,7 +1,7 @@
 
 
-Začetek dela
-============
+Začetna priprava
+=================
 
 .. _qgis:
 
