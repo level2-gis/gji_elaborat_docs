@@ -10,27 +10,51 @@ za programski paket :ref:`qgis`, podatki pa so shranjeni v relacijski podatkovni
 Značilnosti
 -----------
 
-- Pripravljen QGIS projekt za posamezno vrsto infrastrukture
-- Večuporabniški dostop
-- Različna orodja za vnos in paketno obdelavo podatkov
+📥 Uvoz in izvoz podatkov
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 - Uvoz začetnega stanja iz evidence ZK GJI na GURS-u
 - Uvoz lokalnih (terenskih) podatkov
+- Izvoz elaborata sprememb za oddajo na GURS (skladno z novim GeoJSON/JSON formatom)
+- Redno posodabljanje aktualnega stanja ZK GJI
+- Možnost prikazovanja podatkov na `GEO-PORTAL-u <https://site.geo-portal.si>`_
+
+⚙️ Avtomatizacija
+~~~~~~~~~~~~~~~~~~~~~~
+
 - Samodejna določitev ID upravljavca novim elementom
 - Samodejna pretvorba in obravnava GURS-ovih identifikatorjev (EID <-> ID)
 - Samodejna obravnava obstoječih podatkov GURS ob spremembi (brisanje, spreminjanje)
-- Prikaz sprememb elementov ali povrnitev glede na stanje v ZK GJI
 - Samodejne vrednosti glede na nastavitve
 - Uporaba šifrantov GJI
-- Vsi elementi so 3D
+
+📐 3D in vizualizacija
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Vsi elementi so vodeni z višino (3D)
 - Enostavna kontrola in urejanje višin (možnost uporabe podatkov LiDAR)
-- Interaktvni vzdolžni profil linije s prikazom višinskih točk, reliefa ter povezanih elementov
-- Kontrole in poročila
+- Interaktivni vzdolžni profil linije s prikazom višinskih točk, reliefa ter povezanih elementov
+
+🛠️ Orodja za delo
+~~~~~~~~~~~~~~~~~~~
+
+- Pripravljen QGIS projekt za posamezno vrsto infrastrukture
+- Različna orodja za vnos in paketno obdelavo podatkov
 - Iskalnik
-- Izvoz elaborata sprememb za oddajo na GURS (skladno z novim GeoJSON/JSON formatom)
-- Redno posodabljanje aktualnega stanja ZK GJI
+- Prikaz sprememb elementov ali povrnitev glede na stanje v ZK GJI
+
+✅ Kakovost in nadzor
+~~~~~~~~~~~~~~~~~~~~~~~
+
+- Kontrole in poročila
 - Beleženje časa kreiranja, zadnje spremembe in izvoza za vsak element
 - Redno arhiviranje podatkov
-- Možnost prikazovanja podatkov na `GEO-PORTAL-u <https://site.geo-portal.si>`_
+
+👥 Sodelovanje
+~~~~~~~~~~~~~~~
+
+- Večuporabniški dostop
+- Podatki shranjeni v relacijski podatkovni bazi preko standardnih oblačnih storitev
 
 
 Komu je namenjen
