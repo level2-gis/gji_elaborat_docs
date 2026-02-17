@@ -4,7 +4,7 @@ Primeri uporabe različnih stilov
 - :guilabel:`GUI Element`
 - |processingAlgorithm| :guilabel:`Primer ikone za processing`
   Ikono moraš nekje definirati
-  .. |processingAlgorithm| image:: /_static/common/processingAlgorithm.png
+  .. |processingAlgorithm| image:: /_static/common/processingAlgorithm.svg
    :width: 1.5em
    :class: no-scaled-link
 
