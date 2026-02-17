@@ -125,6 +125,8 @@ V primeru da element nima sprememb se mu tip spremembe nastavi na **N** (nesprem
 
 .. image:: img/spremembe.png
 
+.. _atributiranje:
+
 9.2 Atributiranje elementov
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
