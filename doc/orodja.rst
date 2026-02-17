@@ -28,6 +28,8 @@ Orodja za uvoz podatkov v elaborat (skupina ELABORAT V PRIPRAVI). Ločimo tri vr
     .. warning::
      Mapa lahko vsebuje podatke v starem SHP formatu ali novem GeoJSON, vendar pa mora ena mapa vsebovati samo en format.
 
+.. _uvoz_lokalnih_slojev:
+
 1.2 Uvoz lokalnih slojev
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
