@@ -116,6 +116,6 @@ Delo z vtičnikom se deli na naslednje sklope:
 - :ref:`urejanje`
 - :ref:`orodja`
 
-.. |processingAlgorithm| image:: /_static/common/processingAlgorithm.png
+.. |processingAlgorithm| image:: /_static/common/processingAlgorithm.svg
    :width: 1.5em
    :class: no-scaled-link
