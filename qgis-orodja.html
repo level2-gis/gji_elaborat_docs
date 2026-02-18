@@ -1,0 +1,179 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="sl" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Izbrana QGIS orodja — GJI Elaborat</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="_static/docs.css?v=b8f8d32e" />
+
+  
+    <link rel="shortcut icon" href="_static/level2-favicon.ico"/>
+    <link rel="canonical" href="https://gji-docs.level2.si/qgis-orodja.html" />
+      <script src="_static/jquery.js?v=c305bccd"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=616d3fac"></script>
+      <script src="_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="_static/translations.js?v=ad0ddf96"></script>
+      <script src="_static/jquery.js?v=c305bccd"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Abecedni seznam" href="genindex.html" />
+    <link rel="search" title="Išči" href="search.html" />
+    <link rel="next" title="Novosti" href="novosti.html" />
+    <link rel="prev" title="Orodja vtičnika" href="orodja.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #34495e" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            GJI Elaborat
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Iskanje" aria-label="Iskanje" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="uvod.html">Uvod</a></li>
+<li class="toctree-l1"><a class="reference internal" href="zacetek.html">Začetna priprava</a></li>
+<li class="toctree-l1"><a class="reference internal" href="meni.html">Glavni meni</a></li>
+<li class="toctree-l1"><a class="reference internal" href="struktura.html">Podatkovna struktura</a></li>
+<li class="toctree-l1"><a class="reference internal" href="delo.html">Delo v projektu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="orodja.html">Orodja vtičnika</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Izbrana QGIS orodja</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#extract-vertices">Extract vertices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#refactor-fields">Refactor fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#set-z-value">Set Z value</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="novosti.html">Novosti</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #34495e" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">GJI Elaborat</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Izbrana QGIS orodja</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul><div class="rst-breadcrumbs-buttons" role="navigation" aria-label="Sequential page navigation">
+        <a href="orodja.html" class="btn btn-neutral float-left" title="Orodja vtičnika" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> nazaj</a>
+        <a href="novosti.html" class="btn btn-neutral float-right" title="Novosti" accesskey="n">naprej <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+  </div>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="izbrana-qgis-orodja">
+<span id="qgis-orodja"></span><h1>Izbrana QGIS orodja<a class="headerlink" href="#izbrana-qgis-orodja" title="povezava na to poglavje"></a></h1>
+<p>Opisana so nekatera standardna orodja, ki so vključena v QGIS in jih potrebujemo pri delu z vtičnikom. Orodja so del
+„Processing Toolbox“-a (meni <span class="menuselection">Processing ‣ Toolbox</span>), kjer so razdeljena v več skupin. Najlažje jih poiščemo z iskalnikom.</p>
+<figure class="align-default" id="id1">
+<img alt="_images/searchtools.png" src="_images/searchtools.png" />
+<figcaption>
+<p><span class="caption-text">Iskanje orodja</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<section id="extract-vertices">
+<h2>Extract vertices<a class="headerlink" href="#extract-vertices" title="povezava na to poglavje"></a></h2>
+<p>Orodje na podlagi vhodnega linijskega ali poligonskega sloja izdela točkovni sloj vseh lomnih točk sloja. Primerno za
+določitev ali kontrolo višin z uporabo orodja <a class="reference internal" href="orodja.html#kontrola-lidar"><span class="std std-ref">Kontrola in poprava točk (LiDAR, geoid)</span></a></p>
+</section>
+<section id="refactor-fields">
+<h2>Refactor fields<a class="headerlink" href="#refactor-fields" title="povezava na to poglavje"></a></h2>
+<p>Orodje omogoča spremembo imen in drugih lastnosti podatkovne tabele izvornega sloja. Spremembe se zapišejo v novem sloju.
+Uporabno pred uvozom podatkov v elaborat, kjer želimo uskladiti imena in lastnosti polj glede na strukturo baze: <a class="reference internal" href="struktura.html#struktura"><span class="std std-ref">Podatkovna struktura</span></a>.
+Na ta način zagotovimo uvoz vseh pomembnih opisnih podatkov našega izvornega sloja.</p>
+<figure class="align-default" id="id2">
+<img alt="_images/refactor_fields.png" src="_images/refactor_fields.png" />
+<figcaption>
+<p><span class="caption-text">Polja izvornega sloja imamo na levi strani, polja željene strukture lahko naložimo iz poljubnega sloja, nato jih uskladimo
+in prilagodimo po želji.</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Opomba</p>
+<p>Kadar imamo celoten elaborat, ki bi ga radi uvozili in so podatki skladni s starim SHP ali novim GeoJSON formatom, lahko
+uporabimo orodje <a class="reference internal" href="orodja.html#uvoz-elaborata"><span class="std std-ref">1.1 Uvoz elaborata</span></a>.</p>
+</div>
+</section>
+<section id="set-z-value">
+<span id="setz"></span><h2>Set Z value<a class="headerlink" href="#set-z-value" title="povezava na to poglavje"></a></h2>
+<p>Orodje izbranemu točkovnemu sloju določi Z vrednost, tako da je rezultat 3D sloj (koordinate so zapisane v obliki X,Y,Z). Tipično se določi Z vrednost na podlagi vrednosti v določenem polju.</p>
+<figure class="align-default" id="id3">
+<img alt="_images/setz1.png" src="_images/setz1.png" />
+<figcaption>
+<p><span class="caption-text">Za določitev Z na podlagi vrednosti polja, uporabimo dodatne možnosti</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id4">
+<img alt="_images/setz2.png" src="_images/setz2.png" />
+<figcaption>
+<p><span class="caption-text">Nato izberemo <span class="menuselection">Field type… ‣ [IME POLJA]</span></span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>3D točkovni sloj potrebujemo pri uvozu točk in višin ter kadar rišemo novo 3D linijo na podlagi 3D točk.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="noga">
+        <a href="orodja.html" class="btn btn-neutral float-left" title="Orodja vtičnika" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> nazaj</a>
+        <a href="novosti.html" class="btn btn-neutral float-right" title="Novosti" accesskey="n" rel="next">naprej <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 2021 -2026 level2, Vse pravice pridržane.
+      <span class="lastupdated">Zadnjič posodobljeno feb. 18, 2026.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>
