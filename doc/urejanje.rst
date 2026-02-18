@@ -80,9 +80,9 @@ Združevanje linij
 Podvojene linije
 ~~~~~~~~~~~~~~~~
 
-Urejanje geometrijsko podvojenih linij je posebej zahtevno pri Elektronskih komunikacijah, kjer lahko vsaka linija vsebuje ločene cevi ali kable.
-Za ta namen uporabljamo orodje vtičnika za brisanje podvojenih linij, kjer se pripadajoči elementi linij ki se brišejo prenesejo na linije, ki ostanejo.
-Postopek je vključen tudi v orodja za razbijanje linij, glej :ref:`delo`.
+Urejanje geometrijsko podvojenih linij je posebej zahtevno pri **Elektronskih komunikacijah**, kjer lahko vsaka linija vsebuje ločene cevi ali kable.
+Za ta namen uporabljamo orodje vtičnika za **brisanje podvojenih linij**, kjer se pripadajoči elementi linij ki se brišejo prenesejo na linije, ki ostanejo.
+Postopek je vključen tudi v orodja za **razbijanje linij**, glej :ref:`delo`.
 
 Atributno urejanje
 -------------------
@@ -97,7 +97,7 @@ ali pa več elementom hkrati, tako da izbranim elementom določimo enake vrednos
 
 1. Izberemo (aktiviramo) želeni sloj v zavihku **Sloji**
 2. Vklopimo način urejanja sloja |mActionToggleEditing|
-3. Izberemo element(e) aktivnega sloja, tipično z izborom na karti, lahko tudi preko atributne tabele :kbd:`F6`
+3. Izberemo element(e) aktivnega sloja, tipično z izborom na karti, lahko tudi preko atributne tabele, tipka :kbd:`F6`
 
    .. figure:: img/qgis_select_options.png
 
