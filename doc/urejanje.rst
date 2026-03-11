@@ -83,6 +83,31 @@ Podvojene linije
 Urejanje geometrijsko podvojenih linij je posebej zahtevno pri **Elektronskih komunikacijah**, kjer lahko vsaka linija vsebuje ločene cevi ali kable.
 Za ta namen uporabljamo orodje vtičnika za **brisanje podvojenih linij**, kjer se pripadajoči elementi linij ki se brišejo prenesejo na linije, ki ostanejo.
 Postopek je vključen tudi v orodja za **razbijanje linij**, glej :ref:`delo`.
+Podvojene linije se prikazujejo dinamično (sproti) in so kot samostojen sloj na voljo v skupini POROČILA IN KONTROLE.
+
+.. warning::
+   Podvojene linije se pri oddaji elaborata zavrnejo kot napaka, zato jih je potrebno urediti.
+
+Prekrite linije
+~~~~~~~~~~~~~~~~
+
+Prekrite linije so linije, ki se delno ali v celoti prekrivajo z drugimi linijami. Vse podvojene linije so tudi zajete v prekritih linijah, vendar niso vse prekrite linije tudi podvojene.
+Prikaz prekritih linij je potrebno osveževati po potrebi, saj je prikaz bolj kompleksen in se ne osvežuje sproti.
+
+Postopek osvežitve prekritih linij:
+
+1. V zavihku **Sloji** poiščemo in izberemo sloj **Prekrite linije (OSVEŽI)** v skupini POROČILA IN KONTROLE
+2. S tipko :kbd:`F6` odpremo podatkovno tabelo sloja
+3. V meniju zgoraj poiščemo ikono |mAction| **Actions** in izberemo **Osveži**
+
+ .. image:: img/layer_action_refresh.png
+
+4. Dobimo potrditev osvežitve ter novo število prekritih linij
+
+ .. image:: img/prekrite_linije_potrditev.png
+
+.. warning::
+   Prekrite linije se pri oddaji elaborata zavrnejo kot napaka, zato jih je potrebno urediti.
 
 Atributno urejanje
 -------------------
@@ -146,5 +171,9 @@ Podrobnosti: :ref:`atributiranje`.
    :class: no-scaled-link
 
 .. |mActionMultiEdit| image:: /_static/common/mActionMultiEdit.svg
+   :width: 1.2em
+   :class: no-scaled-link
+
+.. |mAction| image:: /_static/common/mAction.svg
    :width: 1.2em
    :class: no-scaled-link
