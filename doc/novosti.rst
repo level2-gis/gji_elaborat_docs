@@ -5,6 +5,20 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.13.5:
+
+2.13.5 :smalldate:`11.3.26`
+------------------------------
+
+|elkomlabel|
+
+- Poprava pri dodajanju cevi in kablov za izbrane trase glede nespremenjenih linij kot del skupnega sloja ali kot samostojen sloj.
+- Poprava pri orodju atributiranja glede izračuna polja ``DIM_YX``, ki sedaj ne upošteva nespremenjenih linij.
+
+|fixlabel|
+
+- Brisanje podvojenih linij sedaj upošteva tudi spremenjene linije.
+
 .. _v2.13.3:
 
 2.13.3 :smalldate:`3.2.26`
