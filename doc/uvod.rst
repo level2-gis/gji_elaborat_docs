@@ -15,7 +15,8 @@ Značilnosti
 
 - Uvoz začetnega stanja iz evidence ZK GJI na GURS-u
 - Uvoz lokalnih (terenskih) podatkov
-- Izvoz elaborata sprememb za oddajo na GURS (skladno z novim GeoJSON/JSON formatom)
+- Izvoz elaborata sprememb objektov GJI za oddajo na GURS (skladno z novim GeoJSON/JSON formatom)
+- Izvoz elaborata delne ali popolne spremembe matične številke upravljavca za oddajo na GURS
 - Redno posodabljanje aktualnega stanja ZK GJI
 - Možnost prikazovanja podatkov na `GEO-PORTAL-u <https://site.geo-portal.si>`_
 
@@ -27,6 +28,7 @@ Značilnosti
 - Samodejna obravnava obstoječih podatkov GURS ob spremembi (brisanje, spreminjanje)
 - Samodejne vrednosti glede na nastavitve
 - Uporaba šifrantov GJI
+- Paketni izvoz elaboratov za vse upravljavce znotraj projekta v enem koraku
 
 📐 3D in vizualizacija
 ~~~~~~~~~~~~~~~~~~~~~~~~

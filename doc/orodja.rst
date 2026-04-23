@@ -168,8 +168,7 @@ Izvoz podatkov za oddajo na GURS. Vpiše se številka zadeve in predmet vpisa, k
 
 .. image:: img/izvoz.png
 
-Pripravijo se vse potrebne datoteke v ustreznem formatu (GeoJSON in JSON). Dodatno se kreira tudi kompresirana ZIP datoteka,
-skladno z navodili GURS.
+Skladno z navodili se pripravi kompresirana ZIP datoteka z vsemi potrebnimi datotekami v ustreznem formatu (GeoJSON in JSON). Dodatno se kreirajo tudi pripadajoči dokumenti v DOCX formatu (zahtevek za spremembo podatkov ali matične št. in izjava pooblaščenega inženirja).
 
 .. note::
  Izvoz omogoča kreiranje **več elaboratov naenkrat**, glede na vpisane matične številke upravljalcev za elemente (linije, točke, poligone)

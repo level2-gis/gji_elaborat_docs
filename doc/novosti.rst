@@ -5,6 +5,16 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.14.0:
+
+2.14.0 :smalldate:`23.4.26`
+------------------------------
+
+|newlabel|
+
+- Postopek izvoza elaborata sedaj podpira spremembe matičnih številk upravljavcev ter pripravi elaborate za ta postopek za vsakega upravljavca.
+- Postopek izvoza elaborata sedaj pripravi tudi zahtevek za vpis ali spremembo matične številke in izjavo pooblaščenega inženirja v DOCX formatu.
+
 .. _v2.13.5:
 
 2.13.5 :smalldate:`11.3.26`
