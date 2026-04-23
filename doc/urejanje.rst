@@ -88,6 +88,8 @@ Podvojene linije se prikazujejo dinamično (sproti) in so kot samostojen sloj na
 .. warning::
    Podvojene linije se pri oddaji elaborata zavrnejo kot napaka, zato jih je potrebno urediti.
 
+.. _prekrite_linije:
+
 Prekrite linije
 ~~~~~~~~~~~~~~~~
 
