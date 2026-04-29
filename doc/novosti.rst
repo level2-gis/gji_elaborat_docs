@@ -5,6 +5,15 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.14.1:
+
+2.14.1 :smalldate:`29.4.26`
+------------------------------
+
+|elkomlabel|
+
+- Popravek izvoza elaborata v primeru različnih upravljavcev, dodatna opozorila in kontrole.
+
 .. _v2.14.0:
 
 2.14.0 :smalldate:`23.4.26`
