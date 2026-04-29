@@ -116,6 +116,8 @@ Orodja za obdelavo podatkov elaborata elektronskih komunikacij:
 9 Zaključek
 -----------
 
+.. _analiza:
+
 9.1 Analiza spremenjenih elementov
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -191,6 +193,8 @@ Skladno z navodili se pripravi kompresirana ZIP datoteka z vsemi potrebnimi dato
     Izvoz več elaboratov z opozorilom o neobstoječih matičnih številkah
 
 Dodatno se vsem izvoženim elementom v bazi zapiše datum in čas izvoza.
+
+.. _undo:
 
 9.4 Povrnitev spremenjenih in brisanih elementov (Undo)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
