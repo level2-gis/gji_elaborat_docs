@@ -35,7 +35,7 @@ Značilnosti
 
 - Vsi elementi so vodeni z višino (3D)
 - Enostavna kontrola in urejanje višin (možnost uporabe podatkov LiDAR)
-- Interaktivni vzdolžni profil linije s prikazom višinskih točk, reliefa ter povezanih elementov
+- Interaktivni :ref:`vzdolzni_profil` linije s prikazom višinskih točk, reliefa ter povezanih elementov
 
 🛠️ Orodja za delo
 ~~~~~~~~~~~~~~~~~~~
@@ -117,7 +117,7 @@ Elektronske komunikacije
     Dodatna obravnava vseh posebnosti Elektronskih komunikacij v strukturi GJI (cevi, kabli, vodi). Uporaba omrežja za določanje tras
     za vnose kablov od začetne do končne točke.
 
-    - Interaktivni prerez trase s prikazom vseh cevi in kablov na trasi in možnostjo prenosa kabla med elementi
+    - Interaktivni :ref:`prerez_trase` s prikazom vseh cevi in kablov na trasi in možnostjo prenosa kabla med elementi
     - Generiranje hišnih priključkov (HP) glede na trase
     - Enostavna določitev pripadajočih HP posameznim omaricam
     - Generiranje kablov za vse hišne priključke (kabel poteka po vseh trasah/ceveh od hišnega priključka do omarice)
