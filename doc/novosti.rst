@@ -5,6 +5,15 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.14.2:
+
+2.14.2 :smalldate:`4.5.26`
+------------------------------
+
+|fixlabel|
+
+- Statistika vzdolžnega profila sedaj vsebuje tudi povprečni naklon linije v odstotkih.
+
 .. _v2.14.1:
 
 2.14.1 :smalldate:`29.4.26`
