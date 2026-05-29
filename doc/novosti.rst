@@ -17,7 +17,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 |elkomlabel|
 
 - Možnost vnosa poljubnega števila enakih cevi pri dodajanju cevi na izbranih trasah z enim postopkom.
-- Naslovi za hišne priključke se sedaj določijo tudi v bližini 2m od poligona stavbe.
+- Naslovi za hišne priključke se sedaj določijo tudi znotraj območja 2m od najbližjega poligona stavbe.
 - Optimizacija pri paketnem dodajanju kablov, generiranju hišnih priključkov in izračunu omrežja.
 
 .. _v2.14.2:
