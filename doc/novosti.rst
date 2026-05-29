@@ -5,6 +5,21 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.14.5:
+
+2.14.5 :smalldate:`28.5.26`
+------------------------------
+
+|fixlabel|
+
+- Popravek pri uvozu podatkov GURS
+
+|elkomlabel|
+
+- Možnost vnosa poljubnega števila enakih cevi pri dodajanju cevi na izbranih trasah z enim postopkom.
+- Naslovi za hišne priključke se sedaj določijo tudi v bližini 2m od poligona stavbe.
+- Optimizacija pri paketnem dodajanju kablov, generiranju hišnih priključkov in izračunu omrežja.
+
 .. _v2.14.2:
 
 2.14.2 :smalldate:`4.5.26`
