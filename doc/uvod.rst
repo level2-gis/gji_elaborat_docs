@@ -56,7 +56,7 @@ Značilnosti
 ~~~~~~~~~~~~~~~
 
 - Večuporabniški dostop
-- Podatki shranjeni v relacijski podatkovni bazi preko standardnih oblačnih storitev
+- Podatki so shranjeni v relacijski podatkovni bazi in dostopni preko standardnih oblačnih storitev
 
 
 Komu je namenjen
