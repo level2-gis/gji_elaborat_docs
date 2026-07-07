@@ -214,10 +214,10 @@ Vsebuje orodja, ki ne spreminjajo podatkov v elaboratu in se lahko uporabljajo t
 
 .. _kontrola_lidar:
 
-Kontrola in poprava točk (LiDAR, geoid)
+Kontrola in poprava točk (DMR, geoid)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Za točkovni sloj izvede pripis višin iz Digitalnega modela reliefa (DMR), ki je bil generiran iz podatkov LiDAR in predstavlja
+Za točkovni sloj izvede pripis višin iz Digitalnega modela reliefa (DMR), ki je bil generiran iz najnovejših podatkov zračnega skeniranja Slovenije (2023-2025) in predstavlja
 najbolj natančne podatke o reliefu za celotno državo.
 
 V primeru, da je vhodni sloj v 3D obliki (PointZ) izračuna tudi razliko med originalno višino in višino iz DMR.
@@ -234,7 +234,7 @@ Napni linije na DMR (LiDAR)
 
 Postopek elementom linijskega sloja določi Z koordinato za vsako lomno točko na podlagi Digitalnega modela reliefa (DMR).
 
-Opcijsko lahko podamo parameter odmik ki se bo upošteval pri vseh višinah.
+Opcijsko lahko podamo parameter odmik kot višino nad terenom ali globino, kar se bo upoštevalo pri vseh višinah.
 
 .. tip::
  Za upoštevanje globine je potrebno vpisati negativno številko!.

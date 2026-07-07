@@ -63,7 +63,7 @@ Horizontalna os (X) prikazuje razdaljo linije, vertikalna os (Y) pa nadmorsko vi
 **Vsebina profila:**
 
 - **Modra linija** - višinski profil linije z označenimi lomnimi točkami
-- **Siva polnitev** - digitalni model reliefa (DMR s celico 1m x 1m)
+- **Siva polnitev** - digitalni model reliefa (DMR s celico 0,5m x 0,5m)
 - **Cian trikotniki** - točke stika z drugimi linijami
 - **Rdeči pravokotniki** - točkovni objekti na liniji z ustrezno višino na podlagi Z koordinate in polja DIM_Z.
 

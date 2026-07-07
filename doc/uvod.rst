@@ -34,7 +34,8 @@ Značilnosti
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Vsi elementi so vodeni z višino (3D)
-- Enostavna kontrola in urejanje višin (možnost uporabe podatkov LiDAR)
+- Enostavna kontrola in urejanje višin
+- Možnost uporabe najnovejšega digitalnega modela reliefa (DMR 0,5m, LiDAR 2023-2025)
 - Interaktivni :ref:`vzdolzni_profil` linije s prikazom višinskih točk, reliefa ter povezanih elementov
 
 🛠️ Orodja za delo

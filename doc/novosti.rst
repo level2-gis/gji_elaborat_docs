@@ -5,6 +5,15 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.15.0:
+
+2.15.0 :smalldate:`7.7.26`
+------------------------------
+
+|newlabel|
+
+- Prehod na uporabo digitalnega modela reliefa (DMR) na podlagi najnovejšega zračnega snemanja Slovenije (2023-2025). Vtičnik sedaj potrebuje API ključ za dostop do teh podatkov.
+
 .. _v2.14.5:
 
 2.14.5 :smalldate:`28.5.26`
