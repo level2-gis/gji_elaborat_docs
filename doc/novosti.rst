@@ -12,7 +12,8 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 |newlabel|
 
-- Prehod na uporabo digitalnega modela reliefa (DMR) na podlagi najnovejšega zračnega snemanja Slovenije (2023-2025). Vtičnik sedaj potrebuje API ključ za dostop do teh podatkov.
+- Prehod na uporabo digitalnega modela reliefa (DMR) na podlagi najnovejšega zračnega snemanja Slovenije (2023-2025). Vtičnik sedaj pridobiva višinske podatke preko
+  `Level2 Geo API <https://level2.si/resitve/level2-geo-api>`_ in potrebuje API ključ za dostop.
 
 .. _v2.14.5:
 
