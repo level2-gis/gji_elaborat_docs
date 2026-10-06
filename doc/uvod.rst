@@ -17,6 +17,7 @@ Značilnosti
 - Uvoz lokalnih (terenskih) podatkov
 - Izvoz elaborata sprememb objektov GJI za oddajo na GURS (skladno z novim GeoJSON/JSON formatom)
 - Izvoz elaborata delne ali popolne spremembe matične številke upravljavca za oddajo na GURS
+- Priprava vseh potrebnih dokumentov elaborata v DOCX formatu
 - Redno posodabljanje aktualnega stanja ZK GJI
 - Možnost prikazovanja podatkov na `GEO-PORTAL-u <https://site.geo-portal.si>`_
 

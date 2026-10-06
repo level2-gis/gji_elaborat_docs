@@ -5,6 +5,17 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.16.0:
+
+2.16.0 :smalldate:`6.10.26`
+------------------------------
+
+|fixlabel|
+
+- Prehod na `Level2 Geo API <https://level2.si/resitve/level2-geo-api>`_ tudi v preostalih delih, kjer je bila zahtevana zunanja povezava do baze, ki ni več potrebna (hišne številke za hišne priključke in podatki o poslovnih subjektih). S tem se poenostavi postopek namestitve.
+- Dodana kontrola zahtevanih zunanjih knjižnic, njihov opis in postopek namestitve.
+- Dopolnitev postopka za atributiranje elementov, ki upošteva tudi poligonski sloj.
+
 .. _v2.15.0:
 
 2.15.0 :smalldate:`7.7.26`
