@@ -5,6 +5,29 @@ Novosti
 
 Kratek pregled novosti v posamezni verziji vtičnika.
 
+.. _v2.17.1:
+
+2.17.1 :smalldate:`23.11.26`
+------------------------------
+
+|elkomlabel|
+
+- Dodana je nastavitev za velikost območja pri določanju pripadajoče stavbe in naslova za posamezni hišni priključek (privzeto 3m).
+- Generiranje hišnih priključkov je popravljeno in optimizirano.
+
+.. _v2.17.0:
+
+2.17.0 :smalldate:`14.10.26`
+------------------------------
+
+|newlabel|
+
+- Dodan je postopek za uvoz podatkov GURS na osnovi sloja ali tabele in poljem z vrednostmi EID. Uvaža se lahko vse vrste elementov: točke, linije, poligone in posebnosti za elektronskih komunikacij (cevi, kabli, vodi), kjer se vedno uvozijo tudi vsi pripadajoči elementi.
+
+|elkomlabel|
+
+- Dodan je postopek za kreiranje novih kablov na osnovi tabele, ki vsebuje EID elemente tras ali cevi na katere se bo kabel dodal.
+
 .. _v2.16.0:
 
 2.16.0 :smalldate:`6.10.26`
@@ -23,7 +46,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 |newlabel|
 
-- Prehod na uporabo digitalnega modela reliefa (DMR) na podlagi najnovejšega zračnega snemanja Slovenije (2023-2025). Vtičnik sedaj pridobiva višinske podatke preko
+- Prehod na uporabo digitalnega modela reliefa (DMR) na podlagi najnovejšega zračnega snemanja Slovenije (LiDAR 2023-2025). Vtičnik sedaj pridobiva višinske podatke preko
   `Level2 Geo API <https://level2.si/resitve/level2-geo-api>`_ in potrebuje API ključ za dostop.
 
 .. _v2.14.5:
