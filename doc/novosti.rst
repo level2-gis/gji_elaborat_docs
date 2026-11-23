@@ -22,7 +22,7 @@ Kratek pregled novosti v posamezni verziji vtičnika.
 
 |newlabel|
 
-- Dodan je postopek za uvoz podatkov GURS na osnovi sloja ali tabele in poljem z vrednostmi EID. Uvaža se lahko vse vrste elementov: točke, linije, poligone in posebnosti za elektronskih komunikacij (cevi, kabli, vodi), kjer se vedno uvozijo tudi vsi pripadajoči elementi.
+- Dodan je postopek za uvoz podatkov GURS na osnovi sloja ali tabele in poljem z vrednostmi EID. Uvaža se lahko vse vrste elementov: točke, linije, poligone in posebnosti elektronskih komunikacij (cevi, kabli, vodi), kjer se vedno uvozijo tudi vsi pripadajoči elementi.
 
 |elkomlabel|
 
